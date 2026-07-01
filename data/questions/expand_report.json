@@ -1,0 +1,12 @@
+{
+  "l2_expand_attempted": 68,
+  "l2_expand_succeeded": 68,
+  "l3_expand_attempted": 6,
+  "l3_expand_succeeded": 6,
+  "l3_restructure_attempted": 44,
+  "l3_restructure_succeeded": 44,
+  "l1_new_generated": 8,
+  "l3_new_generated": 3,
+  "layer2_rejections": 0,
+  "layer3_rejections": 0
+}

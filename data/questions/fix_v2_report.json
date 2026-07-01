@@ -1,0 +1,14 @@
+{
+  "exact_duplicates_removed": 12,
+  "l1_empty_answers": 0,
+  "l3_keywords_fixed": 78,
+  "l3_missing_rubric": 0,
+  "citations_normalized": 105,
+  "topics_added": 288,
+  "knowledge_base_updated": 283,
+  "L1_count": 92,
+  "L2_count": 100,
+  "L3_count": 96,
+  "total": 288,
+  "removed": 12
+}
