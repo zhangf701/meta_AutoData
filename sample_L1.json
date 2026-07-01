@@ -1,0 +1,90 @@
+[
+  {
+    "query": "GB 38755-2019中，电力系统静态稳定储备标准中，正常运行时静态稳定储备系数（Kp%）应为多少？",
+    "expected_answer": "15%～20%",
+    "expected_keywords": [
+      "15%",
+      "20%",
+      "静态稳定储备系数"
+    ],
+    "source_standard": "GB 38755-2019 4.1",
+    "category": "参数检索",
+    "topic": "静态稳定储备",
+    "question_id": "L1-135",
+    "question_class": "L1",
+    "level": "L1",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB"
+  },
+  {
+    "query": "低一级电压等级电网中的任何元件发生单一故障，应满足什么要求？",
+    "expected_answer": "不应影响高一级电压等级电网的稳定运行。",
+    "expected_keywords": [
+      "低一级",
+      "不应影响",
+      "高一级"
+    ],
+    "source_standard": "GB 38755-2019 3.1.6",
+    "category": "基本要求",
+    "topic": "电压等级影响",
+    "question_id": "L1-171",
+    "question_class": "L1",
+    "level": "L1",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB"
+  },
+  {
+    "query": "根据GB 38755-2019，什么是多馈入直流短路比？",
+    "expected_answer": "直流馈入换流母线的短路容量与考虑其他直流回路影响后的等值直流功率的比值。",
+    "expected_keywords": [
+      "直流馈入换流母线",
+      "短路容量",
+      "考虑其他直流回路影响后的等值直流功率",
+      "比值"
+    ],
+    "source_standard": "GB 38755-2019 2.6",
+    "category": "参数检索",
+    "topic": "多馈入直流短路比",
+    "question_id": "L1-194",
+    "question_class": "L1",
+    "level": "L1",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB"
+  },
+  {
+    "query": "根据GB 38755-2019，电网分层分区的原则是什么？",
+    "expected_answer": "应按照电网电压等级和供电区域合理分层、分区。",
+    "expected_keywords": [
+      "电压等级",
+      "供电区域",
+      "合理分层",
+      "合理分区"
+    ],
+    "source_standard": "GB 38755-2019 3.2.4.1",
+    "category": "参数检索",
+    "topic": "电网分层分区",
+    "question_id": "L1-134",
+    "question_class": "L1",
+    "level": "L1",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB"
+  },
+  {
+    "query": "GB 38755-2019中，短路比的定义是什么？",
+    "expected_answer": "换流站交流母线的短路容量对直流换流器额定容量之比。",
+    "expected_keywords": [
+      "换流站交流母线",
+      "短路容量",
+      "直流换流器额定容量",
+      "之比"
+    ],
+    "source_standard": "GB 38755-2019 2.5",
+    "category": "参数检索",
+    "topic": "短路比",
+    "question_id": "L1-123",
+    "question_class": "L1",
+    "level": "L1",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB"
+  }
+]

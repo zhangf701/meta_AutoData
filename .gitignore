@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.*
+*.env
+
+# OS
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Claude
+.claude/
+
+# Large data / outputs (adjust as needed)
+data/questions/
+日志/
+前期方案智能审查相关国标及行标/
+
+# Temporary / cache
+*.tmp
+*.bak
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
