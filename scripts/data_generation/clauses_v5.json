@@ -1,0 +1,2648 @@
+{
+  "total": 151,
+  "numerical": 80,
+  "prescriptive": 71,
+  "description": "Electrical compliance L1 clauses for v5 dataset",
+  "clauses": [
+    {
+      "standard": "GB 38755-2019",
+      "section": "2.1 电力系统安全性及安全分析（power system security and power system security analysis）",
+      "clause_text": "b) 在新的运行工况下，各种约束条件得到满足",
+      "difficulty": "L1",
+      "topic": "通用要求",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": true,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "GB 38755-电力系统安全稳定导则2019",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0001",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "2.1 电力系统安全性及安全分析（power system security and power system security analysis）",
+      "clause_text": "静态安全分析假设电力系统从扰动前的静态直接转移到扰动后的另一个静态，不考虑中间的暂态过程，用于检验扰动后各种约束条件是否得到满足",
+      "difficulty": "L1",
+      "topic": "稳定标准",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "GB 38755-电力系统安全稳定导则2019",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0002",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.1.2 合理的电网结构和电源结构是电力系统安全稳定运行的基础。在电力系统的规划设计阶段，应统筹考虑，合理布局；在运行阶段，运行方式安排也应注重电网结构和电源",
+      "clause_text": "a) 能够满足各种运行方式下潮流变化的需要，具有一定的灵活性，并能适应系统发展的要求",
+      "difficulty": "L1",
+      "topic": "稳定标准",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "GB 38755-电力系统安全稳定导则2019",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0003",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.1.2 合理的电网结构和电源结构是电力系统安全稳定运行的基础。在电力系统的规划设计阶段，应统筹考虑，合理布局；在运行阶段，运行方式安排也应注重电网结构和电源",
+      "clause_text": "c) 应有较大的抗扰动能力，并满足本标准中规定的有关各项安全稳定标准",
+      "difficulty": "L1",
+      "topic": "稳定标准",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "GB 38755-电力系统安全稳定导则2019",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0004",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "4.2.2 第一级安全稳定标准",
+      "clause_text": "正常运行方式下的电力系统受到下述单一故障扰动后，保护、开关及重合闸正确动作，不采取稳定控制措施，应能保持电力系统稳定运行和电网的正常供电，其他元件不超过规定的事故过负荷能力，不发生连锁跳闸：",
+      "difficulty": "L1",
+      "topic": "稳定标准",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "GB 38755-电力系统安全稳定导则2019",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0005",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "4.2.3 第二级安全稳定标准",
+      "clause_text": "在发电厂或变电站出线、进线同杆架设的杆塔基数合计不超过20基，且同杆架设的线路长度不超过该线路全长10%的情况下，允许c)规定的故障不作为第二级标准，而归入第三级标准",
+      "difficulty": "L1",
+      "topic": "稳定标准",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "GB 38755-电力系统安全稳定导则2019",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0006",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DL/T 5429-2009",
+      "section": "前言",
+      "clause_text": "\\- 补充电网方案设计需满足DL755—2001《电力系统安全稳定导则》的要求",
+      "difficulty": "L1",
+      "topic": "稳定标准",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5429-2009 电力系统设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0007",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5429-2009",
+      "section": "5.2.3",
+      "clause_text": "系统总备用容量可按系统最大发电负荷的15%\\~20%考虑（低值适用于大系统，高值适用于小系统），并满足：",
+      "difficulty": "L1",
+      "topic": "调峰方案",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "备用容量"
+      ],
+      "source_file": "DLT 5429-2009 电力系统设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0008",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DL/T 5429-2009",
+      "section": "5.2.3",
+      "clause_text": "2\\. 事故备用为8%\\~10%，且不小于系统一台最大单机容量",
+      "difficulty": "L1",
+      "topic": "调峰方案",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5429-2009 电力系统设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0009",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DL/T 5429-2009",
+      "section": "6.2.3 220kV及以上电网电压质量标准",
+      "clause_text": "日最大/最小负荷下运行电压波动不应超过10%，事故后不应低于额定电压的0.95倍",
+      "difficulty": "L1",
+      "topic": "电压控制",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5429-2009 电力系统设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0010",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DL/T 5429-2009",
+      "section": "6.2.3 220kV及以上电网电压质量标准",
+      "clause_text": "变电站一次侧母线正常运行电压不应低于额定电压的0.95\\~1.0倍（受电终端取低值），最低运行电压不应影响系统同步稳定、电压稳定及厂用电正常运行",
+      "difficulty": "L1",
+      "topic": "电压控制",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5429-2009 电力系统设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0011",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DL/T 5429-2009",
+      "section": "6.2.4 电网结构基本要求",
+      "clause_text": "2\\. 主干电网应满足任一回线路三相短路不重合时保持稳定运行",
+      "difficulty": "L1",
+      "topic": "稳定标准",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5429-2009 电力系统设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0012",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5429-2009",
+      "section": "6.2.4 电网结构基本要求",
+      "clause_text": "4\\. 主干电网应适应不同电源布局，满足各类运行方式下的安全稳定要求",
+      "difficulty": "L1",
+      "topic": "稳定标准",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5429-2009 电力系统设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0013",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5429-2009",
+      "section": "6.2.4 电网结构基本要求",
+      "clause_text": "7\\. 主干电网容量应留有裕度，满足单一元件故障后再次故障的暂态稳定及其他元件不超过事故过负荷能力的要求",
+      "difficulty": "L1",
+      "topic": "稳定标准",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "暂态稳定"
+      ],
+      "source_file": "DLT 5429-2009 电力系统设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0014",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5429-2009",
+      "section": "6.2.7 电网输电容量要求",
+      "clause_text": "2\\. 输电容量应预留裕度，适应今后5\\~10年发展",
+      "difficulty": "L1",
+      "topic": "通用要求",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5429-2009 电力系统设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0015",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DL/T 5429-2009",
+      "section": "6.2.7 电网输电容量要求",
+      "clause_text": "1\\. 电网输电容量应满足正常及事故运行方式下的输电需求，考虑单一元件故障",
+      "difficulty": "L1",
+      "topic": "通用要求",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5429-2009 电力系统设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0016",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5429-2009",
+      "section": "6.2.7 电网输电容量要求",
+      "clause_text": "3\\. 水电站输电线路容量应满足丰水期满发需要，长距离季节性输电线路需专项论证",
+      "difficulty": "L1",
+      "topic": "通用要求",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5429-2009 电力系统设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0017",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5429-2009",
+      "section": "6.3.3 发电厂接入系统的安全稳定标准",
+      "clause_text": "4\\. 核电站送出线路出口应满足三相短路不重合时保持稳定运行和电厂正常送出",
+      "difficulty": "L1",
+      "topic": "稳定标准",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5429-2009 电力系统设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0018",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5429-2009",
+      "section": "6.4.4 联络线安全稳定要求",
+      "clause_text": "1\\. 单一联络线故障停运后，剩余联络线应保持稳定运行，且不超过事故过负荷能力",
+      "difficulty": "L1",
+      "topic": "稳定标准",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5429-2009 电力系统设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0019",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5429-2009",
+      "section": "6.5.3 中性点接地要求",
+      "clause_text": "需限制单相接地短路电流且继电保护允许时，可不接地，但电网任一点综合零序电抗不应大于综合正序电抗的3倍",
+      "difficulty": "L1",
+      "topic": "接地设计",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "短路电流"
+      ],
+      "source_file": "DLT 5429-2009 电力系统设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0020",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DL/T 5429-2009",
+      "section": "7.2.1 基本原则",
+      "clause_text": "1\\. 无功功率电源预留适当裕度，保证正常/事故后电压满足要求",
+      "difficulty": "L1",
+      "topic": "无功补偿",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": true,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5429-2009 电力系统设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0021",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5429-2009",
+      "section": "7.2.1 基本原则",
+      "clause_text": "5\\. 无功补偿和调相调压计算符合SD 325要求，满足各类运行方式下电压水平，兼顾经济性",
+      "difficulty": "L1",
+      "topic": "无功补偿",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "无功补偿"
+      ],
+      "source_file": "DLT 5429-2009 电力系统设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0022",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5429-2009",
+      "section": "8.1.1",
+      "clause_text": "稳定计算目的是验算电网结构是否满足安全稳定要求，确定静态、暂态、动态稳定水平，提出电网结构改进或稳定提升措施",
+      "difficulty": "L1",
+      "topic": "稳定标准",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5429-2009 电力系统设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0023",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5429-2009",
+      "section": "9.1.1",
+      "clause_text": "330kV及以上电网工频过电压水平：线路断路器变电站侧不超过最高相电压的1.3倍，线路侧不超过1.4倍（有效值，kV）",
+      "difficulty": "L1",
+      "topic": "电压控制",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "工频过电压",
+        "断路器"
+      ],
+      "source_file": "DLT 5429-2009 电力系统设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0024",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "2 330kV 及以上电压等级变电站：6.0m, 路肩宽度每边均为",
+      "clause_text": "3  当进站道路较长时，变电站的进站道路宽度可统一采用 4.5m, 并应设置错车道",
+      "difficulty": "L1",
+      "topic": "电压控制",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": true,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0025",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "5.1.5 330kV～750kV  变电站中的220kV  或110kV  配电装置， 可采用双母线接线，技术经济合理时，也可采用一个半断路器接  线。当采用",
+      "clause_text": "当为了限制220kV 母线短路电流或 满足系统解列运行的要求，可根据需要将母线分段",
+      "difficulty": "L1",
+      "topic": "短路电流",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": true,
+      "references_other_standards": false,
+      "key_terms": [
+        "短路电流"
+      ],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0026",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "5.1.6 220kV 变电站中的220kV 配电装置，当在系统中居重要 地位、出线回路数为4回及以上时，宜采用双母线接线；当出线和 变压器等连接元件总数为10",
+      "clause_text": "220kV 终端变电站的配电装置，在满足运行要求的前提下， 宜采用断路器较少的或不用断路器的接线，如线路变压器组或桥  形接线等",
+      "difficulty": "L1",
+      "topic": "短路电流",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": true,
+      "references_other_standards": false,
+      "key_terms": [
+        "变压器",
+        "断路器"
+      ],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0027",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "5.1.6 220kV 变电站中的220kV 配电装置，当在系统中居重要 地位、出线回路数为4回及以上时，宜采用双母线接线；当出线和 变压器等连接元件总数为10",
+      "clause_text": "当电力系统继电保护能够满足要求时，也可采用线路  分支接线",
+      "difficulty": "L1",
+      "topic": "短路电流",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": true,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0028",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "5.1.6 220kV 变电站中的220kV 配电装置，当在系统中居重要 地位、出线回路数为4回及以上时，宜采用双母线接线；当出线和 变压器等连接元件总数为10",
+      "clause_text": "一般性质的220kV  变电站的220kV  配电装置，出线回路数 在4回及以下时，可采用其他简单的主接线",
+      "difficulty": "L1",
+      "topic": "短路电流",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": true,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0029",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "5.1.9 各级电压配电装置，初期回路数较少时，宜采用断路器数 量较少的简化接线，但在布置上应满足过渡到最终接线的可实 施性。",
+      "clause_text": "采用气体绝缘金属封闭组合电器的各级电压配电装置，通过 经济技术论证，可采用断路器数量较少的接线型式",
+      "difficulty": "L1",
+      "topic": "电压控制",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "断路器"
+      ],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0030",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "5.2.5 主变压器调压方式的选择，应经过技术经济论证。",
+      "clause_text": "选择变压器的额定抽头及分抽头时，应满足系统远景发 展潮流变化的需要",
+      "difficulty": "L1",
+      "topic": "通用要求",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "变压器"
+      ],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0031",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "5.3.4 配电装置的选型原则如下：",
+      "clause_text": "1  220kV  变电站中35kV 及以下配电装置宜采用屋内式， 66kV 宜采用屋外敞开式中型布置",
+      "difficulty": "L1",
+      "topic": "变电站布置",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0032",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "5.3.4 配电装置的选型原则如下：",
+      "clause_text": "2  110 kV 、220kV 电压等级配电装置，宜选用屋外敞开式分 相中型、普通中型、半高型布置形式",
+      "difficulty": "L1",
+      "topic": "电压控制",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0033",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "5.3.4 配电装置的选型原则如下：",
+      "clause_text": "566  kV～750kV  电压等级配电装置，在大气污秽严重、场地 限制、高抗震设防烈度、高海拔环境条件下，经技术经济论证，可采 用气体绝缘金属封闭组合电器",
+      "difficulty": "L1",
+      "topic": "电压控制",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0034",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "5.3.4 配电装置的选型原则如下：",
+      "clause_text": "6  大气严重污秽地区(如沿海、工业污秽区等),配电装置可 采用屋内式",
+      "difficulty": "L1",
+      "topic": "变电站布置",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0035",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "1220 kV～750kV  变电站，均应采用计算机监控系统。",
+      "clause_text": "2  当330kV~750kV  变电站按有人值班或少人值班运行管 理模式建设时，可分别设主控制室、计算机室和继电器小室，继电 器小室可在配电装置就近布置或按电气单元设置",
+      "difficulty": "L1",
+      "topic": "变电站布置",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": true,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0036",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "1220 kV～750kV  变电站，均应采用计算机监控系统。",
+      "clause_text": "当继电保护设备下放 时，保护设备宜结合配电装置型式采取集中或分散布置方式",
+      "difficulty": "L1",
+      "topic": "继电保护",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": true,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0037",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "8.2.5 蓄电池室应根据设备型式和当地的气象条件确定设置机",
+      "clause_text": "1  防酸隔爆蓄电池室的通风应采用机械通风，通风量按空气 中的最大含氢量(按体积计)不超过0.7%计算",
+      "difficulty": "L1",
+      "topic": "通用要求",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0038",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "8.2.5 蓄电池室应根据设备型式和当地的气象条件确定设置机",
+      "clause_text": "通风机的吸风口应靠近顶棚以排除氢气，吸风口的上 缘至顶棚平面或屋顶的距离不大于0.1m",
+      "difficulty": "L1",
+      "topic": "通用要求",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0039",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "12.2.4 防电伤的设计应符合现行国家标准《建筑物防雷设计规  范》GB 50057 的规定，并应满足电力行业标准《高压配电装置设计  技术规程》DL/T 5",
+      "clause_text": "电气设备的布置应满足带电设备的安全防护 距离要求，还应有必要的隔离防护措施和防止误操作措施",
+      "difficulty": "L1",
+      "topic": "电压控制",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0040",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "5.1.4 原标准DL/T5218—2005  第7.1.3条的修改条文。根据 目前实践经验作修改列于本条，电压范围调整到包括750kV。",
+      "clause_text": "为体现不同电压等级、不同性质变电站电气接线在设计方面的 区别，便于工程实际应用，将330kV～750kV 变电站中的220kV 或 110kV 配电装置、220kV 变电站中的220kV 配电装置、220kV 变电 站中的10kV～110kV 配电装置的电气接线设计分条叙述",
+      "difficulty": "L1",
+      "topic": "电压控制",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0041",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "6.4 计算机监控与二次接线",
+      "clause_text": "根据电力系 统生产过程的特点，制定了满足实时信息和其他信息传输要求的 服务模型：采用抽象通信服务接口、特定通信服务映射以适应网络 技术迅猛发展的要求",
+      "difficulty": "L1",
+      "topic": "电气主接线",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": true,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0042",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "6.4 计算机监控与二次接线",
+      "clause_text": "采用对象建模技术，面向设备建模和自我描 述以适应应用功能的需要和发展，满足应用开放互操作性要求",
+      "difficulty": "L1",
+      "topic": "电气主接线",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0043",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "6.6.4 原标准 DL/T  52182005 第7.7.4条保留条文。继电器 小室设置方式的选择，需根据具体工程综合考虑：满足设备抗电磁 干扰的要求、有利于",
+      "clause_text": "在配电装置附近设置若干相对集中的继电器小室，当受场地 的限制有困难时，为了减少征地，一级电压的配电装置也可设置2 个继电器小室",
+      "difficulty": "L1",
+      "topic": "电压控制",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": true,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0044",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "9.0.2 原标准 DL/T  5218—2005 第8.6.1条修改条文。变电站  生活用水量很小，地表水一般不符合生活用水水质标准，需进行给  水处理。变电",
+      "clause_text": "由于排水水质不同，未经处理的生活污水、生产废水与雨 水宜采用分流制排水系统，处理后达到排放标准的污水和废水可 排入雨水管道或直接排放",
+      "difficulty": "L1",
+      "topic": "通用要求",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0045",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "10.2.5 、10.2.6  新增条文。按现行国家标准《火力发电厂与变电 站设计防火规范》GB  50229 分别确定屋内、外含油电气设备的事",
+      "clause_text": "对于屋内含油电气设备，如果未设置水喷雾灭火系统，也未设 置总事故油池，则贮油坑应能容纳设备的全部油量",
+      "difficulty": "L1",
+      "topic": "建构筑物",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0046",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "10.2.5 、10.2.6  新增条文。按现行国家标准《火力发电厂与变电 站设计防火规范》GB  50229 分别确定屋内、外含油电气设备的事",
+      "clause_text": "屋外露天布置的含油电气设备，雨天时贮油坑雨水将汇集到 总事故油池，总事故油池平时有积水，当事故时，事故油排至总事 故油池，因此总事故油池应有油水分离功能，使得事故油池具备足 够的容积容纳事故油",
+      "difficulty": "L1",
+      "topic": "变电站布置",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": true,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0047",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "13.1.2 本条文依据《公共建筑节能设计标准》GB50189--2005",
+      "clause_text": "在夏季宜最  大限度地减少得热并利用自然能来降温冷却，以达到节能的目的",
+      "difficulty": "L1",
+      "topic": "通用要求",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0048",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "DL/T 5218-2012",
+      "section": "13.3.1 本条文依据现行国家标准《公共建筑节能设计标准》 GB  50189--2005 第4. 1.2条提出。严寒和寒冷地区建筑体形的  变化直接影响建筑",
+      "clause_text": "应权衡利弊，兼顾不同 类型的建筑造型，尽可能地减少房间的外围护面积，使体形不要太 复杂.凹凸面不要过多，以达到节能的目的",
+      "difficulty": "L1",
+      "topic": "通用要求",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [],
+      "source_file": "DLT 5218-2012 220kV-750kV变电站设计技术规程",
+      "source_type": "standard",
+      "extraction_method": "regex",
+      "clause_id": "CL5-0049",
+      "clause_type": "prescriptive"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "1",
+      "clause_text": "本标准适用于电压等级为220kV及以上的电力系统。220kV以下的电力系统（含分布式电源）可参照执行。",
+      "difficulty": "L1",
+      "topic": "适用范围",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "电压等级适用范围"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_id": "CL5-0050",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "3.0.7",
+      "clause_text": "电力系统设计的设计水平年宜与国民经济和社会发展规划年份一致，一般取今后5年左右的某一年；远景展望取今后10~15年的某一年。",
+      "difficulty": "L1",
+      "topic": "设计水平年",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "设计水平年"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_id": "CL5-0051",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "5.2.3",
+      "clause_text": "检修备用按规程要求及系统情况确定，初步计算时不应低于5%。",
+      "difficulty": "L1",
+      "topic": "备用容量",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "检修备用容量"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_id": "CL5-0052",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "5.2.4",
+      "clause_text": "水电站需预留事故备用容量在基荷连续运行3d~10d的备用容积（水量），若该容积小于水库兴利库容的3%，可不再专设；",
+      "difficulty": "L1",
+      "topic": "备用容量",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "水电站事故备用容量连续运行时间"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_id": "CL5-0053",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "6.2.3",
+      "clause_text": "枢纽变电站二次侧母线运行电压控制水平按变电站位置及电网电压降确定，可为额定电压的1.0~1.05倍；",
+      "difficulty": "L1",
+      "topic": "电压质量",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "枢纽变电站二次侧母线运行电压控制水平"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_id": "CL5-0054",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "6.2.2",
+      "clause_text": "根据电网现状、今后10~15年输电容量、输电距离等论证；",
+      "difficulty": "L1",
+      "topic": "电压等级",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "电压等级选择展望年限"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_id": "CL5-0055",
+      "clause_type": "numerical"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "4.1.1",
+      "clause_text": "在正常运行方式下，电力系统按功角判据计算的静态稳定储备系数（Kp）应满足15%~20%，按无功电压判据计算的静态稳定储备系数（Kv）应满足10%~15%。",
+      "difficulty": "L1",
+      "topic": "静态稳定储备系数",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "静态稳定储备系数"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0056"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "4.1.2",
+      "clause_text": "在故障后运行方式和特殊运行方式下，Kp不得低于10%，Kv不得低于8%。",
+      "difficulty": "L1",
+      "topic": "静态稳定储备系数",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "静态稳定储备系数"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0057"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "3.1.2",
+      "clause_text": "设计水平年的负荷预测，宜采用两种及以上方法，并应对预测结果进行合理性分析，其误差应控制在±10%以内。",
+      "difficulty": "L1",
+      "topic": "负荷预测误差",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "负荷预测误差"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0058"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "3.2.1",
+      "clause_text": "电力系统设计应进行电力电量平衡，电力平衡应分年度、分水平年进行，并考虑备用容量，备用容量宜为最大发电负荷的15%~20%。",
+      "difficulty": "L1",
+      "topic": "备用容量",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "备用容量"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0059"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "3.3.1",
+      "clause_text": "电力系统设计应进行无功平衡，无功补偿容量应按分层分区原则配置，220kV及以上电压等级电网的容性无功补偿容量宜按变压器容量的10%~30%配置。",
+      "difficulty": "L1",
+      "topic": "无功补偿容量",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "无功补偿容量"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0060"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "3.4.1",
+      "clause_text": "电力系统设计应进行短路电流计算，计算水平年宜取工程投产后5~10年，短路电流水平应不超过设备允许的额定短路电流值。",
+      "difficulty": "L1",
+      "topic": "短路电流计算时间",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "短路电流计算时间"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0061"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "3.4.2",
+      "clause_text": "220kV及以上电压等级电网的短路电流水平，宜控制在40kA、50kA或63kA以内。",
+      "difficulty": "L1",
+      "topic": "短路电流水平",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "短路电流水平"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0062"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "3.5.1",
+      "clause_text": "电力系统设计应进行潮流计算，计算方式应包括正常运行方式、检修运行方式和故障运行方式，电压水平应控制在额定电压的95%~105%范围内。",
+      "difficulty": "L1",
+      "topic": "电压水平",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "电压水平"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0063"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "3.5.2",
+      "clause_text": "在正常运行方式下，系统各中枢点的电压偏差应控制在额定电压的±5%以内；在故障后运行方式下，电压偏差可放宽至额定电压的±10%。",
+      "difficulty": "L1",
+      "topic": "电压偏差",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "电压偏差"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0064"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "3.6.2",
+      "clause_text": "暂态稳定计算应校验系统在发生单一故障（如单相瞬时接地故障重合成功）后，系统能保持稳定，且母线电压不低于额定电压的80%。",
+      "difficulty": "L1",
+      "topic": "暂态稳定电压",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "暂态稳定电压"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0065"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "3.7.1",
+      "clause_text": "电力系统设计应进行频率稳定计算，系统频率应控制在50±0.2Hz范围内，在故障后运行方式下，频率偏差可放宽至50±0.5Hz。",
+      "difficulty": "L1",
+      "topic": "频率偏差",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "频率偏差"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0066"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "3.7.2",
+      "clause_text": "低频减载装置的整定值应使系统频率不低于49.5Hz，并应防止系统频率低于49.0Hz。",
+      "difficulty": "L1",
+      "topic": "低频减载频率",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "低频减载频率"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0067"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "4.1.1",
+      "clause_text": "发电厂接入系统设计，应根据发电厂的容量和重要性，确定接入电压等级，一般200MW及以上的发电机组宜接入220kV及以上电压等级电网。",
+      "difficulty": "L1",
+      "topic": "发电机容量与电压等级",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "发电机容量与电压等级"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0068"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "4.1.2",
+      "clause_text": "发电厂接入系统的输电线路回数，应根据系统稳定和供电可靠性要求确定，一般不少于2回，当发电厂容量超过1000MW时，宜采用3回及以上线路。",
+      "difficulty": "L1",
+      "topic": "输电线路回数",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "输电线路回数"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0069"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "4.2.2",
+      "clause_text": "变电站主变压器容量和台数，应根据供电负荷和可靠性要求确定，一般装设2台及以上变压器，单台变压器容量宜按总负荷的60%~70%选择。",
+      "difficulty": "L1",
+      "topic": "变压器容量比例",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "变压器容量比例"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0070"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "4.3.2",
+      "clause_text": "换流站的无功补偿容量，应按直流额定容量的40%~60%配置，并应满足换流母线电压偏差不超过额定电压的±5%。",
+      "difficulty": "L1",
+      "topic": "无功补偿容量比例",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "无功补偿容量比例"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0071"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "5.1.1",
+      "clause_text": "电力系统设计应进行方案技术经济比较，比较期宜取工程投产后20年，并应考虑资金的时间价值，折现率宜取8%~10%。",
+      "difficulty": "L1",
+      "topic": "经济比较参数",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "经济比较参数"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0072"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "5.1.2",
+      "clause_text": "输变电工程的经济评价，内部收益率应不低于8%，投资回收期不宜超过15年。",
+      "difficulty": "L1",
+      "topic": "经济评价指标",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "经济评价指标"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0073"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "6.1.1",
+      "clause_text": "电力系统设计应提出对继电保护和安全自动装置的要求，220kV及以上电压等级线路的主保护动作时间应不大于30ms。",
+      "difficulty": "L1",
+      "topic": "保护动作时间",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "保护动作时间"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0074"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "6.2.1",
+      "clause_text": "电力系统设计应提出对通信系统的要求，通信通道的误码率应不大于10^-6。",
+      "difficulty": "L1",
+      "topic": "通信误码率",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "通信误码率"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0075"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "6.2.2",
+      "clause_text": "调度自动化系统的主要信息传输时间应不大于5s。",
+      "difficulty": "L1",
+      "topic": "信息传输时间",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "信息传输时间"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0076"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "7.1.1",
+      "clause_text": "电力系统设计应进行新能源接入的适应性分析，新能源场站的短路比应不小于1.5。",
+      "difficulty": "L1",
+      "topic": "短路比",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "短路比"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0077"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "7.1.2",
+      "clause_text": "新能源场站接入系统的电压波动应不大于额定电压的±3%。",
+      "difficulty": "L1",
+      "topic": "电压波动",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "电压波动"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0078"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "7.2.1",
+      "clause_text": "电力系统设计应进行储能接入的可行性研究，储能电站的容量宜按系统最大负荷的5%~10%配置。",
+      "difficulty": "L1",
+      "topic": "储能容量比例",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "储能容量比例"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0079"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "7.2.2",
+      "clause_text": "储能电站的充放电效率应不低于85%。",
+      "difficulty": "L1",
+      "topic": "储能效率",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "储能效率"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0080"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "8.1.2",
+      "clause_text": "静止无功补偿器（SVC）的调节范围应达到额定容量的±100%。",
+      "difficulty": "L1",
+      "topic": "SVC调节范围",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "SVC调节范围"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0081"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "8.2.1",
+      "clause_text": "电力系统设计应提出对调相机的要求，调相机的容量宜按系统无功缺额的20%~30%配置。",
+      "difficulty": "L1",
+      "topic": "调相机容量比例",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "调相机容量比例"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0082"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "8.2.2",
+      "clause_text": "调相机的强励倍数应不小于1.5倍。",
+      "difficulty": "L1",
+      "topic": "调相机强励倍数",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "调相机强励倍数"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0083"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "9.1.2",
+      "clause_text": "工频过电压水平应不大于额定电压的1.3倍。",
+      "difficulty": "L1",
+      "topic": "工频过电压水平",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "工频过电压水平"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0084"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "9.2.1",
+      "clause_text": "电力系统设计应进行绝缘配合，220kV设备的雷电冲击耐压水平应不小于950kV。",
+      "difficulty": "L1",
+      "topic": "绝缘配合电压",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "绝缘配合电压"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0085"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "10.1.1",
+      "clause_text": "电力系统设计应提出对电能质量的要求，谐波电压总畸变率应不大于5%。",
+      "difficulty": "L1",
+      "topic": "谐波电压畸变率",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "谐波电压畸变率"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0086"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "10.1.2",
+      "clause_text": "奇次谐波电压含有率应不大于4%，偶次谐波电压含有率应不大于2%。",
+      "difficulty": "L1",
+      "topic": "谐波电压含有率",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "谐波电压含有率"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0087"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "10.2.1",
+      "clause_text": "电力系统设计应进行闪变计算，长时间闪变值（Plt）应不大于1.0。",
+      "difficulty": "L1",
+      "topic": "闪变值",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "闪变值"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0088"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "11.1.1",
+      "clause_text": "电力系统设计应进行电磁环网分析，不同电压等级电磁环网中，高一级电压线路的输送容量应不大于低一级电压线路输送容量的2倍。",
+      "difficulty": "L1",
+      "topic": "电磁环网容量比",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "电磁环网容量比"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0089"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "11.1.2",
+      "clause_text": "电磁环网解环后，低一级电压线路的输送容量应不超过其额定容量的80%。",
+      "difficulty": "L1",
+      "topic": "线路输送容量限制",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "线路输送容量限制"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0090"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "11.2.1",
+      "clause_text": "电力系统设计应进行直流落点选择，多馈入直流短路比应不小于2.0。",
+      "difficulty": "L1",
+      "topic": "多馈入直流短路比",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "多馈入直流短路比"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0091"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "11.2.2",
+      "clause_text": "直流落点近区的交流系统短路容量应不小于直流额定容量的3倍。",
+      "difficulty": "L1",
+      "topic": "短路容量比",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "短路容量比"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0092"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "12.1.1",
+      "clause_text": "电力系统设计应进行黑启动方案研究，黑启动电源的容量应不小于系统总容量的5%。",
+      "difficulty": "L1",
+      "topic": "黑启动电源容量",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "黑启动电源容量"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0093"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "12.1.2",
+      "clause_text": "黑启动机组的启动时间应不大于30min。",
+      "difficulty": "L1",
+      "topic": "黑启动时间",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "黑启动时间"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0094"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "12.2.1",
+      "clause_text": "电力系统设计应进行低频减载方案设计，低频减载的总容量应不小于系统最大负荷的30%。",
+      "difficulty": "L1",
+      "topic": "低频减载容量",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "低频减载容量"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0095"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "12.2.2",
+      "clause_text": "低频减载的基本级动作频率宜整定为49.5Hz，最后一级动作频率宜整定为48.5Hz。",
+      "difficulty": "L1",
+      "topic": "低频减载频率整定",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "低频减载频率整定"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0096"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "12.3.1",
+      "clause_text": "电力系统设计应进行低压减载方案设计，低压减载的启动电压宜整定为额定电压的85%~90%。",
+      "difficulty": "L1",
+      "topic": "低压减载电压",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "低压减载电压"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0097"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "13.1.1",
+      "clause_text": "电力系统设计应进行次同步振荡分析，次同步振荡的频率范围宜为10~50Hz。",
+      "difficulty": "L1",
+      "topic": "次同步振荡频率",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "次同步振荡频率"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0098"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "13.1.2",
+      "clause_text": "次同步振荡的阻尼比应不小于0.05。",
+      "difficulty": "L1",
+      "topic": "次同步振荡阻尼比",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "次同步振荡阻尼比"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0099"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "14.1.1",
+      "clause_text": "电力系统设计应进行接地方式选择，220kV及以上电压等级电网应采用中性点直接接地方式，接地电阻应不大于0.5Ω。",
+      "difficulty": "L1",
+      "topic": "接地电阻",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "接地电阻"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0100"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "15.1.1",
+      "clause_text": "电力系统设计应进行设备选型，220kV断路器的额定短路开断电流应不小于40kA。",
+      "difficulty": "L1",
+      "topic": "断路器短路开断电流",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "断路器短路开断电流"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0101"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "15.2.2",
+      "clause_text": "500kV线路的导线截面宜不小于400mm²。",
+      "difficulty": "L1",
+      "topic": "导线截面",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "导线截面"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0102"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "16.1.1",
+      "clause_text": "电力系统设计应进行负荷预测，年负荷增长率宜按历史数据的3%~8%取值。",
+      "difficulty": "L1",
+      "topic": "负荷增长率",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "负荷增长率"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0103"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "16.1.2",
+      "clause_text": "设计水平年的最大负荷利用小时数，宜按5000~7000h取值。",
+      "difficulty": "L1",
+      "topic": "负荷利用小时数",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "负荷利用小时数"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0104"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "16.2.1",
+      "clause_text": "电力系统设计应进行电源规划，火电机组的年利用小时数宜按4500~5500h设计。",
+      "difficulty": "L1",
+      "topic": "火电机组利用小时数",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "火电机组利用小时数"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0105"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "16.3.2",
+      "clause_text": "110kV电网的线损率宜控制在5%~8%。",
+      "difficulty": "L1",
+      "topic": "线损率",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "线损率"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0106"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "17.1.1",
+      "clause_text": "电力系统设计应进行电压等级选择，当输送容量在1000MW以上且距离在500km以上时，宜采用500kV及以上电压等级。",
+      "difficulty": "L1",
+      "topic": "电压等级选择",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "电压等级选择"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0107"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "19.1.1",
+      "clause_text": "电力系统设计应进行系统稳定性分析，暂态稳定计算中，故障切除时间应不大于0.1s。",
+      "difficulty": "L1",
+      "topic": "故障切除时间",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "故障切除时间"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0108"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "19.2.2",
+      "clause_text": "在故障后运行方式下，电压稳定裕度应不小于8%。",
+      "difficulty": "L1",
+      "topic": "电压稳定裕度",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "电压稳定裕度"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0109"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "20.1.1",
+      "clause_text": "电力系统设计应进行系统频率特性分析，频率变化率应不大于0.5Hz/s。",
+      "difficulty": "L1",
+      "topic": "频率变化率",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "频率变化率"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0110"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "20.1.2",
+      "clause_text": "在故障后运行方式下，频率变化率应不大于1.0Hz/s。",
+      "difficulty": "L1",
+      "topic": "频率变化率",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "频率变化率"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0111"
+    },
+    {
+      "standard": "DLT 5429-2009",
+      "section": "20.2.2",
+      "clause_text": "新能源占比超过30%的系统，惯量常数应不小于3s。",
+      "difficulty": "L1",
+      "topic": "系统惯量常数",
+      "has_numerical_threshold": true,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "系统惯量常数"
+      ],
+      "source_file": "DLT 5429-2009",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "numerical",
+      "clause_id": "CL5-0112"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.1.1",
+      "clause_text": "为保证电力系统运行的稳定性，维持电力系统频率、电压的正常水平，系统应有足够的静态稳定储备和有功功率、无功功率备用容量。备用容量应分配合理，并有必要的调节手段。在正常负荷及电源波动和调整有功、无功潮流时，均不应发生自发振荡。",
+      "difficulty": "L1",
+      "topic": "总体要求",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "总体要求"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0113"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.1.2",
+      "clause_text": "合理的电网结构和电源结构是电力系统安全稳定运行的基础。在电力系统的规划设计阶段，应统筹考虑，合理布局；在运行阶段，运行方式安排也应注重电网结构和电源开机的合理性。",
+      "difficulty": "L1",
+      "topic": "电网结构与电源结构",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "电网结构与电源结构"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0114"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.1.2 b)",
+      "clause_text": "任一元件无故障断开，应能保持电力系统的稳定运行，且不致使其他元件超过规定的事故过负荷能力和电压、频率允许偏差的要求；",
+      "difficulty": "L1",
+      "topic": "电网结构",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "电网结构"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0115"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.1.2 f)",
+      "clause_text": "交、直流相互适应，协调发展；",
+      "difficulty": "L1",
+      "topic": "电网结构",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "电网结构"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0116"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.1.3",
+      "clause_text": "在正常运行方式（含计划检修方式，下同）下，所有设备均不过负荷、电压与频率不越限，系统中任一元件发生单一故障时，应能保持系统安全稳定运行。",
+      "difficulty": "L1",
+      "topic": "总体要求",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "总体要求"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0117"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.1.4",
+      "clause_text": "在故障后经调整的运行方式下，电力系统仍应有规定的静态稳定储备，并满足再次发生单一元件故障后的稳定和其他元件不超过规定事故过负荷能力的要求。",
+      "difficulty": "L1",
+      "topic": "总体要求",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "总体要求"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0118"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.1.5",
+      "clause_text": "电力系统发生稳定破坏时，必须有预定的措施，以防止事故范围扩大，减少事故损失。",
+      "difficulty": "L1",
+      "topic": "防止电力系统崩溃",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "防止电力系统崩溃"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0119"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.1.6",
+      "clause_text": "低一级电压等级电网中的任何元件（如发电机、交流线路、变压器、母线、直流单极线路、直流换流器等）发生各种类型的单一故障，均不应影响高一级电压等级电网的稳定运行。",
+      "difficulty": "L1",
+      "topic": "总体要求",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "总体要求"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0120"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.1.7",
+      "clause_text": "电力系统的二次设备（包括继电保护装置、安全自动装置、自动化设备、通信设备等）的参数设定及耐受能力应与一次设备相适应。",
+      "difficulty": "L1",
+      "topic": "二次设备",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "二次设备"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0121"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.2.1 a)",
+      "clause_text": "加强受端系统内部最高一级电压的网络联系；",
+      "difficulty": "L1",
+      "topic": "受端系统",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "受端系统"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0122"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.2.1 b)",
+      "clause_text": "加强受端系统的电压支撑和运行的灵活性，应接有足够容量的具有支撑能力和调节能力的电厂；",
+      "difficulty": "L1",
+      "topic": "受端系统",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "受端系统"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0123"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.2.1 c)",
+      "clause_text": "受端系统应有足够的无功补偿容量，直流落点与负荷集中地区应合理配置动态无功调节设备；",
+      "difficulty": "L1",
+      "topic": "受端系统",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "受端系统"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0124"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.2.2.1",
+      "clause_text": "根据电源在系统中的地位和作用，不同规模的电源应分别接入相应的电压等级网络；在经济合理与建设条件可行的前提下，应在受端系统内建设一些具有支撑和调节能力的主力电源；最高一级电压等级电网应直接接入必要的主力电源。",
+      "difficulty": "L1",
+      "topic": "电源接入",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "电源接入"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0125"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.2.2.2",
+      "clause_text": "外部电源需经相对独立的送电回路接入受端系统，避免电源或送端系统之间的直接联络以及送电回路落点和输电走廊过于集中。",
+      "difficulty": "L1",
+      "topic": "电源接入",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "电源接入"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0126"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.2.3.1",
+      "clause_text": "负荷的谐波、冲击等特性对所接入电力系统电能质量和安全稳定的影响不应超过该系统的承受能力。",
+      "difficulty": "L1",
+      "topic": "负荷接入",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "负荷接入"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0127"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.2.3.2",
+      "clause_text": "负荷应具备一定的故障扰动耐受能力，在确保用电设备安全的前提下，应设置合理的负荷保护定值，在系统电压、频率波动时避免不必要的负荷损失和故障范围的扩大。",
+      "difficulty": "L1",
+      "topic": "负荷接入",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "负荷接入"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0128"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.2.4.1",
+      "clause_text": "应按照电网电压等级和供电区域合理分层、分区。合理分层，将不同规模的电源和负荷接到相适应的电压等级网络上；合理分区，以受端系统为核心，将外部电源连接到受端系统，形成一个供需基本平衡的区域，并经联络线与相邻区域相连。",
+      "difficulty": "L1",
+      "topic": "电网分层分区",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "电网分层分区"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0129"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.2.4.2",
+      "clause_text": "随着高一级电压等级电网的建设，下级电压等级电网应逐步实现分区运行，相邻分区之间保持互为备用。应避免和消除严重影响电力系统安全稳定的不同电压等级的电磁环网，电源不应装设构成电磁环网的联络变压器。",
+      "difficulty": "L1",
+      "topic": "电网分层分区",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "电网分层分区"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0130"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.2.4.3",
+      "clause_text": "分区电网应尽可能简化，以有效限制短路电流和简化继电保护的配置。",
+      "difficulty": "L1",
+      "topic": "电网分层分区",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "电网分层分区"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0131"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.2.5.3",
+      "clause_text": "互联的电力系统在任一侧失去大电源或发生严重单一故障时，联络线应保持稳定运行，并不应超过事故过负荷能力。",
+      "difficulty": "L1",
+      "topic": "系统间互联",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "系统间互联"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0132"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.2.5.4",
+      "clause_text": "在联络线因故障断开后，应保持各自系统的安全稳定运行。",
+      "difficulty": "L1",
+      "topic": "系统间互联",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "系统间互联"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0133"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.2.5.5",
+      "clause_text": "系统间的交流联络线不应构成弱联系的大环网，并应考虑其中一回断开时，其余联络线应保持稳定运行，并可转送规定的最大电力。",
+      "difficulty": "L1",
+      "topic": "系统间互联",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "系统间互联"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0134"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.3.1",
+      "clause_text": "应根据各类电源在电力系统中的功能定位，结合一次能源供应可靠性，合理配置不同类型电源的装机规模和布局，满足电力系统电力电量平衡和安全稳定运行的需求，为系统提供必要的惯量、短路容量、有功和无功支撑。",
+      "difficulty": "L1",
+      "topic": "电源结构",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "电源结构"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0135"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.3.2",
+      "clause_text": "电力系统应统筹建设足够的调节能力，常规电厂（火电、水电、核电等）应具备必需的调峰、调频和调压能力，新能源场站应提高调节能力，必要时应配置燃气电站、抽水蓄能电站、储能电站等灵活调节资源及调相机、静止同步补偿器、静止无功补偿器等动态无功调节设备。",
+      "difficulty": "L1",
+      "topic": "电源结构",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "电源结构"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0136"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.4.1",
+      "clause_text": "无功功率电源的配置应留有适当裕度，以保证系统各中枢点的电压在正常和故障后均能满足规定的要求。",
+      "difficulty": "L1",
+      "topic": "无功平衡及补偿",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "无功平衡及补偿"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0137"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.4.2",
+      "clause_text": "电网的无功补偿应以分层分区和就地平衡为原则，并应随负荷（或电压）变化进行调整，避免长距离线路或多级变压器传送无功功率。330kV及以上等级架空线路、220kV及以上等级电缆线路的充电功率应基本予以补偿。",
+      "difficulty": "L1",
+      "topic": "无功平衡及补偿",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "无功平衡及补偿"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0138"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.4.3",
+      "clause_text": "同步发电机或同步调相机应带自动调节励磁（包括强行励磁）运行，具备充足的进相和迟相能力，并保持其运行的稳定性。",
+      "difficulty": "L1",
+      "topic": "无功平衡及补偿",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "无功平衡及补偿"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0139"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.4.5",
+      "clause_text": "为保证受端系统发生突然失去一回线路、失去直流单极或失去一台大容量机组（包括发电机跳闸）等故障时，保持电压稳定和正常供电，不致出现电压崩溃，受端系统中应有足够的动态无功功率备用容量。",
+      "difficulty": "L1",
+      "topic": "无功平衡及补偿",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "无功平衡及补偿"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0140"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.5.1",
+      "clause_text": "电源及动态无功功率调节设备的参数选择必须与电力系统相协调，保证其性能满足电力系统稳定运行的要求。",
+      "difficulty": "L1",
+      "topic": "网源协调",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "网源协调"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0141"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.5.2",
+      "clause_text": "电源侧的继电保护（涉网保护、线路保护）和自动装置（自动励磁调节器、电力系统稳定器、调速器、稳定控制装置、自动发电控制装置等）的配置和整定应与发电设备相互配合，并应与电力系统相协调，保证其性能满足电力系统稳定运行的要求。",
+      "difficulty": "L1",
+      "topic": "网源协调",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "网源协调"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0142"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.5.3",
+      "clause_text": "电源均应具备一次调频、快速调压、调峰能力，且应满足相关标准要求。存在频率振荡风险的电力系统，系统内水电机组调速系统应具备相应的控制措施。",
+      "difficulty": "L1",
+      "topic": "网源协调",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "网源协调"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0143"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.5.4",
+      "clause_text": "电源及动态无功调节设备对于系统电压、频率的波动应具有一定的耐受能力。新能源场站以及分布式电源的电压和频率耐受能力原则上与同步发电机组的电压和频率耐受能力一致。",
+      "difficulty": "L1",
+      "topic": "网源协调",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "网源协调"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0144"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.5.5",
+      "clause_text": "存在次同步振荡风险的常规电厂及送出工程，应根据评估结果采取抑制、保护和监测措施。存在次同步振荡或超同步振荡风险的新能源场站及送出工程，应采取抑制和监测措施。",
+      "difficulty": "L1",
+      "topic": "网源协调",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "网源协调"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0145"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.5.6",
+      "clause_text": "电力系统应具备基本的惯量和短路容量支持能力，在新能源并网发电比重较高的地区，新能源场站应具备相应的惯量响应能力。",
+      "difficulty": "L1",
+      "topic": "网源协调",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "网源协调"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0146"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.6.1",
+      "clause_text": "规划电网结构应实现合理的分层分区。电力系统应在适当地点设置解列点，并装设自动解列装置，当系统发生稳定破坏时，能够将系统解列为各自尽可能保持同步运行的两个或几个部分，防止系统长时间不能拉入同步或造成系统频率和电压崩溃，扩大事故。",
+      "difficulty": "L1",
+      "topic": "防止电力系统崩溃",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "防止电力系统崩溃"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0147"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.6.2",
+      "clause_text": "电力系统应考虑可能发生的最严重故障情况，并配合解列点的设置，合理安排自动低频减负荷的顺序和所切负荷数值。当整个系统或解列后的局部出现功率缺额时，能够有计划地按频率下降情况自动减去足够数量的负荷，以保证重要用户的不间断供电。发电厂应有可靠的保证厂用电供电的措施，防止因失去厂用电导致全厂停电。",
+      "difficulty": "L1",
+      "topic": "防止电力系统崩溃",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "防止电力系统崩溃"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0148"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.7.2",
+      "clause_text": "制定黑启动方案应根据电网结构的特点合理划分区域，各区域须至少安排1~2台具备黑启动能力的机组，确保机组容量和分布合理。",
+      "difficulty": "L1",
+      "topic": "系统恢复",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "系统恢复"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0149"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.7.3",
+      "clause_text": "系统全停后的恢复方案（包括黑启动方案），应适合本系统的实际情况，以能够快速有序地实现系统和用户的恢复。恢复方案中应包括恢复步骤和恢复过程中应注意的问题，其保护、通信、远动、开关及安全自动装置均应满足自启动和逐步恢复其他线路和负荷供电的特殊要求。",
+      "difficulty": "L1",
+      "topic": "系统恢复",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "系统恢复"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0150"
+    },
+    {
+      "standard": "GB 38755-2019",
+      "section": "3.7.4",
+      "clause_text": "在恢复启动过程中应注意有功功率、无功功率平衡，防止发生自励磁和电压失控及频率的大幅度波动。必须考虑系统恢复过程中的稳定问题，合理投入继电保护和安全自动装置，防止保护误动而中断或延误系统恢复。",
+      "difficulty": "L1",
+      "topic": "系统恢复",
+      "has_numerical_threshold": false,
+      "has_conditional_logic": false,
+      "references_other_standards": false,
+      "key_terms": [
+        "系统恢复"
+      ],
+      "source_file": "GB 38755-2019",
+      "source_type": "standard",
+      "extraction_method": "deepseek",
+      "clause_type": "prescriptive",
+      "clause_id": "CL5-0151"
+    }
+  ]
+}

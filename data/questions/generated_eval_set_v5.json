@@ -1,0 +1,635 @@
+[
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据GB 38755-20194.2.3 第二级安全稳定标准，在变电站F出线、进线同杆架设的杆塔基数合计不超过20基，某区域某区域全长10%的情况下，允许c)规定的故障不作为第二级标准，而归入第三级标准中规定的上限值是多少？",
+    "expected_answer": "10%",
+    "expected_keywords": [
+      "10",
+      "稳定标准",
+      "GB 38755-2019"
+    ],
+    "source_standard": "GB 38755-2019 4.2.3 第二级安全稳定标准",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0011",
+    "question_id": "L1-101",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5429-2009，某专家备用容量的比例范围是多少？",
+    "expected_answer": "15%",
+    "expected_keywords": [
+      "备用容量",
+      "15",
+      "调峰方案",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 5.2.3",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0017",
+    "question_id": "L1-102",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5429-20095.2.3，2\\. 事故备用为8%\\~10%，且不小于系统一台最大单机容量中规定的下限值是多少？",
+    "expected_answer": "8%",
+    "expected_keywords": [
+      "8",
+      "调峰方案",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 5.2.3",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0018",
+    "question_id": "L1-103",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5429-2009，日最大/最小负荷下运行电压波动的比例范围是多少？",
+    "expected_answer": "10%",
+    "expected_keywords": [
+      "10",
+      "电压控制",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 6.2.3 220kV及以上电网电压质量标准",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0019",
+    "question_id": "L1-104",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5429-2009，变电站一次侧母线正常运行电压的电压要求是多少？",
+    "expected_answer": "1.0倍",
+    "expected_keywords": [
+      "1.0",
+      "电压控制",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 6.2.3 220kV及以上电网电压质量标准",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0020",
+    "question_id": "L1-105",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5429-2009，2\\. 输电容量的容量要求是多少？",
+    "expected_answer": "10年",
+    "expected_keywords": [
+      "10",
+      "通用要求",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 6.2.7 电网输电容量要求",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0023",
+    "question_id": "L1-106",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5429-2009，某区域电流且继电保护允许时的电流限值是多少？",
+    "expected_answer": "3倍",
+    "expected_keywords": [
+      "3",
+      "接地设计",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 6.5.3 中性点接地要求",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0029",
+    "question_id": "L1-107",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5429-20099.1.1，330kV及以某专家频过电压水平：变电站D侧不超过最高相电压的1.3倍，线路侧不超过1.4倍（有效值，kV）中规定的上限值是多少？",
+    "expected_answer": "1.4倍",
+    "expected_keywords": [
+      "1.4",
+      "电压控制",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 9.1.1",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0034",
+    "question_id": "L1-108",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5218-20125.1.6 220kV 变电站中的220kV 配电装置，当在系统中居重要 地位、某区域数为4回及以上时，宜采用双母线接线；当出线和 变压器等连某专家数为10～1，220kV 变电站35的配电装置，在满足运行要求的前提下， 某区域某区域器的接线，某区域变压器组或桥  形接线等中规定的电压要求是多少？",
+    "expected_answer": "220kV",
+    "expected_keywords": [
+      "变压器",
+      "220",
+      "短路电流",
+      "DL/T 5218-2012"
+    ],
+    "source_standard": "DL/T 5218-2012 5.1.6 220kV 变电站中的220kV 配电装置，当在系统中居重要 地位、某区域数为4回及以上时，宜采用双母线接线；当出线和 变压器等连某专家数为10～1",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0038",
+    "question_id": "L1-109",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5218-2012，一般性质的220kV  变电站的220kV  配电装置，某区域数 在4回及以下时的电压要求是多少？",
+    "expected_answer": "220kV",
+    "expected_keywords": [
+      "220",
+      "短路电流",
+      "DL/T 5218-2012"
+    ],
+    "source_standard": "DL/T 5218-2012 5.1.6 220kV 变电站中的220kV 配电装置，当在系统中居重要 地位、某区域数为4回及以上时，宜采用双母线接线；当出线和 变压器等连某专家数为10～1",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0040",
+    "question_id": "L1-110",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5218-2012，1  220kV  变电站中35kV 及以下配电装置的电压要求是多少？",
+    "expected_answer": "220kV",
+    "expected_keywords": [
+      "220",
+      "配电装置",
+      "DL/T 5218-2012"
+    ],
+    "source_standard": "DL/T 5218-2012 5.3.4 配电装置的选型原则如下：",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0043",
+    "question_id": "L1-111",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5218-2012，2  110 kV 、220kV 电压等级配电装置的电压要求是多少？",
+    "expected_answer": "110 kV",
+    "expected_keywords": [
+      "110",
+      "电压控制",
+      "DL/T 5218-2012"
+    ],
+    "source_standard": "DL/T 5218-2012 5.3.4 配电装置的选型原则如下：",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0044",
+    "question_id": "L1-112",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5218-20125.3.4 配电装置的选型原则如下：，566  kV～750kV  电压等级配电装置，在大气污秽严重、场地 限制、高抗震设防烈度、高海拔环境条件下，经技术经济论证，可采 用气体绝缘金属封闭组合电器中规定的电压要求是多少？",
+    "expected_answer": "566  kV",
+    "expected_keywords": [
+      "566",
+      "电压控制",
+      "DL/T 5218-2012"
+    ],
+    "source_standard": "DL/T 5218-2012 5.3.4 配电装置的选型原则如下：",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0045",
+    "question_id": "L1-113",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5218-2012，2  当330kV~750kV  变电站按有人值班或少人值班运行管 理模式建设时的电压要求是多少？",
+    "expected_answer": "330kV",
+    "expected_keywords": [
+      "330",
+      "配电装置",
+      "DL/T 5218-2012"
+    ],
+    "source_standard": "DL/T 5218-2012 1220 kV～750kV  变电站，均应采用计算机监控系统。",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0048",
+    "question_id": "L1-114",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5218-2012，1  防酸隔爆蓄电池室的通风的上限值是多少？",
+    "expected_answer": "0.7%",
+    "expected_keywords": [
+      "0.7",
+      "通用要求",
+      "DL/T 5218-2012"
+    ],
+    "source_standard": "DL/T 5218-2012 8.2.5 蓄电池室应根据设备型式和当地的气象条件确定设置机",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0050",
+    "question_id": "L1-115",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5218-2012，为体现不同电压等级、变电站R电气接线在设计方面的 区别，便于工程实际的电压要求是多少？",
+    "expected_answer": "330kV",
+    "expected_keywords": [
+      "330",
+      "电压控制",
+      "DL/T 5218-2012"
+    ],
+    "source_standard": "DL/T 5218-2012 5.1.4 原标准DL/T5218—2005  第7.1.3条的修改条文。根据 目前实践经验作修改列于本条，电压范围调整到包括750kV。",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0059",
+    "question_id": "L1-116",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5429-2009，电力系统设计的设计水平年的限值是多少？",
+    "expected_answer": "5年",
+    "expected_keywords": [
+      "设计水平年",
+      "5",
+      "设计水平与展望",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 3.0.7",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0072",
+    "question_id": "L1-117",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5429-2009，某专家备用容量的下限值是多少？",
+    "expected_answer": "15%~20%",
+    "expected_keywords": [
+      "系统备用容量比例",
+      "15",
+      "20",
+      "系统备用容量",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 5.2.3",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0073",
+    "question_id": "L1-118",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5429-2009，承担事故备用的电源的比例范围是多少？",
+    "expected_answer": "3%",
+    "expected_keywords": [
+      "水电站事故备用连续运行天数",
+      "3",
+      "水电站事故备用",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 5.2.4",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0074",
+    "question_id": "L1-119",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5429-2009，选择电压等级的基本要求：1. 根据电网现状、今后10~15年输电容量、输电距离等论证；方案的容量要求是多少？",
+    "expected_answer": "15年",
+    "expected_keywords": [
+      "输电容量论证期限",
+      "15",
+      "电网方案设计",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 6.2.2",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0075",
+    "question_id": "L1-120",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5429-2009，220kV及以上电网电压质量标准：1. 变电站I二次侧母线运行电压控变电站A位置及电网电压降确定的电压要求是多少？",
+    "expected_answer": "220kV",
+    "expected_keywords": [
+      "变电站I二次侧母线运行电压倍数",
+      "220",
+      "电压质量标准",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 6.2.3",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0076",
+    "question_id": "L1-121",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_class": "L1",
+    "level": "L1",
+    "category": "参数检索",
+    "query": "根据DL/T 5429-2009，电网输电容量的容量要求是多少？",
+    "expected_answer": "10年",
+    "expected_keywords": [
+      "输电容量预留裕度发展年限",
+      "10",
+      "电网输电容量",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 6.2.7",
+    "grading_method": "auto_keyword_match",
+    "knowledge_base": "General-KB",
+    "clause_source": "CL-0077",
+    "question_id": "L1-122",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "query": "根据GB 38755-2019，本标准适用于电压等级为多少以上的电力系统？",
+    "expected_answer": "220kV",
+    "expected_keywords": [
+      "电压等级",
+      "220kV",
+      "及以上",
+      "范围",
+      "GB 38755"
+    ],
+    "source_standard": "GB 38755-2019 第1章 范围",
+    "category": "参数检索",
+    "question_id": "L1-123",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "query": "根据DL/T 5429-2009，系统备用容量按系统最大发电负荷的多少比例考虑？",
+    "expected_answer": "15%～20%",
+    "expected_keywords": [
+      "系统备用容量",
+      "最大发电负荷",
+      "15%",
+      "20%",
+      "比例"
+    ],
+    "source_standard": "DL/T 5429-2009 第5.2.3条",
+    "category": "参数检索",
+    "question_id": "L1-124",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "query": "根据DL/T 5429-2009，负荷备用为多少？",
+    "expected_answer": "2%～5%",
+    "expected_keywords": [
+      "负荷备用",
+      "2%",
+      "5%",
+      "备用容量",
+      "系统"
+    ],
+    "source_standard": "DL/T 5429-2009 第5.2.3条",
+    "category": "参数检索",
+    "question_id": "L1-125",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "query": "根据DL/T 5429-2009，事故备用为多少？",
+    "expected_answer": "8%～10%",
+    "expected_keywords": [
+      "事故备用",
+      "8%",
+      "10%",
+      "备用容量",
+      "系统"
+    ],
+    "source_standard": "DL/T 5429-2009 第5.2.3条",
+    "category": "参数检索",
+    "question_id": "L1-126",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "query": "根据DL/T 5429-2009，检修备用不应低于多少？",
+    "expected_answer": "5%",
+    "expected_keywords": [
+      "检修备用",
+      "5%",
+      "不低于",
+      "备用容量",
+      "设计"
+    ],
+    "source_standard": "DL/T 5429-2009 第5.2.3条",
+    "category": "参数检索",
+    "question_id": "L1-127",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "query": "根据DL/T 5429-2009，水电站事故备用容积若小于水库兴利库容的多少，可不再专设？",
+    "expected_answer": "3%",
+    "expected_keywords": [
+      "水电站",
+      "备用容积",
+      "兴利库容",
+      "3%",
+      "不再专设"
+    ],
+    "source_standard": "DL/T 5429-2009 第5.2.4条",
+    "category": "参数检索",
+    "question_id": "L1-129",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "query": "根据DL/T 5429-2009，电力系统设计的设计水平年一般取今后多少年左右的某一年？",
+    "expected_answer": "5年",
+    "expected_keywords": [
+      "设计水平年",
+      "5年",
+      "今后",
+      "规划",
+      "设计"
+    ],
+    "source_standard": "DL/T 5429-2009 第3.0.7条",
+    "category": "参数检索",
+    "question_id": "L1-130",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "query": "根据DL/T 5429-2009，远景展望取今后多少年的某一年？",
+    "expected_answer": "10～15年",
+    "expected_keywords": [
+      "远景展望",
+      "10年",
+      "15年",
+      "规划",
+      "设计"
+    ],
+    "source_standard": "DL/T 5429-2009 第3.0.7条",
+    "category": "参数检索",
+    "question_id": "L1-131",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "query": "根据DL/T 5218-2012，该规程适用的变电站最高电压等级是多少？",
+    "expected_answer": "750kV",
+    "expected_keywords": [
+      "变电站",
+      "最高电压",
+      "750kV",
+      "适用",
+      "DL/T 5218"
+    ],
+    "source_standard": "DL/T 5218-2012 标题及前言（适用范围）",
+    "category": "参数检索",
+    "question_id": "L1-135",
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  }
+]

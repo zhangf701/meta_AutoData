@@ -28,6 +28,11 @@ class QualityVerifier:
         """
         issues = []
 
+        # L1-specific checks
+        if level == "L1":
+            l1_issues = self._verify_l1(question)
+            issues.extend(l1_issues)
+
         # Check 1: Context Leakage (L2/L3 only)
         if level in ("L2", "L3"):
             leakage = self._check_leakage(question)
@@ -45,6 +50,63 @@ class QualityVerifier:
         issues.extend(struct_issues)
 
         return len(issues) == 0, issues
+
+    def _verify_l1(self, question):
+        """L1-specific quality checks.
+
+        Checks:
+        1. Answer must not be vague placeholder text
+        2. Answer must not be circular (e.g., "不超过规定的事故过负荷能力")
+        3. Query must not contain non-electrical keywords
+        4. Answer must have meaningful content (numerical OR clear professional judgment)
+        """
+        issues = []
+        answer = question.get("expected_answer", "")
+        query = question.get("query", "")
+
+        # Check 1: Answer must not be vague
+        vague_pattern = re.compile(
+            r'无具体|未明确|未给出|需参考其他|需查阅|标准中未|详见|参见'
+        )
+        if vague_pattern.search(answer):
+            issues.append("答案模糊: 含'无具体数值/未明确给出/需参考其他条款'等占位文本")
+
+        # Check 2: Answer must not be circular
+        circular_pattern = re.compile(
+            r'不超过规定(的)?(事故过负荷能力|过负荷能力)'
+        )
+        if circular_pattern.search(answer):
+            issues.append("答案循环引用: 以'不超过规定的能力'回答'不超过多少'的问题")
+
+        # Check 3: Query must be electrical engineering only
+        non_elec_pattern = re.compile(
+            r'防洪|防涝|土石方|飞机场|自然保护区|人文遗址'
+            r'|消防|防火|环保|水土保持|绿化|噪声|噪音'
+            r'|基础抗拔|抗倾覆|地基|桩基|混凝土|给排水|暖通'
+        )
+        if non_elec_pattern.search(query):
+            issues.append("非电气内容: 题目含土建/防洪/消防/环保等非电气关键词")
+
+        # Check 4: Answer must have meaningful content
+        # Numerical check
+        has_numerical = bool(re.search(
+            r'\d+(?:\.\d+)?\s*[%~kMGVWVAHhzΩ℃倍年月日台回套米秒]', answer
+        ))
+        # Prescriptive check: answer contains normative judgment keywords
+        prescriptive_kw = ['应', '必须', '宜', '可', '不应', '不得', '禁止', '不宜',
+                          '直接接地', '全部接地', '经', '采用', '配置', '设置',
+                          '接线', '母线', '保护', '接地', '变压器', '断路器']
+        has_prescriptive = any(kw in answer for kw in prescriptive_kw)
+        # Minimum answer length
+        has_min_length = len(answer) >= 4
+
+        if not has_numerical and not (has_prescriptive and has_min_length):
+            issues.append(
+                f"答案内容不足: 既无数值参数，也缺规定性判断 "
+                f"(数值={has_numerical}, 规定性={has_prescriptive}, 长度={len(answer)})"
+            )
+
+        return issues
 
     def _check_leakage(self, question):
         """Verify answer is not trivially extractable from source sections.

@@ -1,7 +1,7 @@
 """Challenger Agent: Generate Q&A pairs from normative clauses.
 
 Implements level-specific generation strategies:
-- L1: Template-based parameter extraction (no LLM call needed)
+- L1: LLM-based parameter/prescriptive extraction
 - L2: LLM scenario construction with 3-shot examples
 - L3: LLM cross-standard synthesis with scenario inlining
 """
@@ -13,121 +13,121 @@ from openai import OpenAI
 from data_generation.config import DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL, STRONG_MODEL, L2_FEWSHOT_FILE
 
 
-# ── L1 Template-based Generation ──────────────────────────────────────
+# ── L1 LLM-based Generation ────────────────────────────────────────────
 
-L1_TEMPLATES = [
-    # Template: {参数}的{要求}是什么？
-    ("{subject}的{aspect}应满足什么要求？", "参数检索"),
-    # Template: {电压等级}{设备}{参数}的限值
-    ("{context}{question}", "参数检索"),
-    # Template: 标准条款直接提问
-    ("根据{standard}，{subject}{aspect}的{requirement_type}是多少？", "标准引用"),
-]
+L1_SYSTEM_PROMPT = """你是一名电力系统标准专家。任务是将标准条款转化为L1级（参数检索/规定性要求）评测题目。
 
-L1_PARAM_PATTERNS = [
-    (r"(\d+)\s*[%~]\s*[~～-]\s*(\d+)\s*[%~]", "比例范围"),
-    (r"(不低于|不大于|不小于|不超过|达到|满足)\s*(\d+(?:\.\d+)?\s*(?:%|[kMGV]?[WVAHhzΩ℃]|倍))", "数值阈值"),
-    (r"(\d+(?:\.\d+)?)\s*(kV|MW|MVA|kA|Hz|Ω|mm|km|年|月|日|台|回|套)", "参数限值"),
-]
+## L1 题目要求
+1. 题干：一句通顺的汉语问句，明确指向条款中的具体参数或规定性要求
+2. 答案：从条款原文中精准提取的数值或规定性判断，简短精确
+3. 关键词：3-5个核心技术关键词
+
+## 数值型条款示例
+条款："短路比的最小允许值不小于2.0"
+→ {"query":"根据GB 38755-2019，短路比的最小允许值是多少？","expected_answer":"不小于2.0","expected_keywords":["短路比","最小允许值","2.0"]}
+
+## 纯文字规定性条款示例
+条款："500kV及以上变压器中性点宜全部接地"
+→ {"query":"根据DL/T 5429-2009，500kV及以上变压器中性点应采用什么接地方式？","expected_answer":"宜全部接地","expected_keywords":["变压器","中性点","接地方式","500kV"]}
+
+## 严禁
+- 题干是条款原文的简单拼接或复制
+- 题干以"a)""b)""1.""2.""（1）""①"等编号开头
+- 题干机械套用"应符合什么规定/要求"等空泛句式
+- 答案为"无具体数值""需参考其他条款"等占位文本
+- 出现非电气内容（土建/防洪/消防/环保/给排水/暖通）
+
+## 输出格式
+纯JSON对象，不要markdown代码块包裹。"""
+
+
+def _extract_numerical_hints(text):
+    """Pre-extract numerical parameters as hints for the LLM."""
+    hints = []
+    # Percentage ranges
+    for m in re.finditer(r"(\d+(?:\.\d+)?\s*[%~](?:\s*[~～-]\s*\d+(?:\.\d+)?\s*[%~])?)", text):
+        hints.append(f"比例范围: {m.group(1)}")
+    # Threshold values
+    for m in re.finditer(r"(不低于|不大于|不小于|不超过)\s*(\d+(?:\.\d+)?\s*[%kMGVWVAHhzΩ℃倍年月日台回套米秒]*)", text):
+        hints.append(f"阈值: {m.group(0)}")
+    # Number+unit pairs
+    for m in re.finditer(r"(\d+(?:\.\d+)?)\s*(kV|MW|MVA|kA|Hz|Ω|mm|km|年|月|日|台|回|套)", text):
+        hints.append(f"参数: {m.group(0)}")
+    return hints[:5]  # top 5 hints
 
 
 def generate_l1_from_clause(clause):
-    """Generate an L1 question from a single clause using templates.
+    """Generate an L1 question from a single clause using LLM.
 
-    Returns dict with question_id placeholder and all required fields.
+    Uses DeepSeek with a focused system prompt to produce coherent,
+    natural-language questions regardless of clause format quality.
+
+    Returns dict with all required fields, or None on failure.
     """
     text = clause.get("clause_text", "")
     standard = clause.get("standard", "")
     section = clause.get("section", "")
     topic = clause.get("topic", "通用要求")
 
-    # Extract key parameter
-    param_match = re.search(r"(\d+(?:\.\d+)?\s*[%~](?:\s*[~～-]\s*\d+(?:\.\d+)?\s*[%~])?)", text)
-    threshold_match = re.search(r"(?:不低于|不大于|不小于|不超过|应[为达到])\s*(\d+(?:\.\d+)?\s*[%kMGVWVAHhzΩ℃倍年月日台回套]*)", text)
+    # Skip obviously unworkable clauses
+    if len(text) < 12:
+        return None
+    # Skip clauses that are purely numbered list items with no substance
+    if re.match(r'^[\d]+\.?\s*$', text.strip()):
+        return None
+    # Skip clauses that are just raw list markers
+    if re.match(r'^[a-z]\)\s*$', text.strip()):
+        return None
 
-    if param_match:
-        answer = param_match.group(1)
-        # Infer requirement type from clause content
-        req_type = "限值"
-        if "不低于" in text: req_type = "下限值"
-        elif "不超过" in text or "不大于" in text: req_type = "上限值"
-        elif "比例" in text or "范围" in text: req_type = "比例范围"
-        elif "容量" in text: req_type = "容量要求"
-        elif "电压" in text: req_type = "电压要求"
-        elif "电流" in text: req_type = "电流限值"
-        elif "温度" in text: req_type = "温度限值"
+    # Pre-extract numerical hints
+    hints = _extract_numerical_hints(text)
+    hints_str = "\n".join(hints) if hints else "（条款中未检测到明确数值参数）"
 
-        # Build question from clause context
-        subject_match = re.search(r"^(.{5,60}?)(?:应|必须|不应|不得|需)", text)
-        if subject_match:
-            subject = subject_match.group(1).strip("，。；、 ")
-            query = f"根据{standard}，{subject}的{req_type}是多少？"
-        else:
-            query = f"根据{standard}{section}，{text[:80]}...的要求中，关键参数限值是多少？"
+    user_prompt = f"""## 标准条款
+标准编号：{standard}
+条款号：{section}
+主题分类：{topic}
+条款原文：
+{text}
 
-        # Extract keywords — ensure at least 3
-        keywords = list(clause.get("key_terms", [])[:5])
-        # Add extracted numbers
-        nums = re.findall(r"\d+(?:\.\d+)?", answer)
-        for n in nums[:3]:
-            if n not in keywords:
-                keywords.append(n)
-        # Add topic keyword
-        if topic and topic not in keywords:
-            keywords.append(topic)
-        if standard and standard not in keywords:
-            keywords.append(standard)
-        # Ensure minimum 3 keywords
-        if len(keywords) < 3:
-            # Add words from the clause text
-            extra = re.findall(r"[一-鿿]{2,4}", text)
-            for w in extra:
-                if w not in keywords:
-                    keywords.append(w)
-                    if len(keywords) >= 5:
-                        break
-        keywords = keywords[:5]
+## 预提取的数值参数（辅助参考）
+{hints_str}
 
-        return {
-            "question_class": "L1",
-            "level": "L1",
-            "category": "参数检索",
-            "query": query,
-            "expected_answer": answer,
-            "expected_keywords": keywords[:5],
-            "source_standard": f"{standard} {section}" if standard else "",
-            "grading_method": "auto_keyword_match",
-            "knowledge_base": "General-KB",
-            "clause_source": clause.get("clause_id", ""),
-        }
+请基于以上条款生成一道L1级评测题目。直接输出JSON对象："""
 
-    # Fallback: use the entire clause text as basis for a direct question
-    subject_text = text[:120].rstrip("，。；、")
-    # Generate a meaningful query from the clause
-    query = f"根据{standard}，{subject_text}中规定的具体要求是什么？"
-    # Ensure answer is substantial
-    answer = text[:200] if len(text) >= 20 else f"应符合{standard}的要求：{text[:200]}"
-    # Build keywords from text
-    keywords = list(clause.get("key_terms", [])[:5])
-    if len(keywords) < 3:
-        kws = re.findall(r"[一-鿿]{2,4}", text)
-        for k in kws:
-            if k not in keywords:
-                keywords.append(k)
-                if len(keywords) >= 5:
-                    break
-    return {
-        "question_class": "L1",
-        "level": "L1",
-        "category": "参数检索",
-        "query": query,
-        "expected_answer": answer,
-        "expected_keywords": keywords[:5],
-        "source_standard": f"{standard} {section}" if standard else "",
-        "grading_method": "auto_keyword_match",
-        "knowledge_base": "General-KB",
-        "clause_source": clause.get("clause_id", ""),
-    }
+    try:
+        response = call_llm(L1_SYSTEM_PROMPT, user_prompt, max_tokens=1024)
+        result = parse_json_response(response)
+        if result and "query" in result and "expected_answer" in result:
+            # Validate minimal quality
+            query = result.get("query", "")
+            answer = result.get("expected_answer", "")
+            # Reject if query starts with list markers
+            if re.match(r'^[a-z]\)|^\d+\.|^[（(]\d+[）)]', query.strip()):
+                return None
+            # Reject if query is too short or too long
+            if len(query) < 10 or len(query) > 300:
+                return None
+            # Reject vague answers
+            if re.search(r'无具体|未明确|未给出|需参考其他|需查阅', answer):
+                return None
+
+            return {
+                "question_class": "L1", "level": "L1",
+                "category": result.get("category", "参数检索"),
+                "query": query,
+                "expected_answer": answer,
+                "expected_keywords": result.get("expected_keywords", [])[:5],
+                "source_standard": result.get("source_standard",
+                                              f"{standard} {section}" if standard else ""),
+                "grading_method": "auto_keyword_match",
+                "knowledge_base": "General-KB",
+                "clause_source": clause.get("clause_id", ""),
+            }
+    except Exception as e:
+        print(f"    [L1 LLM Error] {e}")
+
+    return None
 
 
 # ── L2/L3 LLM-based Generation ───────────────────────────────────────

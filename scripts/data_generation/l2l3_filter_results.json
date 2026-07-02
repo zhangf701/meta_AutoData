@@ -1,0 +1,1017 @@
+{
+  "total": 200,
+  "electrical_count": 192,
+  "non_electrical_count": 8,
+  "non_electrical_ids": [
+    "L2-067",
+    "L2-069",
+    "L2-073",
+    "L2-074",
+    "L2-083",
+    "L2-088",
+    "L2-093",
+    "L2-095"
+  ],
+  "results": [
+    {
+      "question_id": "L2-001",
+      "is_electrical": true,
+      "reason": "涉及电力系统稳定分析与电网规划"
+    },
+    {
+      "question_id": "L2-002",
+      "is_electrical": true,
+      "reason": "涉及电磁环网与继电保护配合"
+    },
+    {
+      "question_id": "L2-003",
+      "is_electrical": true,
+      "reason": "涉及联络线事故过负荷与稳定分析"
+    },
+    {
+      "question_id": "L2-004",
+      "is_electrical": true,
+      "reason": "涉及枢纽变电站与直流系统适应性"
+    },
+    {
+      "question_id": "L2-005",
+      "is_electrical": true,
+      "reason": "涉及新能源并网短路比与无功补偿"
+    },
+    {
+      "question_id": "L2-006",
+      "is_electrical": true,
+      "reason": "涉及供电可靠性、保护配置等电气专业"
+    },
+    {
+      "question_id": "L2-007",
+      "is_electrical": true,
+      "reason": "涉及无功补偿、充电功率等电气专业"
+    },
+    {
+      "question_id": "L2-008",
+      "is_electrical": true,
+      "reason": "涉及联络线电压等级匹配等电气专业"
+    },
+    {
+      "question_id": "L2-009",
+      "is_electrical": true,
+      "reason": "涉及低频振荡、PSS等电力系统稳定分析"
+    },
+    {
+      "question_id": "L2-010",
+      "is_electrical": true,
+      "reason": "涉及功角稳定分类等电力系统稳定分析"
+    },
+    {
+      "question_id": "L2-011",
+      "is_electrical": true,
+      "reason": "直流短路比计算与网架优化属电力系统稳定分析"
+    },
+    {
+      "question_id": "L2-012",
+      "is_electrical": true,
+      "reason": "N-1原则与静态稳定储备属电力系统运行分析"
+    },
+    {
+      "question_id": "L2-013",
+      "is_electrical": true,
+      "reason": "新能源场站短路比校核属电力系统稳定分析"
+    },
+    {
+      "question_id": "L2-014",
+      "is_electrical": true,
+      "reason": "无功补偿与充电功率补偿属高电压与绝缘领域"
+    },
+    {
+      "question_id": "L2-015",
+      "is_electrical": true,
+      "reason": "联络线稳定与过负荷能力属电力系统稳定分析"
+    },
+    {
+      "question_id": "L2-016",
+      "is_electrical": true,
+      "reason": "涉及电力系统稳定分析与电压波动标准"
+    },
+    {
+      "question_id": "L2-017",
+      "is_electrical": true,
+      "reason": "涉及电网规划与送电比例计算"
+    },
+    {
+      "question_id": "L2-018",
+      "is_electrical": true,
+      "reason": "涉及短路电流计算与限制措施"
+    },
+    {
+      "question_id": "L2-019",
+      "is_electrical": true,
+      "reason": "涉及静态稳定储备系数分析"
+    },
+    {
+      "question_id": "L2-020",
+      "is_electrical": true,
+      "reason": "涉及新能源并网与保护定值设置"
+    },
+    {
+      "question_id": "L2-021",
+      "is_electrical": true,
+      "reason": "涉及电力系统稳定分析与标准应用"
+    },
+    {
+      "question_id": "L2-022",
+      "is_electrical": true,
+      "reason": "涉及短路比计算与直流馈入系统分析"
+    },
+    {
+      "question_id": "L2-023",
+      "is_electrical": true,
+      "reason": "涉及联络线稳定校核与过负荷分析"
+    },
+    {
+      "question_id": "L2-024",
+      "is_electrical": true,
+      "reason": "涉及新能源并网短路比与无功补偿"
+    },
+    {
+      "question_id": "L2-025",
+      "is_electrical": true,
+      "reason": "涉及N-1校核与输电走廊安全分析"
+    },
+    {
+      "question_id": "L2-026",
+      "is_electrical": true,
+      "reason": "涉及电力系统稳定、继电保护及无功补偿"
+    },
+    {
+      "question_id": "L2-027",
+      "is_electrical": true,
+      "reason": "涉及直流输电、短路比及电网规划"
+    },
+    {
+      "question_id": "L2-028",
+      "is_electrical": true,
+      "reason": "涉及N-1原则、频率稳定及安全自动装置"
+    },
+    {
+      "question_id": "L2-029",
+      "is_electrical": true,
+      "reason": "涉及频率稳定、联络线解列及调频措施"
+    },
+    {
+      "question_id": "L2-030",
+      "is_electrical": true,
+      "reason": "涉及暂态稳定、电压稳定及保护配合"
+    },
+    {
+      "question_id": "L2-031",
+      "is_electrical": true,
+      "reason": "涉及直流短路比计算与安全稳定评估"
+    },
+    {
+      "question_id": "L2-032",
+      "is_electrical": true,
+      "reason": "涉及变电站规划与直流落点支撑能力分析"
+    },
+    {
+      "question_id": "L2-033",
+      "is_electrical": true,
+      "reason": "涉及电磁环网运行方式与安全稳定分析"
+    },
+    {
+      "question_id": "L2-034",
+      "is_electrical": true,
+      "reason": "涉及新能源并网短路比与电压稳定性评估"
+    },
+    {
+      "question_id": "L2-035",
+      "is_electrical": true,
+      "reason": "涉及联络线稳定运行与电压等级选择"
+    },
+    {
+      "question_id": "L2-036",
+      "is_electrical": true,
+      "reason": "涉及电力系统备用容量配置与规程校核"
+    },
+    {
+      "question_id": "L2-037",
+      "is_electrical": true,
+      "reason": "涉及水电站备用库容与电力电量平衡"
+    },
+    {
+      "question_id": "L2-038",
+      "is_electrical": true,
+      "reason": "涉及变电站母线故障分析与继电保护"
+    },
+    {
+      "question_id": "L2-039",
+      "is_electrical": true,
+      "reason": "涉及输电线路载流量与事故输送能力校验"
+    },
+    {
+      "question_id": "L2-040",
+      "is_electrical": true,
+      "reason": "涉及核电站送出系统安全稳定与N-1准则"
+    },
+    {
+      "question_id": "L2-041",
+      "is_electrical": true,
+      "reason": "涉及电力系统备用容量计算与规程校核"
+    },
+    {
+      "question_id": "L2-042",
+      "is_electrical": true,
+      "reason": "涉及变压器中性点接地与短路电流限制"
+    },
+    {
+      "question_id": "L2-043",
+      "is_electrical": true,
+      "reason": "涉及输电线路N-2故障及低频减载计算"
+    },
+    {
+      "question_id": "L2-044",
+      "is_electrical": true,
+      "reason": "涉及主变N-1校验与过载能力分析"
+    },
+    {
+      "question_id": "L2-045",
+      "is_electrical": true,
+      "reason": "涉及电力系统备用容量取值与规程应用"
+    },
+    {
+      "question_id": "L2-046",
+      "is_electrical": true,
+      "reason": "电力电量平衡分析属电力系统规划核心内容"
+    },
+    {
+      "question_id": "L2-047",
+      "is_electrical": true,
+      "reason": "母线电压校核属电力系统运行与控制"
+    },
+    {
+      "question_id": "L2-048",
+      "is_electrical": true,
+      "reason": "暂态稳定及切机措施属电力系统稳定分析"
+    },
+    {
+      "question_id": "L2-049",
+      "is_electrical": true,
+      "reason": "中性点接地设计属变电站电气设计"
+    },
+    {
+      "question_id": "L2-050",
+      "is_electrical": true,
+      "reason": "无功补偿与调压计算属电力系统分析"
+    },
+    {
+      "question_id": "L2-051",
+      "is_electrical": true,
+      "reason": "导线截面选择属输配电工程核心内容"
+    },
+    {
+      "question_id": "L2-052",
+      "is_electrical": true,
+      "reason": "潮流计算属电力系统运行分析"
+    },
+    {
+      "question_id": "L2-053",
+      "is_electrical": true,
+      "reason": "送出线路回路数确定属电网规划"
+    },
+    {
+      "question_id": "L2-054",
+      "is_electrical": true,
+      "reason": "联络线稳定校核属电力系统稳定分析"
+    },
+    {
+      "question_id": "L2-055",
+      "is_electrical": true,
+      "reason": "电压运行水平判断属电力系统运行"
+    },
+    {
+      "question_id": "L2-056",
+      "is_electrical": true,
+      "reason": "电力系统安全稳定校核与切机措施"
+    },
+    {
+      "question_id": "L2-057",
+      "is_electrical": true,
+      "reason": "暂态稳定分析与提高措施"
+    },
+    {
+      "question_id": "L2-058",
+      "is_electrical": true,
+      "reason": "水电站事故备用库容属电力系统规划"
+    },
+    {
+      "question_id": "L2-059",
+      "is_electrical": true,
+      "reason": "中性点接地方式属电气工程领域"
+    },
+    {
+      "question_id": "L2-060",
+      "is_electrical": true,
+      "reason": "输电线路规划与电压等级选择"
+    },
+    {
+      "question_id": "L2-061",
+      "is_electrical": true,
+      "reason": "涉及输电线路负载率及N-1校验，属电力系统稳定分析"
+    },
+    {
+      "question_id": "L2-062",
+      "is_electrical": true,
+      "reason": "断路器遮断容量校核及限流措施，属短路电流计算"
+    },
+    {
+      "question_id": "L2-063",
+      "is_electrical": true,
+      "reason": "工频过电压计算与中性点接地方式，属高电压与绝缘"
+    },
+    {
+      "question_id": "L2-064",
+      "is_electrical": true,
+      "reason": "双母线接线操作顺序及安全条件，属变电站电气设计"
+    },
+    {
+      "question_id": "L2-065",
+      "is_electrical": true,
+      "reason": "GIS设备SF6泄漏监测与防护，属配电装置选型及安全"
+    },
+    {
+      "question_id": "L2-066",
+      "is_electrical": true,
+      "reason": "涉及无功补偿容量配置与电压调节"
+    },
+    {
+      "question_id": "L2-067",
+      "is_electrical": false,
+      "reason": "核心是站址选址合规性，属环保与法规"
+    },
+    {
+      "question_id": "L2-068",
+      "is_electrical": true,
+      "reason": "涉及继电保护配置与防误动措施"
+    },
+    {
+      "question_id": "L2-069",
+      "is_electrical": false,
+      "reason": "核心是防洪防涝标高判断，属水利工程"
+    },
+    {
+      "question_id": "L2-070",
+      "is_electrical": true,
+      "reason": "涉及计算机监控系统通信冗余与数据处理"
+    },
+    {
+      "question_id": "L2-071",
+      "is_electrical": true,
+      "reason": "涉及继电保护信息传输与规程合规性"
+    },
+    {
+      "question_id": "L2-072",
+      "is_electrical": true,
+      "reason": "涉及过电压保护与避雷器配置"
+    },
+    {
+      "question_id": "L2-073",
+      "is_electrical": false,
+      "reason": "核心为电缆沟防火隔墙，属消防工程"
+    },
+    {
+      "question_id": "L2-074",
+      "is_electrical": false,
+      "reason": "核心为地质滑坡与文物保护，属岩土/规划"
+    },
+    {
+      "question_id": "L2-075",
+      "is_electrical": true,
+      "reason": "涉及接地网改造与跨步电压安全"
+    },
+    {
+      "question_id": "L2-076",
+      "is_electrical": true,
+      "reason": "直流系统配置属于变电站电气设计范畴。"
+    },
+    {
+      "question_id": "L2-077",
+      "is_electrical": true,
+      "reason": "站用电备用电源切换属电气二次专业。"
+    },
+    {
+      "question_id": "L2-078",
+      "is_electrical": true,
+      "reason": "中性点接地方式影响短路电流与继电保护。"
+    },
+    {
+      "question_id": "L2-079",
+      "is_electrical": true,
+      "reason": "GIS隔离开关设置属电气主接线设计。"
+    },
+    {
+      "question_id": "L2-080",
+      "is_electrical": true,
+      "reason": "避雷器保护水平计算属高电压与绝缘。"
+    },
+    {
+      "question_id": "L2-081",
+      "is_electrical": true,
+      "reason": "涉及绝缘配合与污秽等级，属高电压与绝缘专业"
+    },
+    {
+      "question_id": "L2-082",
+      "is_electrical": true,
+      "reason": "导线截面选择属输配电工程与电气节能"
+    },
+    {
+      "question_id": "L2-083",
+      "is_electrical": false,
+      "reason": "防洪标高判断属防洪防涝，非电气专业"
+    },
+    {
+      "question_id": "L2-084",
+      "is_electrical": true,
+      "reason": "直流系统绝缘监测属继电保护与直流系统"
+    },
+    {
+      "question_id": "L2-085",
+      "is_electrical": true,
+      "reason": "主接线配置属变电站电气设计与电力系统运行"
+    },
+    {
+      "question_id": "L2-086",
+      "is_electrical": true,
+      "reason": "配电装置选型及绝缘配合属电气工程核心内容"
+    },
+    {
+      "question_id": "L2-087",
+      "is_electrical": true,
+      "reason": "无功补偿配置与电压调节属电力系统运行"
+    },
+    {
+      "question_id": "L2-088",
+      "is_electrical": false,
+      "reason": "站址选择涉及土地政策，非电气专业判断"
+    },
+    {
+      "question_id": "L2-089",
+      "is_electrical": true,
+      "reason": "电磁兼容与军事设施影响属电气工程范畴"
+    },
+    {
+      "question_id": "L2-090",
+      "is_electrical": true,
+      "reason": "监控系统与继保信息管理属电气二次专业"
+    },
+    {
+      "question_id": "L2-091",
+      "is_electrical": true,
+      "reason": "涉及避雷针保护范围与反击过电压，属过电压保护专业"
+    },
+    {
+      "question_id": "L2-092",
+      "is_electrical": true,
+      "reason": "接地电阻计算与降阻措施，属接地设计专业"
+    },
+    {
+      "question_id": "L2-093",
+      "is_electrical": false,
+      "reason": "防洪防涝措施属水文与土建专业"
+    },
+    {
+      "question_id": "L2-094",
+      "is_electrical": true,
+      "reason": "站用电系统与BZT逻辑，属站用电与继保专业"
+    },
+    {
+      "question_id": "L2-095",
+      "is_electrical": false,
+      "reason": "站址选择涉及基本农田与文物保护，属规划与土建"
+    },
+    {
+      "question_id": "L2-096",
+      "is_electrical": true,
+      "reason": "涉及电气主接线、母线保护等电气专业内容"
+    },
+    {
+      "question_id": "L2-097",
+      "is_electrical": true,
+      "reason": "涉及继电保护配置与整定，属电气工程"
+    },
+    {
+      "question_id": "L2-098",
+      "is_electrical": true,
+      "reason": "涉及电力系统稳定与切机措施，属电气领域"
+    },
+    {
+      "question_id": "L2-099",
+      "is_electrical": true,
+      "reason": "涉及电力需求预测方法，属电网规划"
+    },
+    {
+      "question_id": "L2-100",
+      "is_electrical": true,
+      "reason": "涉及电力电量平衡计算，属电网规划"
+    },
+    {
+      "question_id": "L3-001",
+      "is_electrical": true,
+      "reason": "核心涉及电源规划、无功补偿及安全稳定分析"
+    },
+    {
+      "question_id": "L3-002",
+      "is_electrical": true,
+      "reason": "核心为电力系统安全稳定分析与输电方案比选"
+    },
+    {
+      "question_id": "L3-003",
+      "is_electrical": true,
+      "reason": "核心为核电接入的电压稳定与无功平衡分析"
+    },
+    {
+      "question_id": "L3-004",
+      "is_electrical": true,
+      "reason": "核心为短路电流控制与网架可靠性分析"
+    },
+    {
+      "question_id": "L3-005",
+      "is_electrical": true,
+      "reason": "核心为风电送出调峰、电压及频率稳定分析"
+    },
+    {
+      "question_id": "L3-006",
+      "is_electrical": true,
+      "reason": "核心分析电力系统稳定、短路电流及电网结构"
+    },
+    {
+      "question_id": "L3-007",
+      "is_electrical": true,
+      "reason": "核心评估电压稳定、无功补偿及短路电流控制"
+    },
+    {
+      "question_id": "L3-008",
+      "is_electrical": true,
+      "reason": "核心分析供电可靠性、调峰及短路电流问题"
+    },
+    {
+      "question_id": "L3-009",
+      "is_electrical": true,
+      "reason": "核心解决短路电流控制与电网分层分区问题"
+    },
+    {
+      "question_id": "L3-010",
+      "is_electrical": true,
+      "reason": "核心分析调峰、频率稳定及新能源消纳问题"
+    },
+    {
+      "question_id": "L3-011",
+      "is_electrical": true,
+      "reason": "涉及输电方案、无功补偿与稳定分析"
+    },
+    {
+      "question_id": "L3-012",
+      "is_electrical": true,
+      "reason": "核电接入系统安全稳定与无功配置"
+    },
+    {
+      "question_id": "L3-013",
+      "is_electrical": true,
+      "reason": "变电站接入方案与短路电流校核"
+    },
+    {
+      "question_id": "L3-014",
+      "is_electrical": true,
+      "reason": "火电风电无功补偿与电压稳定"
+    },
+    {
+      "question_id": "L3-015",
+      "is_electrical": true,
+      "reason": "电磁环网解环与无功补偿配置"
+    },
+    {
+      "question_id": "L3-016",
+      "is_electrical": true,
+      "reason": "核心涉及电网规划、稳定分析与新能源并网"
+    },
+    {
+      "question_id": "L3-017",
+      "is_electrical": true,
+      "reason": "核心为继电保护与稳定控制策略设计"
+    },
+    {
+      "question_id": "L3-018",
+      "is_electrical": true,
+      "reason": "核心为短路电流控制与电网结构优化"
+    },
+    {
+      "question_id": "L3-019",
+      "is_electrical": true,
+      "reason": "核心为输电能力与暂态稳定分析"
+    },
+    {
+      "question_id": "L3-020",
+      "is_electrical": true,
+      "reason": "核心为电源调峰方案与系统运行设计"
+    },
+    {
+      "question_id": "L3-021",
+      "is_electrical": true,
+      "reason": "涉及输电方案比选、稳定分析、短路电流等电气核心问题。"
+    },
+    {
+      "question_id": "L3-022",
+      "is_electrical": true,
+      "reason": "涉及火电厂接入系统、电压等级选择、短路电流等电气问题。"
+    },
+    {
+      "question_id": "L3-023",
+      "is_electrical": true,
+      "reason": "涉及核电站接入系统、安全稳定、调峰等电气专业内容。"
+    },
+    {
+      "question_id": "L3-024",
+      "is_electrical": true,
+      "reason": "涉及抽水蓄能电站接入、调峰、事故备用等电气系统问题。"
+    },
+    {
+      "question_id": "L3-025",
+      "is_electrical": true,
+      "reason": "涉及变电站选址、主接线、短路容量等电气设计问题。"
+    },
+    {
+      "question_id": "L3-026",
+      "is_electrical": true,
+      "reason": "核心分析无功平衡、电压稳定及网源协调，属电力系统稳定领域"
+    },
+    {
+      "question_id": "L3-027",
+      "is_electrical": true,
+      "reason": "涉及输电方案比选、暂态稳定、过电压及短路电流，属电气工程"
+    },
+    {
+      "question_id": "L3-028",
+      "is_electrical": true,
+      "reason": "分析电压质量、短路电流及无功补偿，属电力系统运行与设计"
+    },
+    {
+      "question_id": "L3-029",
+      "is_electrical": true,
+      "reason": "评估送出能力、暂态稳定及动态无功支撑，属电力系统稳定分析"
+    },
+    {
+      "question_id": "L3-030",
+      "is_electrical": true,
+      "reason": "讨论抽蓄接入、调峰备用及电压控制，属电力系统规划与运行"
+    },
+    {
+      "question_id": "L3-031",
+      "is_electrical": true,
+      "reason": "涉及主变选型、无功补偿及电力系统稳定分析"
+    },
+    {
+      "question_id": "L3-032",
+      "is_electrical": true,
+      "reason": "涉及主接线改造、供电可靠性与N-1原则"
+    },
+    {
+      "question_id": "L3-033",
+      "is_electrical": true,
+      "reason": "涉及主接线方案与继电保护配置"
+    },
+    {
+      "question_id": "L3-034",
+      "is_electrical": true,
+      "reason": "涉及无功补偿方案与电压调节能力"
+    },
+    {
+      "question_id": "L3-035",
+      "is_electrical": true,
+      "reason": "涉及变电站智能化改造与监控系统"
+    },
+    {
+      "question_id": "L3-036",
+      "is_electrical": true,
+      "reason": "核心是过电压保护与绝缘配合，属电气工程领域"
+    },
+    {
+      "question_id": "L3-037",
+      "is_electrical": true,
+      "reason": "核心是接地网设计与短路电流安全，属电气工程"
+    },
+    {
+      "question_id": "L3-038",
+      "is_electrical": true,
+      "reason": "核心是站用电系统可靠性设计，属电气工程"
+    },
+    {
+      "question_id": "L3-039",
+      "is_electrical": true,
+      "reason": "核心是继电保护与二次系统改造，属电气工程"
+    },
+    {
+      "question_id": "L3-040",
+      "is_electrical": true,
+      "reason": "核心是电气主接线方案比选，属电气工程"
+    },
+    {
+      "question_id": "L3-041",
+      "is_electrical": true,
+      "reason": "核心为无功补偿方案比选，属电气工程领域"
+    },
+    {
+      "question_id": "L3-042",
+      "is_electrical": true,
+      "reason": "核心为继电保护配置比选，属电气工程领域"
+    },
+    {
+      "question_id": "L3-043",
+      "is_electrical": true,
+      "reason": "核心为N-1过载与供电可靠性，属电气工程领域"
+    },
+    {
+      "question_id": "L3-044",
+      "is_electrical": true,
+      "reason": "核心为电气主接线与无功补偿，属电气工程领域"
+    },
+    {
+      "question_id": "L3-045",
+      "is_electrical": true,
+      "reason": "核心为交流滤波器与主变选型，属电气工程领域"
+    },
+    {
+      "question_id": "L3-046",
+      "is_electrical": true,
+      "reason": "核心是接地电阻与安全标准，属电气工程领域"
+    },
+    {
+      "question_id": "L3-047",
+      "is_electrical": true,
+      "reason": "核心是电能质量治理与无功补偿，属电气工程领域"
+    },
+    {
+      "question_id": "L3-048",
+      "is_electrical": true,
+      "reason": "核心是站用电系统可靠性，属电气工程领域"
+    },
+    {
+      "question_id": "L3-049",
+      "is_electrical": true,
+      "reason": "核心是电气主接线与设备选型，属电气工程领域"
+    },
+    {
+      "question_id": "L3-050",
+      "is_electrical": true,
+      "reason": "核心是继电保护与过电压配合，属电气工程领域"
+    },
+    {
+      "question_id": "L3-051",
+      "is_electrical": true,
+      "reason": "核心涉及接地设计、站用电及黑启动，属电气专业"
+    },
+    {
+      "question_id": "L3-052",
+      "is_electrical": true,
+      "reason": "核心为无功补偿与电压稳定分析，属电气领域"
+    },
+    {
+      "question_id": "L3-053",
+      "is_electrical": true,
+      "reason": "核心为监控系统与数据实时性，属电气二次专业"
+    },
+    {
+      "question_id": "L3-054",
+      "is_electrical": true,
+      "reason": "核心为无功补偿与N-1电压恢复，属电气专业"
+    },
+    {
+      "question_id": "L3-055",
+      "is_electrical": true,
+      "reason": "核心为母线保护改造与可靠性，属继电保护专业"
+    },
+    {
+      "question_id": "L3-056",
+      "is_electrical": true,
+      "reason": "涉及母线分段、短路电流、静态稳定等电气核心问题"
+    },
+    {
+      "question_id": "L3-057",
+      "is_electrical": true,
+      "reason": "涉及N-2故障后切负荷、稳定控制等电力系统运行"
+    },
+    {
+      "question_id": "L3-058",
+      "is_electrical": true,
+      "reason": "涉及隔离开关配置、暂态稳定等电气设计问题"
+    },
+    {
+      "question_id": "L3-059",
+      "is_electrical": true,
+      "reason": "涉及GIS过电压保护与绝缘配合等电气专业"
+    },
+    {
+      "question_id": "L3-060",
+      "is_electrical": true,
+      "reason": "涉及接地网设计、接地电阻及二次系统抗干扰"
+    },
+    {
+      "question_id": "L3-061",
+      "is_electrical": true,
+      "reason": "核心涉及电气主接线、无功补偿及电力系统稳定分析。"
+    },
+    {
+      "question_id": "L3-062",
+      "is_electrical": true,
+      "reason": "核心涉及继电保护、电压暂降治理及主接线改造。"
+    },
+    {
+      "question_id": "L3-063",
+      "is_electrical": true,
+      "reason": "核心涉及主变压器选型及无功补偿配置。"
+    },
+    {
+      "question_id": "L3-064",
+      "is_electrical": true,
+      "reason": "核心涉及谐波治理、无功补偿及主变扩容。"
+    },
+    {
+      "question_id": "L3-065",
+      "is_electrical": true,
+      "reason": "核心涉及黑启动恢复、过电压及励磁涌流控制。"
+    },
+    {
+      "question_id": "L3-066",
+      "is_electrical": true,
+      "reason": "涉及配电装置选型与抗震设防"
+    },
+    {
+      "question_id": "L3-067",
+      "is_electrical": true,
+      "reason": "涉及无功补偿与电压稳定分析"
+    },
+    {
+      "question_id": "L3-068",
+      "is_electrical": true,
+      "reason": "涉及继电保护配置与电网稳定"
+    },
+    {
+      "question_id": "L3-069",
+      "is_electrical": true,
+      "reason": "涉及站用电系统与无功补偿配置"
+    },
+    {
+      "question_id": "L3-070",
+      "is_electrical": true,
+      "reason": "涉及电气主接线与短路电流校核"
+    },
+    {
+      "question_id": "L3-071",
+      "is_electrical": true,
+      "reason": "核心是配电装置选型与电气主接线设计"
+    },
+    {
+      "question_id": "L3-072",
+      "is_electrical": true,
+      "reason": "核心是无功补偿与电压控制，属电力系统"
+    },
+    {
+      "question_id": "L3-073",
+      "is_electrical": true,
+      "reason": "核心是电网安全稳定与线路热稳定控制"
+    },
+    {
+      "question_id": "L3-074",
+      "is_electrical": true,
+      "reason": "核心是继电保护与监控系统方案比选"
+    },
+    {
+      "question_id": "L3-075",
+      "is_electrical": true,
+      "reason": "核心是升压站主接线方案与新能源并网"
+    },
+    {
+      "question_id": "L3-076",
+      "is_electrical": true,
+      "reason": "涉及过电压保护与接地设计，属电气工程核心内容。"
+    },
+    {
+      "question_id": "L3-077",
+      "is_electrical": true,
+      "reason": "涉及电气主接线与配电装置选型，属电气工程领域。"
+    },
+    {
+      "question_id": "L3-078",
+      "is_electrical": true,
+      "reason": "涉及过电压、潜供电流及无功补偿，属电力系统分析。"
+    },
+    {
+      "question_id": "L3-079",
+      "is_electrical": true,
+      "reason": "涉及谐波治理与无功补偿，属电力电子与电能质量。"
+    },
+    {
+      "question_id": "L3-080",
+      "is_electrical": true,
+      "reason": "涉及无功补偿与电压调节，属电力系统运行与控制。"
+    },
+    {
+      "question_id": "L3-081",
+      "is_electrical": true,
+      "reason": "核心是继电保护方案选择与系统稳定分析"
+    },
+    {
+      "question_id": "L3-082",
+      "is_electrical": true,
+      "reason": "核心是接地网设计与高电压绝缘问题"
+    },
+    {
+      "question_id": "L3-083",
+      "is_electrical": true,
+      "reason": "核心是站用电系统供电可靠性设计"
+    },
+    {
+      "question_id": "L3-084",
+      "is_electrical": true,
+      "reason": "核心是电气主接线与无功补偿方案论证"
+    },
+    {
+      "question_id": "L3-085",
+      "is_electrical": true,
+      "reason": "核心是主接线及无功配置的电气专业分析"
+    },
+    {
+      "question_id": "L3-086",
+      "is_electrical": true,
+      "reason": "涉及配电装置选型与接地系统设计"
+    },
+    {
+      "question_id": "L3-087",
+      "is_electrical": true,
+      "reason": "涉及继电保护配置与安全稳定分析"
+    },
+    {
+      "question_id": "L3-088",
+      "is_electrical": true,
+      "reason": "涉及无功补偿与谐波治理方案比选"
+    },
+    {
+      "question_id": "L3-089",
+      "is_electrical": true,
+      "reason": "涉及过电压保护与绝缘配合设计"
+    },
+    {
+      "question_id": "L3-090",
+      "is_electrical": true,
+      "reason": "涉及站用电系统设计与供电可靠性"
+    },
+    {
+      "question_id": "L3-091",
+      "is_electrical": true,
+      "reason": "涉及电气主接线方案比选，属电气工程核心内容。"
+    },
+    {
+      "question_id": "L3-092",
+      "is_electrical": true,
+      "reason": "分析无功补偿与电压调节，属电力系统专业。"
+    },
+    {
+      "question_id": "L3-093",
+      "is_electrical": true,
+      "reason": "配电装置布置方案比选，属变电站电气设计。"
+    },
+    {
+      "question_id": "L3-094",
+      "is_electrical": true,
+      "reason": "继电保护与监控系统选型，属电气二次专业。"
+    },
+    {
+      "question_id": "L3-095",
+      "is_electrical": true,
+      "reason": "站用电系统设计，属变电站电气设计范畴。"
+    },
+    {
+      "question_id": "L3-096",
+      "is_electrical": true,
+      "reason": "核心解决增容与短路电流限制的电气问题"
+    },
+    {
+      "question_id": "L3-097",
+      "is_electrical": true,
+      "reason": "核心分析电网稳定、频率电压及新能源并网"
+    },
+    {
+      "question_id": "L3-098",
+      "is_electrical": true,
+      "reason": "核心解决供电能力、网架结构与新能源接入"
+    },
+    {
+      "question_id": "L3-099",
+      "is_electrical": true,
+      "reason": "核心分析输电瓶颈、调峰及新能源协调"
+    },
+    {
+      "question_id": "L3-100",
+      "is_electrical": true,
+      "reason": "核心解决继电保护与智能化改造的电气问题"
+    }
+  ]
+}
