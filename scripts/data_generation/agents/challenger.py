@@ -15,30 +15,45 @@ from data_generation.config import DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL, STRONG_M
 
 # ── L1 LLM-based Generation ────────────────────────────────────────────
 
-L1_SYSTEM_PROMPT = """你是一名电力系统标准专家。任务是将标准条款转化为L1级（参数检索/规定性要求）评测题目。
+L1_SYSTEM_PROMPT = """你是一名电力系统标准专家，有10年电力标准评审经验。
+你的任务是将标准条款转化为L1级（参数检索/规定性要求）评测题目。
 
-## L1 题目要求
-1. 题干：一句通顺的汉语问句，明确指向条款中的具体参数或规定性要求
-2. 答案：从条款原文中精准提取的数值或规定性判断，简短精确
-3. 关键词：3-5个核心技术关键词
+## L1 题目定义
+L1题目考察对标准中具体参数或规定性要求的直接检索能力。
+答案应简短精确（一个数值、一个范围、或一句规定性判断）。
+题干应为一句完整的汉语问句，能独立理解。
 
-## 数值型条款示例
-条款："短路比的最小允许值不小于2.0"
+## 题目要求（严格）
+1. 题干：一句通顺独立的汉语问句，30-100字，以"根据{标准编号}"开头
+2. 题干中不得出现条款原文的长句复制，必须提炼为简洁提问
+3. 题干中不得出现"a)""b)""1.""2.""（1）"等编号或列表标记
+4. 题干不得以"应符合什么规定/要求"等空泛句式结尾——必须指向具体参数
+5. 答案：从条款原文中精准提取，不得编造、不得推断
+6. 关键词：3-5个核心技术关键词，排除"a)""b)"等无意义词汇
+
+## 数值型条款的正确示例
+条款："短路比的最小值不应小于2.0"
 → {"query":"根据GB 38755-2019，短路比的最小允许值是多少？","expected_answer":"不小于2.0","expected_keywords":["短路比","最小允许值","2.0"]}
 
-## 纯文字规定性条款示例
+条款："系统总备用容量可按系统最大发电负荷的15%~20%考虑"
+→ {"query":"根据DL/T 5429-2009，系统总备用容量占系统最大发电负荷的比例范围是多少？","expected_answer":"15%~20%","expected_keywords":["系统总备用容量","最大发电负荷","比例","15%","20%"]}
+
+## 纯文字规定性条款的正确示例
 条款："500kV及以上变压器中性点宜全部接地"
 → {"query":"根据DL/T 5429-2009，500kV及以上变压器中性点应采用什么接地方式？","expected_answer":"宜全部接地","expected_keywords":["变压器","中性点","接地方式","500kV"]}
 
-## 严禁
-- 题干是条款原文的简单拼接或复制
-- 题干以"a)""b)""1.""2.""（1）""①"等编号开头
-- 题干机械套用"应符合什么规定/要求"等空泛句式
-- 答案为"无具体数值""需参考其他条款"等占位文本
-- 出现非电气内容（土建/防洪/消防/环保/给排水/暖通）
+## 错误示例（严禁出现）
+❌ 题干复制了条款原文长句：
+  "根据DL/T 5218-2012，220kV变电站中的220kV配电装置，当在系统中居重要地位、出线回路数为4回及以上时..."
+❌ 题干出现编号或列表标记：
+  "根据DL/T 5429-2009，2. 事故备用为8%~10%中规定的..."
+❌ 答案出现占位文本：
+  expected_answer: "无具体数值"
+❌ 题干出现非电气内容（土建、消防、防洪、环保）
 
 ## 输出格式
-纯JSON对象，不要markdown代码块包裹。"""
+纯JSON对象，不要markdown代码块包裹：
+{"query":"一句通顺的汉语问句","expected_answer":"精准的数值或规定性判断","expected_keywords":["kw1","kw2","kw3"],"source_standard":"标准编号 条款号"}"""
 
 
 def _extract_numerical_hints(text):
@@ -59,8 +74,9 @@ def _extract_numerical_hints(text):
 def generate_l1_from_clause(clause):
     """Generate an L1 question from a single clause using LLM.
 
-    Uses DeepSeek with a focused system prompt to produce coherent,
-    natural-language questions regardless of clause format quality.
+    Sends clause text + pre-extracted numerical hints to DeepSeek,
+    which formulates a concise, natural-language question and extracts
+    the exact answer.
 
     Returns dict with all required fields, or None on failure.
     """
@@ -69,57 +85,78 @@ def generate_l1_from_clause(clause):
     section = clause.get("section", "")
     topic = clause.get("topic", "通用要求")
 
-    # Skip obviously unworkable clauses
+    # Skip unworkable clauses
     if len(text) < 12:
         return None
-    # Skip clauses that are purely numbered list items with no substance
     if re.match(r'^[\d]+\.?\s*$', text.strip()):
         return None
-    # Skip clauses that are just raw list markers
     if re.match(r'^[a-z]\)\s*$', text.strip()):
         return None
 
+    # Format standard reference cleanly: "GB 38755-2019" with space
+    std_ref = standard.strip() if standard else "相关标准"
+    std_ref = re.sub(r'(\d{4})(\d)', r'\1 \2', std_ref)  # Fix "38755-20194" → "38755-2019 4"
+
+    # Format section number cleanly
+    section_str = section.strip() if section else ""
+
     # Pre-extract numerical hints
     hints = _extract_numerical_hints(text)
-    hints_str = "\n".join(hints) if hints else "（条款中未检测到明确数值参数）"
+    hints_str = "\n".join(hints) if hints else "（未检测到明确数值参数）"
 
-    user_prompt = f"""## 标准条款
-标准编号：{standard}
-条款号：{section}
+    # Truncate clause text to avoid LLM copying long text verbatim
+    clause_text_short = text[:250] if len(text) > 250 else text
+
+    user_prompt = f"""## 标准信息
+标准编号：{std_ref}
+条款位置：{section_str}
 主题分类：{topic}
-条款原文：
-{text}
 
-## 预提取的数值参数（辅助参考）
+## 条款原文
+{clause_text_short}
+
+## 预提取参数（辅助参考）
 {hints_str}
 
-请基于以上条款生成一道L1级评测题目。直接输出JSON对象："""
+请将以上条款转化为一道L1评测题目。题干必须是简洁的通顺问句，不得复制条款原文的长句。直接输出JSON："""
 
     try:
         response = call_llm(L1_SYSTEM_PROMPT, user_prompt, max_tokens=1024)
         result = parse_json_response(response)
         if result and "query" in result and "expected_answer" in result:
-            # Validate minimal quality
             query = result.get("query", "")
             answer = result.get("expected_answer", "")
-            # Reject if query starts with list markers
-            if re.match(r'^[a-z]\)|^\d+\.|^[（(]\d+[）)]', query.strip()):
+
+            # ── Reject bad outputs ──
+            # List marker start
+            if re.match(r'^[a-z]\)|^\d+\.\s|^[（(]\d+[）)]|^[①②③]', query.strip()):
                 return None
-            # Reject if query is too short or too long
-            if len(query) < 10 or len(query) > 300:
+            # Too short/long
+            if len(query) < 15 or len(query) > 200:
                 return None
-            # Reject vague answers
-            if re.search(r'无具体|未明确|未给出|需参考其他|需查阅', answer):
+            # Raw clause text embedded: contains garbled desensitization artifacts
+            if re.search(r'某专家|某区域|变电站[A-Z][^侧站路]|线路[A-Z][^路]', query):
                 return None
+            # Vague answer
+            if re.search(r'无具体|未明确|未给出|需参考其他|需查阅|标准中未', answer):
+                return None
+            # Answer is just the clause text rephrased (too long)
+            if len(answer) > 120:
+                return None
+            # Keywords contain garbled terms
+            keywords = result.get("expected_keywords", [])
+            clean_keywords = [k for k in keywords
+                            if not re.search(r'[a-z]\)|^\d+\.|某', k)
+                            and len(k) >= 2][:5]
 
             return {
                 "question_class": "L1", "level": "L1",
                 "category": result.get("category", "参数检索"),
                 "query": query,
                 "expected_answer": answer,
-                "expected_keywords": result.get("expected_keywords", [])[:5],
+                "expected_keywords": clean_keywords,
                 "source_standard": result.get("source_standard",
-                                              f"{standard} {section}" if standard else ""),
+                                              f"{std_ref} {section_str}" if std_ref else ""),
                 "grading_method": "auto_keyword_match",
                 "knowledge_base": "General-KB",
                 "clause_source": clause.get("clause_id", ""),

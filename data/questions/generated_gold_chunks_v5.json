@@ -1,0 +1,4443 @@
+[
+  {
+    "question_id": "L1-101",
+    "expected_answer": "10%",
+    "expected_keywords": [
+      "10",
+      "稳定标准",
+      "GB 38755-2019"
+    ],
+    "source_standard": "GB 38755-2019 4.2.3 第二级安全稳定标准",
+    "candidates": [
+      {
+        "chunk_index": 5,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_5",
+        "score": 0.6666666666666666,
+        "signals": {
+          "keyword_hits": [
+            "10",
+            "稳定标准"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": true
+        },
+        "preview": "1981年，针对当时改革开放后国民经济基础设施某专家建设初期，中国电网稳定破坏事故频发的局面和电网发展“重发电轻供电”的偏向，原电力工业部制定了第一版《电力系统安全稳定导则（81电生字109号）》，首次规范化地提出了正确处理电力系统安全与经济、合理建设和电网运行的指导性原则。《电力系统安全稳定导则》颁布实施后，我国电力系统安全稳定水平上了一个新台阶，稳定破坏次数迅速减少，从1970年\\~1980年"
+      },
+      {
+        "chunk_index": 2,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_2",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "稳定标准"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "4.1　电力系统的静态稳定储备标准　……………………………………………………7\n\n　4.2　电力系统承受大扰动能力的安全稳定标准　………………………………………7\n\n　4.3　特殊情况要求　………………………………………………………………………8"
+      },
+      {
+        "chunk_index": 3,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_3",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "5.1　安全稳定计算分析的任务与要求　…………………………………………………8\n\n　5.2　电力系统静态安全分析　……………………………………………………………9\n\n　5.3　电力系统静态稳定的计算分析　……………………………………………………9\n\n　5.4　电力系统暂态功角稳定的计算分析　……………………………………………10\n\n　5.5　电力系统动态功角稳定的计算分析　………………………………"
+      },
+      {
+        "chunk_index": 6,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_6",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "稳定标准"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "本标准规定了保证电力系统安全稳定运行的基本要求、电力系统安全稳定标准、电力系统安全稳定计算分析，以及电力系统安全稳定工作管理。\n\n本标准适用于电压等级为220kV及以上的电力系统。220kV以下的电力系统（含分布式电源）可参照执行。"
+      },
+      {
+        "chunk_index": 18,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_18",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "稳定标准"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "a) 能够满足各种运行方式下潮流变化的需要，具有一定的灵活性，并能适应系统发展的要求；\n\nb) 任一元件无故障断开，应能保持电力系统的稳定运行，且不致使其他元件超过规定的事故过负荷能力和电压、频率允许偏差的要求；\n\nc) 应有较大的抗扰动能力，并满足本标准中规定的有关各项安全稳定标准；\n\nd) 满足某地原则；\n\ne) 某区域电流；\n\nf) 交、直流相互适应，协调发展；\n\ng) 电源装机的类型、规模"
+      },
+      {
+        "chunk_index": 22,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_22",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "稳定标准"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "为保证电力系统安全性，电力系统承受大扰动能力的安全稳定标准分为以下三级：\n\na) 第一级标准：保持稳定运行和电网的正常供电；\n\nb) 第二级标准：保持稳定运行，但允许损失部分负荷；\n\nc) 第三级标准：当系统不能保持稳定运行时，必须尽量防止系统崩溃并减少负荷损失。"
+      },
+      {
+        "chunk_index": 24,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_24",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "正常运行方式下的电力系统受到下述较严重的故障扰动后，保护、开关及重合闸正确动作，应能保持稳定运行，必要时允许采取切机和切负荷、直流紧急功率控制、抽水蓄能电站切泵等稳定控制措施：\n\na) 单回线或单台变压器（辐射型结构）故障或无故障三相断开；\n\nb) 任一段母线故障；\n\nc) 同杆并架双回线的异名两相同时发生单相接地故障重合不成功，双回线三相同时跳闸，或同杆并架双回线同时无故障断开；\n\nd) 直流系"
+      },
+      {
+        "chunk_index": 25,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_25",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "稳定标准"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电力系统因下列情况导致稳定破坏时，必须采取失步/快速解列、低频/低压减载、高频切机等措施，避免造成长时间大面积停电和对重要用户（包括厂用电）的灾害性停电，使负荷损失尽可能减少到最小，电力系统应尽快恢复正常运行：\n\na) 故障时开关拒动；\n\nb) 故障时继电保护、自动装置误动或拒动；\n\nc) 自动调节装置失灵；\n\nd) 多重故障；\n\ne) 失变电站C；\n\nf) 新能源大规模脱网；\n\ng) 其他偶然因"
+      }
+    ],
+    "gold_chunk_indices": [
+      5,
+      2,
+      3
+    ],
+    "gold_chunk_ids": [
+      "source_section_GB 38755-电力系统安全稳定导则2019_5",
+      "source_section_GB 38755-电力系统安全稳定导则2019_2",
+      "source_section_GB 38755-电力系统安全稳定导则2019_3"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0011",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      5,
+      2
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-102",
+    "expected_answer": "15%",
+    "expected_keywords": [
+      "备用容量",
+      "15",
+      "调峰方案",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 5.2.3",
+    "candidates": [
+      {
+        "chunk_index": 27,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_27",
+        "score": 0.5,
+        "signals": {
+          "keyword_hits": [
+            "备用容量",
+            "15"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "本标准根据《国家发展改革委办公厅关于印发2007年行业标准修订、制定计划的通知》（发改办工业〔2007〕1415号）的安排，对SDJ161—1985《电力系统设计技术规程》（试行）进行修订。\n\n\nSDJ161—1985自发布实施以来，对电力系统的规划和设计工作起到了积极的指导作用。随着电力系统技术进步、电网规模扩大、全国联网深某地场化体制改革推进，原规程部分条款已无法适应需求，因此开展本次修订。\n"
+      },
+      {
+        "chunk_index": 44,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_44",
+        "score": 0.5,
+        "signals": {
+          "keyword_hits": [
+            "备用容量",
+            "15"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "某专家备用容量可按系统最大发电负荷的15%\\~20%考虑（低值适用于大系统，高值适用于小系统），并满足：\n\n1\\. 负荷备用为2%～5%；\n\n2\\. 事故备用为8%\\~10%，且不小于系统一台最大单机容量；\n\n3\\. 检修备用按规程要求及系统情况确定，初步计算时不应低于5%。"
+      },
+      {
+        "chunk_index": 34,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_34",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "调峰方案"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电力系统设计的具体任务：\n\n1\\. 分析并提出电力需求水平、分布及特性；\n\n2\\. 进行电力电量平衡，拟定系统输电限制、联网方案、电源建改方案及调峰方案；\n\n3\\. 开展电网潮流、电压、电网损耗等计算分析；\n\n4\\. 进行系统电气计算，提出保障电压质量、系统安全稳定的技术措施；\n\n5\\. 提出发、输、变电工程及无功补偿项目的投产时间、主设备及主接线型式；\n\n6\\. 提出需进一步研究的专题。\n\n\n上"
+      },
+      {
+        "chunk_index": 35,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_35",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "15"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电力系统设计的设计水平年宜与国民经济和社会发展规划年份一致，一般取今后5年左右的某一年；远景展望取今后10\\~15年的某一年。"
+      },
+      {
+        "chunk_index": 42,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_42",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "调峰方案"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电力电量平衡的主要目的是明确系统所需装机容量、调峰容量、电源送电方向，为拟定电源方案、调峰方案、电网方案及计算燃料需要量等提供依据。"
+      },
+      {
+        "chunk_index": 45,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_45",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "备用容量"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "系统事故备用容量在电站间可按各类电站担负的系统工作容量比例分配，且需考虑：\n\n1\\. 承担事故备用的电源应具备相应能量或燃料储备；水电站需预留事故备用容量在基荷连续运行3d\\~10d的备用容积（水量），若该容积小于水库兴利库容的3%，可不再专设；火电机组应能长期在经济出力范围内运行；\n\n2\\. 调节性能好、靠近负荷中心的水电站，可承担较大的事故备用容量。"
+      },
+      {
+        "chunk_index": 46,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_46",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "调峰方案"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "研究系统调峰方案，确保调峰容量满足设计年不同季节调峰需求，提出典型日调峰方式，并对比新建水电站、扩大现有水电站装机、新增火电调峰机组、与调峰能力富余系统联网、建设抽水蓄能电站等调峰方案，明确调峰电厂及调峰能力。"
+      },
+      {
+        "chunk_index": 49,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_49",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "15"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "选择电压等级的基本要求：\n\n1\\. 根据电网现状、今后10\\~15年输电容量、输电距离等论证；方案应满足远期发展，适应近期过渡；技术经济指标相差不大时，优先推荐较高电压等级，必要时可初期降压运行过渡；\n\n2\\. 分析设计水平年内出现更高一级电压的必要性、时间及远期适应性。"
+      }
+    ],
+    "gold_chunk_indices": [
+      27,
+      44,
+      34
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5429-2009 电力系统设计技术规程_27",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_44",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_34"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0017",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      27,
+      44
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-103",
+    "expected_answer": "8%",
+    "expected_keywords": [
+      "8",
+      "调峰方案",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 5.2.3",
+    "candidates": [
+      {
+        "chunk_index": 2,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_2",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "8"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "4.1　电力系统的静态稳定储备标准　……………………………………………………7\n\n　4.2　电力系统承受大扰动能力的安全稳定标准　………………………………………7\n\n　4.3　特殊情况要求　………………………………………………………………………8"
+      },
+      {
+        "chunk_index": 3,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_3",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "8"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "5.1　安全稳定计算分析的任务与要求　…………………………………………………8\n\n　5.2　电力系统静态安全分析　……………………………………………………………9\n\n　5.3　电力系统静态稳定的计算分析　……………………………………………………9\n\n　5.4　电力系统暂态功角稳定的计算分析　……………………………………………10\n\n　5.5　电力系统动态功角稳定的计算分析　………………………………"
+      },
+      {
+        "chunk_index": 5,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_5",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "8"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": true
+        },
+        "preview": "1981年，针对当时改革开放后国民经济基础设施某专家建设初期，中国电网稳定破坏事故频发的局面和电网发展“重发电轻供电”的偏向，原电力工业部制定了第一版《电力系统安全稳定导则（81电生字109号）》，首次规范化地提出了正确处理电力系统安全与经济、合理建设和电网运行的指导性原则。《电力系统安全稳定导则》颁布实施后，我国电力系统安全稳定水平上了一个新台阶，稳定破坏次数迅速减少，从1970年\\~1980年"
+      },
+      {
+        "chunk_index": 26,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_26",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "8"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "\\- ICS分类：27.100\n\n\\- 备案号：J927—2009\n\n\\- 替代标准：SDJ161—1985（电力系统设计技术规程（试行））\n\n\\- 发布日期：[已脱敏]\n\n\\- 实施日期：[已脱敏]\n\n\\- 发布单位：中华人民共和国国家能源局\n\n\\- 归口与解释单位：电力行业电力规划设计标准化技术委员会\n\n\\- 起草单位: [已脱敏]\\- 主要起草人：车志国、鄂住、关破埠、侧光、谓水才\n\n\\- "
+      },
+      {
+        "chunk_index": 27,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_27",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "8"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "本标准根据《国家发展改革委办公厅关于印发2007年行业标准修订、制定计划的通知》（发改办工业〔2007〕1415号）的安排，对SDJ161—1985《电力系统设计技术规程》（试行）进行修订。\n\n\nSDJ161—1985自发布实施以来，对电力系统的规划和设计工作起到了积极的指导作用。随着电力系统技术进步、电网规模扩大、全国联网深某地场化体制改革推进，原规程部分条款已无法适应需求，因此开展本次修订。\n"
+      },
+      {
+        "chunk_index": 29,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_29",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "8"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "下列文件中的条款通过本标准的引用成为本标准的条款。注日期的引用文件，其随后的修改单（不包括勘误）或修订版不适用于本标准；不注日期的引用文件，其最新版本适用于本标准。\n\n\\- DL 755 电力系统安全稳定导则\n\n\\- SD 325 电力系统电压和无功电力技术导则（试行）\n\n\\- 原水电部(82)电计字第44号文 电力工程经济分析暂行条例"
+      },
+      {
+        "chunk_index": 34,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_34",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "调峰方案"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电力系统设计的具体任务：\n\n1\\. 分析并提出电力需求水平、分布及特性；\n\n2\\. 进行电力电量平衡，拟定系统输电限制、联网方案、电源建改方案及调峰方案；\n\n3\\. 开展电网潮流、电压、电网损耗等计算分析；\n\n4\\. 进行系统电气计算，提出保障电压质量、系统安全稳定的技术措施；\n\n5\\. 提出发、输、变电工程及无功补偿项目的投产时间、主设备及主接线型式；\n\n6\\. 提出需进一步研究的专题。\n\n\n上"
+      },
+      {
+        "chunk_index": 42,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_42",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "调峰方案"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电力电量平衡的主要目的是明确系统所需装机容量、调峰容量、电源送电方向，为拟定电源方案、调峰方案、电网方案及计算燃料需要量等提供依据。"
+      }
+    ],
+    "gold_chunk_indices": [
+      2,
+      3,
+      5
+    ],
+    "gold_chunk_ids": [
+      "source_section_GB 38755-电力系统安全稳定导则2019_2",
+      "source_section_GB 38755-电力系统安全稳定导则2019_3",
+      "source_section_GB 38755-电力系统安全稳定导则2019_5"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0018",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      2,
+      3
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-104",
+    "expected_answer": "10%",
+    "expected_keywords": [
+      "10",
+      "电压控制",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 6.2.3 220kV及以上电网电压质量标准",
+    "candidates": [
+      {
+        "chunk_index": 3,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_3",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "5.1　安全稳定计算分析的任务与要求　…………………………………………………8\n\n　5.2　电力系统静态安全分析　……………………………………………………………9\n\n　5.3　电力系统静态稳定的计算分析　……………………………………………………9\n\n　5.4　电力系统暂态功角稳定的计算分析　……………………………………………10\n\n　5.5　电力系统动态功角稳定的计算分析　………………………………"
+      },
+      {
+        "chunk_index": 5,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_5",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": true
+        },
+        "preview": "1981年，针对当时改革开放后国民经济基础设施某专家建设初期，中国电网稳定破坏事故频发的局面和电网发展“重发电轻供电”的偏向，原电力工业部制定了第一版《电力系统安全稳定导则（81电生字109号）》，首次规范化地提出了正确处理电力系统安全与经济、合理建设和电网运行的指导性原则。《电力系统安全稳定导则》颁布实施后，我国电力系统安全稳定水平上了一个新台阶，稳定破坏次数迅速减少，从1970年\\~1980年"
+      },
+      {
+        "chunk_index": 24,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_24",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "正常运行方式下的电力系统受到下述较严重的故障扰动后，保护、开关及重合闸正确动作，应能保持稳定运行，必要时允许采取切机和切负荷、直流紧急功率控制、抽水蓄能电站切泵等稳定控制措施：\n\na) 单回线或单台变压器（辐射型结构）故障或无故障三相断开；\n\nb) 任一段母线故障；\n\nc) 同杆并架双回线的异名两相同时发生单相接地故障重合不成功，双回线三相同时跳闸，或同杆并架双回线同时无故障断开；\n\nd) 直流系"
+      },
+      {
+        "chunk_index": 26,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_26",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "\\- ICS分类：27.100\n\n\\- 备案号：J927—2009\n\n\\- 替代标准：SDJ161—1985（电力系统设计技术规程（试行））\n\n\\- 发布日期：[已脱敏]\n\n\\- 实施日期：[已脱敏]\n\n\\- 发布单位：中华人民共和国国家能源局\n\n\\- 归口与解释单位：电力行业电力规划设计标准化技术委员会\n\n\\- 起草单位: [已脱敏]\\- 主要起草人：车志国、鄂住、关破埠、侧光、谓水才\n\n\\- "
+      },
+      {
+        "chunk_index": 35,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_35",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电力系统设计的设计水平年宜与国民经济和社会发展规划年份一致，一般取今后5年左右的某一年；远景展望取今后10\\~15年的某一年。"
+      },
+      {
+        "chunk_index": 44,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_44",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "某专家备用容量可按系统最大发电负荷的15%\\~20%考虑（低值适用于大系统，高值适用于小系统），并满足：\n\n1\\. 负荷备用为2%～5%；\n\n2\\. 事故备用为8%\\~10%，且不小于系统一台最大单机容量；\n\n3\\. 检修备用按规程要求及系统情况确定，初步计算时不应低于5%。"
+      },
+      {
+        "chunk_index": 45,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_45",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "系统事故备用容量在电站间可按各类电站担负的系统工作容量比例分配，且需考虑：\n\n1\\. 承担事故备用的电源应具备相应能量或燃料储备；水电站需预留事故备用容量在基荷连续运行3d\\~10d的备用容积（水量），若该容积小于水库兴利库容的3%，可不再专设；火电机组应能长期在经济出力范围内运行；\n\n2\\. 调节性能好、靠近负荷中心的水电站，可承担较大的事故备用容量。"
+      },
+      {
+        "chunk_index": 49,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_49",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "选择电压等级的基本要求：\n\n1\\. 根据电网现状、今后10\\~15年输电容量、输电距离等论证；方案应满足远期发展，适应近期过渡；技术经济指标相差不大时，优先推荐较高电压等级，必要时可初期降压运行过渡；\n\n2\\. 分析设计水平年内出现更高一级电压的必要性、时间及远期适应性。"
+      }
+    ],
+    "gold_chunk_indices": [
+      3,
+      5,
+      24
+    ],
+    "gold_chunk_ids": [
+      "source_section_GB 38755-电力系统安全稳定导则2019_3",
+      "source_section_GB 38755-电力系统安全稳定导则2019_5",
+      "source_section_GB 38755-电力系统安全稳定导则2019_24"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0019",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      3,
+      5
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-105",
+    "expected_answer": "1.0倍",
+    "expected_keywords": [
+      "1.0",
+      "电压控制",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 6.2.3 220kV及以上电网电压质量标准",
+    "candidates": [
+      {
+        "chunk_index": 50,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_50",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "1.0"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "1\\. 变电站H二次侧母线运行电压控变电站A位置及电网电压降确定，可为额定电压的1.0\\~1.05倍；日最大/最小负荷下运行电压波动不应超过10%，事故后不应低于额定电压的0.95倍；\n\n2\\. 电网任一点运行电压不应超过最高运行电压；变电站一次侧母线正常运行电压不应低于额定电压的0.95\\~1.0倍（受电终端取低值），最低运行电压不应影响系统同步稳定、电压稳定及厂用电正常运行。"
+      },
+      {
+        "chunk_index": 106,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_106",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "1.0"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "3  屋外配某区域和500kV 变电站24的相 某区域宜为3.0m。\r\n　　4  某区域面宽度宜为0.6m～1.0m;  接入建筑物的 人行道宽度宜为1.5m～2.0m。"
+      },
+      {
+        "chunk_index": 121,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_121",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "1.0"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": true
+        },
+        "preview": "1  运行情况：取50年一遇的设计最大风荷载、最低气温及最 严重覆冰三种情况及其相应的导线拉力、自重等，温度作用的计算 和构造设计应符合现行国家标准的规定。\r\n　　2  安装情况：指导线及避雷线的架设，构架梁上同时作用 2.0kN 人和工具重以及相应的风荷载、导线拉力、自重等。\r\n　　3  检修情况：导线三相同时上人停电检修(作用在每相导线 的绝缘子根部的人和工具重，500kV 及750kV 采用"
+      },
+      {
+        "chunk_index": 123,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_123",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "1.0"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "2  对避雷针等高耸构筑物的基础作用力应计算阵风的脉动 影响，可取上部结构的风振系数乘以0.8,但不得小于1.0。"
+      },
+      {
+        "chunk_index": 126,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_126",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "1.0"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "表7.4.8的规定值。根据吊装稳定需要，柱插入杯口深度还不应小于\r\n0.05倍柱身高度。某专家采取打临时拉线等措施时可不受限制。\r\n表7.4.8  柱插入基础杯口最小深度\r\n\r\n柱的类型\t钢筋混凝土矩形或 工字型断面柱\t水泥杆\t钢管\r\n插入杯口 最小深度\t架构\t1.25B\t1.25D 1.0D\t1.5D\r\n\t支架\t1.0B\t\t1.0D\r\n注 ：B 为柱的长边尺寸，D 为柱的直径："
+      }
+    ],
+    "gold_chunk_indices": [
+      50,
+      106,
+      121
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5429-2009 电力系统设计技术规程_50",
+      "source_section_DLT 5218-2012 220kV-750kV变电站设计_106",
+      "source_section_DLT 5218-2012 220kV-750kV变电站设计_121"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0020",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      50,
+      106
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-106",
+    "expected_answer": "10年",
+    "expected_keywords": [
+      "10",
+      "通用要求",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 6.2.7 电网输电容量要求",
+    "candidates": [
+      {
+        "chunk_index": 3,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_3",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "5.1　安全稳定计算分析的任务与要求　…………………………………………………8\n\n　5.2　电力系统静态安全分析　……………………………………………………………9\n\n　5.3　电力系统静态稳定的计算分析　……………………………………………………9\n\n　5.4　电力系统暂态功角稳定的计算分析　……………………………………………10\n\n　5.5　电力系统动态功角稳定的计算分析　………………………………"
+      },
+      {
+        "chunk_index": 5,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_5",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": true
+        },
+        "preview": "1981年，针对当时改革开放后国民经济基础设施某专家建设初期，中国电网稳定破坏事故频发的局面和电网发展“重发电轻供电”的偏向，原电力工业部制定了第一版《电力系统安全稳定导则（81电生字109号）》，首次规范化地提出了正确处理电力系统安全与经济、合理建设和电网运行的指导性原则。《电力系统安全稳定导则》颁布实施后，我国电力系统安全稳定水平上了一个新台阶，稳定破坏次数迅速减少，从1970年\\~1980年"
+      },
+      {
+        "chunk_index": 24,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_24",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "正常运行方式下的电力系统受到下述较严重的故障扰动后，保护、开关及重合闸正确动作，应能保持稳定运行，必要时允许采取切机和切负荷、直流紧急功率控制、抽水蓄能电站切泵等稳定控制措施：\n\na) 单回线或单台变压器（辐射型结构）故障或无故障三相断开；\n\nb) 任一段母线故障；\n\nc) 同杆并架双回线的异名两相同时发生单相接地故障重合不成功，双回线三相同时跳闸，或同杆并架双回线同时无故障断开；\n\nd) 直流系"
+      },
+      {
+        "chunk_index": 26,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_26",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "\\- ICS分类：27.100\n\n\\- 备案号：J927—2009\n\n\\- 替代标准：SDJ161—1985（电力系统设计技术规程（试行））\n\n\\- 发布日期：[已脱敏]\n\n\\- 实施日期：[已脱敏]\n\n\\- 发布单位：中华人民共和国国家能源局\n\n\\- 归口与解释单位：电力行业电力规划设计标准化技术委员会\n\n\\- 起草单位: [已脱敏]\\- 主要起草人：车志国、鄂住、关破埠、侧光、谓水才\n\n\\- "
+      },
+      {
+        "chunk_index": 35,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_35",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电力系统设计的设计水平年宜与国民经济和社会发展规划年份一致，一般取今后5年左右的某一年；远景展望取今后10\\~15年的某一年。"
+      },
+      {
+        "chunk_index": 44,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_44",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "某专家备用容量可按系统最大发电负荷的15%\\~20%考虑（低值适用于大系统，高值适用于小系统），并满足：\n\n1\\. 负荷备用为2%～5%；\n\n2\\. 事故备用为8%\\~10%，且不小于系统一台最大单机容量；\n\n3\\. 检修备用按规程要求及系统情况确定，初步计算时不应低于5%。"
+      },
+      {
+        "chunk_index": 45,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_45",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "系统事故备用容量在电站间可按各类电站担负的系统工作容量比例分配，且需考虑：\n\n1\\. 承担事故备用的电源应具备相应能量或燃料储备；水电站需预留事故备用容量在基荷连续运行3d\\~10d的备用容积（水量），若该容积小于水库兴利库容的3%，可不再专设；火电机组应能长期在经济出力范围内运行；\n\n2\\. 调节性能好、靠近负荷中心的水电站，可承担较大的事故备用容量。"
+      },
+      {
+        "chunk_index": 49,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_49",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "选择电压等级的基本要求：\n\n1\\. 根据电网现状、今后10\\~15年输电容量、输电距离等论证；方案应满足远期发展，适应近期过渡；技术经济指标相差不大时，优先推荐较高电压等级，必要时可初期降压运行过渡；\n\n2\\. 分析设计水平年内出现更高一级电压的必要性、时间及远期适应性。"
+      }
+    ],
+    "gold_chunk_indices": [
+      3,
+      5,
+      24
+    ],
+    "gold_chunk_ids": [
+      "source_section_GB 38755-电力系统安全稳定导则2019_3",
+      "source_section_GB 38755-电力系统安全稳定导则2019_5",
+      "source_section_GB 38755-电力系统安全稳定导则2019_24"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0023",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      3,
+      5
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-107",
+    "expected_answer": "3倍",
+    "expected_keywords": [
+      "3",
+      "接地设计",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 6.5.3 中性点接地要求",
+    "candidates": [
+      {
+        "chunk_index": 131,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_131",
+        "score": 0.6666666666666666,
+        "signals": {
+          "keyword_hits": [
+            "3",
+            "接地设计"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": true
+        },
+        "preview": "本标准用词说明\r\n\r\n\r\n　　　1  为便于在执行木标某地别对待，对要求严格程度不 同的用词说明如下：\r\n1)表示很严格，非这样做不可的：\r\n正面词采用“必须”,反面词采用“严禁”;\r\n2)表示严格，在正常情况下均应这样做的：\r\n正面词采用“应”,反面词采用“不应”或“不得”;\r\n3)表示允许稍有选择，在条件许可时首先应这样做的：\r\n正面词采用“宜”,反面词采用“不宜”;\r\n4)表示有选择，在一定"
+      },
+      {
+        "chunk_index": 1,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_1",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "3"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "3.1　总体要求　……………………………………………………………………………3\n\n　3.2　电网结构　……………………………………………………………………………4\n\n　3.3　电源结构　……………………………………………………………………………5\n\n　3.4　无功平衡及补偿　……………………………………………………………………5\n\n　3.5　网源协调　……………………………………………………………"
+      },
+      {
+        "chunk_index": 2,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_2",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "3"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "4.1　电力系统的静态稳定储备标准　……………………………………………………7\n\n　4.2　电力系统承受大扰动能力的安全稳定标准　………………………………………7\n\n　4.3　特殊情况要求　………………………………………………………………………8"
+      },
+      {
+        "chunk_index": 3,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_3",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "3"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "5.1　安全稳定计算分析的任务与要求　…………………………………………………8\n\n　5.2　电力系统静态安全分析　……………………………………………………………9\n\n　5.3　电力系统静态稳定的计算分析　……………………………………………………9\n\n　5.4　电力系统暂态功角稳定的计算分析　……………………………………………10\n\n　5.5　电力系统动态功角稳定的计算分析　………………………………"
+      },
+      {
+        "chunk_index": 8,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_8",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "3"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电力系统受到扰动后保持稳定运行的能力。\n\n注：电力系统稳定可分为功角稳定、电压稳定和频率稳定3大类，具体分类见附录A。"
+      },
+      {
+        "chunk_index": 9,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_9",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "3"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "同步互联电力系统中的同步发电机受到扰动后保持同步运行的能力。\n\n注：功角失稳由同步转矩或阻尼转矩不足引起，同步转矩不足导致非周期性失稳，而阻尼转矩不足导致振荡失稳。功角稳定又可分为静态功角稳定、暂态功角稳定和动态功角稳定。\n\n\n\\##### 2.2.1.1 静态功角稳定\n\n电力系统受到小扰动后，不发生功角非周期性失步，自动恢复到起始运行状态的能力。\n\n\n\\##### 2.2.1.2 暂态功角稳定\n"
+      },
+      {
+        "chunk_index": 14,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_14",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "3"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "330kV及以上电变电站B。\n\n注1：某区域供变电站E。\n\n注2：对电网安全运行影响重大的220kV变电站是变电站A，由所属电网企业根据电网结构确定。"
+      },
+      {
+        "chunk_index": 20,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_20",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "3"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "注：3.5.1\\~3.5.4所述电源指接入35kV及以上电压等级电力系统的火电、水电、核电、燃气轮机发电、光热发电、抽水蓄能、风力发电、光伏发电及储能电站等。"
+      }
+    ],
+    "gold_chunk_indices": [
+      131,
+      1,
+      2
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5218-2012 220kV-750kV变电站设计_131",
+      "source_section_GB 38755-电力系统安全稳定导则2019_1",
+      "source_section_GB 38755-电力系统安全稳定导则2019_2"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0029",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      131,
+      1
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-108",
+    "expected_answer": "1.4倍",
+    "expected_keywords": [
+      "1.4",
+      "电压控制",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 9.1.1",
+    "candidates": [
+      {
+        "chunk_index": 79,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_79",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "1.4"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "330kV及以某专家频过电压水平：变电站D侧不超过最高相电压的1.3倍，线路侧不超过1.4倍（有效值，kV）。"
+      },
+      {
+        "chunk_index": 137,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_137",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "1.4"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": true
+        },
+        "preview": "5.1.5～5.1.7  原标准DL/T  [已脱敏] 第7. 1.4条的修改条 文。为体现不同电压等级、变电站10电气接线在设计方面的 区别，便于工程实际应用，将330kV～750kV 变电站中的220kV 或 110kV 配电装置、220kV 变电站中的220kV 配电装置、220kV 变电 站中的10kV～110kV 配电装置的电气接线设计分条叙述。\r\n　　　目前某区域器，某区域母线相关 内"
+      },
+      {
+        "chunk_index": 140,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_140",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "1.4"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "1)工频过电压水平：某变电站5侧不应超过1.3p.u.; 某区域侧不应超过1.4p.u.。\r\n2)  相对地统计操作过电压不应超过1.8p.u.。\r\n　　　2750  kV 系统用金属氧化物避雷器( MOA)  的保护水平见 表1。\r\n表 1 7 5 0kV 系统用 MOA 的保护水平(kV)\r\n\r\n\r\n\r\n位置\t\r\n额定电压\r\n(有效值)\t\r\n持续运行电压\r\n(有效值)\t\r\n8/20μs、20k"
+      },
+      {
+        "chunk_index": 174,
+        "chunk_id": "source_section_500kV变电站设计方案_174",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "1.4"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "气、煤机关停,建成2×660MW 煤电机组以500kV 电压等级上网,天\n\n然气电厂按装机容量一半出力时,2022 年、2025 年需网供负荷15819、\n18619MW,不新增杭湾变容量时容载比分别为1.62、1.48,供电能力\n趋向偏紧;若新建杭湾变按1×10MVA 容量考虑,则容载比分别达\n到1.74、1.59。上述平衡中若不考虑天然气电厂参与电力平衡,则\n全市500kV 电网供电能力将进一"
+      },
+      {
+        "chunk_index": 175,
+        "chunk_id": "source_section_500kV变电站设计方案_175",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "1.4"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "申源出力(天然气80% 4541 4541 3322 3322 3322 3322 3322 3322 3322\n出力)\n高5OOkV网供负何\n[已脱敏] [已脱敏]\n不计当年容量容我比1.89 1.75 1.64 1.60 1.69 1.72 1.74 1.46 .63\n容我比"
+      }
+    ],
+    "gold_chunk_indices": [
+      79,
+      137,
+      140
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5429-2009 电力系统设计技术规程_79",
+      "source_section_DLT 5218-2012 220kV-750kV变电站设计_137",
+      "source_section_DLT 5218-2012 220kV-750kV变电站设计_140"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0034",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      79,
+      137
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-109",
+    "expected_answer": "220kV",
+    "expected_keywords": [
+      "变压器",
+      "220",
+      "短路电流",
+      "DL/T 5218-2012"
+    ],
+    "source_standard": "DL/T 5218-2012 5.1.6 220kV 变电站中的220kV 配电装置，当在系统中居重要 地位、某区域数为4回及以上时，宜采用双母线接线；当出线和 变压器等连某专家数为10～1",
+    "candidates": [
+      {
+        "chunk_index": 62,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_62",
+        "score": 0.5,
+        "signals": {
+          "keyword_hits": [
+            "变压器",
+            "220"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "1\\. 变压器容量、台数、相数及调压方式，应根据负荷发展、潮流变化，结合系统输电、稳定、调相调压、设备制造运输等条件论证；\n\n2\\. 350kV及以上发电站条件允许时优先采用自耦变压器，不采用时需专项论证；\n\n3\\. 500kV及变电站C变压器相数（含备用），需考虑单台故障/检修对供电某专家频过电压的影响；\n\n4\\. 优先选用大容量变压器，节约用地、提高资源利用率；\n\n5\\. 220kV及变电站C"
+      },
+      {
+        "chunk_index": 63,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_63",
+        "score": 0.5,
+        "signals": {
+          "keyword_hits": [
+            "变压器",
+            "220"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "1\\. 按绝缘水平要求接地的变压器，中性点必须接地；\n\n2\\. 中压侧变电站B变电站G每条母线应有1台变压器中性点接地；某区域电流且继电保护允许时，可不接地，但电网任一点综合零序电抗不应大于综合正序电抗的3倍；\n\n3\\. 发电厂多台220kV及以下升压变压器，应有1\\~2台中性点接地；\n\n4\\. 500kV及以上变压器中性点宜全部接地。"
+      },
+      {
+        "chunk_index": 78,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_78",
+        "score": 0.5,
+        "signals": {
+          "keyword_hits": [
+            "变压器",
+            "短路电流"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "短路电流计算主要某区域器额定断流容量，某区域电流措施（含提高变压器中性点绝缘水平），某区域器是否需更换，选择相关设备。"
+      },
+      {
+        "chunk_index": 108,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_108",
+        "score": 0.5,
+        "signals": {
+          "keyword_hits": [
+            "变压器",
+            "220"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "一般性质的220kV  变电站的220kV  配电装置，某区域数 在4回及以下时，可采用其他简单的主接线。\r\n　　　220kV 变电站42的配电装置，在满足运行要求的前提下， 某区域某区域器的接线，某区域变压器组或桥  形接线等。当电力系统继电保护能够满足要求时，某区域  分支接线。"
+      },
+      {
+        "chunk_index": 6,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_6",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "220"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "本标准规定了保证电力系统安全稳定运行的基本要求、电力系统安全稳定标准、电力系统安全稳定计算分析，以及电力系统安全稳定工作管理。\n\n本标准适用于电压等级为220kV及以上的电力系统。220kV以下的电力系统（含分布式电源）可参照执行。"
+      },
+      {
+        "chunk_index": 11,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_11",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "变压器"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "正常运行方式下的电力系统中任一元件（如发电机、某区域、变压器、某区域、直流换流器等，下同）无故障或因故障断开，电力系统应能保持稳定运行和正常供电，其他元件不过负荷，电压和频率均在允许范围内。\n\n注1：N-1原则用于电力系统静态安全分析（任一元件无故障断开），或动态安全分析（任一元件故障后断开的电力系统稳定性分析）。\n\n注2：当发电某区域时，某区域故障可能导致失去一台以上发电机组，此种情况也按N-1"
+      },
+      {
+        "chunk_index": 14,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_14",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "220"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "330kV及以上电变电站B。\n\n注1：某区域供变电站E。\n\n注2：对电网安全运行影响重大的220kV变电站是变电站A，由所属电网企业根据电网结构确定。"
+      },
+      {
+        "chunk_index": 16,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_16",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "变压器"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "集中接入电力系统的风电场或光伏电站并网点以下所有设备。\n\n注：包括变压器、母线、线路、变流器、储能、风电机组、光伏发电系统、无功调节设备及辅助设备等。"
+      }
+    ],
+    "gold_chunk_indices": [
+      62,
+      63,
+      78
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5429-2009 电力系统设计技术规程_62",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_63",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_78"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0038",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      62,
+      63
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-110",
+    "expected_answer": "220kV",
+    "expected_keywords": [
+      "220",
+      "短路电流",
+      "DL/T 5218-2012"
+    ],
+    "source_standard": "DL/T 5218-2012 5.1.6 220kV 变电站中的220kV 配电装置，当在系统中居重要 地位、某区域数为4回及以上时，宜采用双母线接线；当出线和 变压器等连某专家数为10～1",
+    "candidates": [
+      {
+        "chunk_index": 6,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_6",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "220"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "本标准规定了保证电力系统安全稳定运行的基本要求、电力系统安全稳定标准、电力系统安全稳定计算分析，以及电力系统安全稳定工作管理。\n\n本标准适用于电压等级为220kV及以上的电力系统。220kV以下的电力系统（含分布式电源）可参照执行。"
+      },
+      {
+        "chunk_index": 14,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_14",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "220"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "330kV及以上电变电站B。\n\n注1：某区域供变电站E。\n\n注2：对电网安全运行影响重大的220kV变电站是变电站A，由所属电网企业根据电网结构确定。"
+      },
+      {
+        "chunk_index": 28,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_28",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "220"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "本标准规定了电力系统设计的基本要求，包括电力需求预测、电源方案设计、电网方案设计、潮流及调相调压计算、某区域电流计算、工频过电压及潜供电流计算、方案经济比较等。\n\n\n本标准适用于220kV及以上电压等级电力系统设计（一次部分）、电力系统专题研究，以及电厂、变电站、换流站接入系统设计。"
+      },
+      {
+        "chunk_index": 62,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_62",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "220"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "1\\. 变压器容量、台数、相数及调压方式，应根据负荷发展、潮流变化，结合系统输电、稳定、调相调压、设备制造运输等条件论证；\n\n2\\. 350kV及以上发电站条件允许时优先采用自耦变压器，不采用时需专项论证；\n\n3\\. 500kV及变电站C变压器相数（含备用），需考虑单台故障/检修对供电某专家频过电压的影响；\n\n4\\. 优先选用大容量变压器，节约用地、提高资源利用率；\n\n5\\. 220kV及变电站C"
+      },
+      {
+        "chunk_index": 63,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_63",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "220"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "1\\. 按绝缘水平要求接地的变压器，中性点必须接地；\n\n2\\. 中压侧变电站B变电站G每条母线应有1台变压器中性点接地；某区域电流且继电保护允许时，可不接地，但电网任一点综合零序电抗不应大于综合正序电抗的3倍；\n\n3\\. 发电厂多台220kV及以下升压变压器，应有1\\~2台中性点接地；\n\n4\\. 500kV及以上变压器中性点宜全部接地。"
+      },
+      {
+        "chunk_index": 75,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_75",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "220"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "暂态稳定计算故障切除时间：220kV系统近故障点0.1s、远故障点0.12s；330kV及以上系统近故障点0.09s、远故障点0.1s；不满足稳定要求时，可采用0.08s。"
+      },
+      {
+        "chunk_index": 78,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_78",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "短路电流"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "短路电流计算主要某区域器额定断流容量，某区域电流措施（含提高变压器中性点绝缘水平），某区域器是否需更换，选择相关设备。"
+      },
+      {
+        "chunk_index": 87,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_87",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "220"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": true
+        },
+        "preview": "[已脱敏]\t　220kV~750kV变 电站设计技术规程\tDL/T\r\n[已脱敏]\t\t\r\n[已脱敏]\t\r\n[已脱敏]\r\n\t\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n前  "
+      }
+    ],
+    "gold_chunk_indices": [
+      6,
+      14,
+      28
+    ],
+    "gold_chunk_ids": [
+      "source_section_GB 38755-电力系统安全稳定导则2019_6",
+      "source_section_GB 38755-电力系统安全稳定导则2019_14",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_28"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0040",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      6,
+      14
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-111",
+    "expected_answer": "220kV",
+    "expected_keywords": [
+      "220",
+      "配电装置",
+      "DL/T 5218-2012"
+    ],
+    "source_standard": "DL/T 5218-2012 5.3.4 配电装置的选型原则如下：",
+    "candidates": [
+      {
+        "chunk_index": 108,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_108",
+        "score": 0.6666666666666666,
+        "signals": {
+          "keyword_hits": [
+            "220",
+            "配电装置"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "一般性质的220kV  变电站的220kV  配电装置，某区域数 在4回及以下时，可采用其他简单的主接线。\r\n　　　220kV 变电站42的配电装置，在满足运行要求的前提下， 某区域某区域器的接线，某区域变压器组或桥  形接线等。当电力系统继电保护能够满足要求时，某区域  分支接线。"
+      },
+      {
+        "chunk_index": 112,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_112",
+        "score": 0.6666666666666666,
+        "signals": {
+          "keyword_hits": [
+            "220",
+            "配电装置"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "1  220kV  变电站中35kV 及以下配电装置宜采用屋内式， 66kV 宜采用屋外敞开式中型布置。\r\n　　2  110 kV 、220kV 电压等级配电装置，宜选用屋外敞开式分 相中型、普通中型、半高型布置形式。\r\n\r\n\r\n\r\n\r\n　　3  330 kV～750kV  电压等级配电装置，宜采用屋外敞开式中 型布置配电装置。\r\n　　4  抗震设防烈度8某地，不宜采用敞开支持式硬母 线配电装置。"
+      },
+      {
+        "chunk_index": 117,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_117",
+        "score": 0.6666666666666666,
+        "signals": {
+          "keyword_hits": [
+            "220",
+            "配电装置"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "2  当330kV~750kV  变电站按有人值班或少人值班运行管 理模式建设时，可分别设主控制室、计算机室和继电器小室，继电 器小室可在配电装置就近布置或按电气单元设置。\r\n　　3  当 3 3 0kV~750kV  变电站按无人值班运行管理模式建设 时，可分别设计算机室和继电器小室，可不设计算机控制台，继电 器小室可在配电装置就近布置或按电气单元设置。\r\n　　4  220kV 变电站宜按无人值"
+      },
+      {
+        "chunk_index": 131,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_131",
+        "score": 0.6666666666666666,
+        "signals": {
+          "keyword_hits": [
+            "220",
+            "配电装置"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": true
+        },
+        "preview": "本标准用词说明\r\n\r\n\r\n　　　1  为便于在执行木标某地别对待，对要求严格程度不 同的用词说明如下：\r\n1)表示很严格，非这样做不可的：\r\n正面词采用“必须”,反面词采用“严禁”;\r\n2)表示严格，在正常情况下均应这样做的：\r\n正面词采用“应”,反面词采用“不应”或“不得”;\r\n3)表示允许稍有选择，在条件许可时首先应这样做的：\r\n正面词采用“宜”,反面词采用“不宜”;\r\n4)表示有选择，在一定"
+      },
+      {
+        "chunk_index": 137,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_137",
+        "score": 0.6666666666666666,
+        "signals": {
+          "keyword_hits": [
+            "220",
+            "配电装置"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": true
+        },
+        "preview": "5.1.5～5.1.7  原标准DL/T  [已脱敏] 第7. 1.4条的修改条 文。为体现不同电压等级、变电站10电气接线在设计方面的 区别，便于工程实际应用，将330kV～750kV 变电站中的220kV 或 110kV 配电装置、220kV 变电站中的220kV 配电装置、220kV 变电 站中的10kV～110kV 配电装置的电气接线设计分条叙述。\r\n　　　目前某区域器，某区域母线相关 内"
+      },
+      {
+        "chunk_index": 161,
+        "chunk_id": "source_section_500kV变电站设计方案_161",
+        "score": 0.6666666666666666,
+        "signals": {
+          "keyword_hits": [
+            "220",
+            "配电装置"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "地;远景预留隔直装置场地。\n500kV 杭湾变本期新建主变容量2×10MVA,采用国网通用设计\nA3-1 和A1-3 综合方案,500kV 和220kV 配电装置采用户内GIS 设备,\n主变户外布置。杭湾变500kV 本期出线4 回,采用3/2 接线;杭湾变\n干受尸外布百。机湾受500kV不期出线4回,米用3/2孩线:机湾受\n220kV 本期出线8 回,采用双母线双分段接线。35kV 侧装设低压并"
+      },
+      {
+        "chunk_index": 6,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_6",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "220"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "本标准规定了保证电力系统安全稳定运行的基本要求、电力系统安全稳定标准、电力系统安全稳定计算分析，以及电力系统安全稳定工作管理。\n\n本标准适用于电压等级为220kV及以上的电力系统。220kV以下的电力系统（含分布式电源）可参照执行。"
+      },
+      {
+        "chunk_index": 14,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_14",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "220"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "330kV及以上电变电站B。\n\n注1：某区域供变电站E。\n\n注2：对电网安全运行影响重大的220kV变电站是变电站A，由所属电网企业根据电网结构确定。"
+      }
+    ],
+    "gold_chunk_indices": [
+      108,
+      112,
+      117
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5218-2012 220kV-750kV变电站设计_108",
+      "source_section_DLT 5218-2012 220kV-750kV变电站设计_112",
+      "source_section_DLT 5218-2012 220kV-750kV变电站设计_117"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0043",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      108,
+      112
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-112",
+    "expected_answer": "110 kV",
+    "expected_keywords": [
+      "110",
+      "电压控制",
+      "DL/T 5218-2012"
+    ],
+    "source_standard": "DL/T 5218-2012 5.3.4 配电装置的选型原则如下：",
+    "candidates": [
+      {
+        "chunk_index": 83,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_83",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "110"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "潜供电流允许值取决于潜供电弧自灭时间；自灭时间=单相自动重合闸无电流间隙时间-弧道去游离时间（取0.1s\\~0.15s，留裕度）。无电流间隙时间$t$（s）与潜供电流$I$（A）经验公式：\n\n$$ t = 0.63 \\times (U/110 + I) $$"
+      },
+      {
+        "chunk_index": 112,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_112",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "110"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "1  220kV  变电站中35kV 及以下配电装置宜采用屋内式， 66kV 宜采用屋外敞开式中型布置。\r\n　　2  110 kV 、220kV 电压等级配电装置，宜选用屋外敞开式分 相中型、普通中型、半高型布置形式。\r\n\r\n\r\n\r\n\r\n　　3  330 kV～750kV  电压等级配电装置，宜采用屋外敞开式中 型布置配电装置。\r\n　　4  抗震设防烈度8某地，不宜采用敞开支持式硬母 线配电装置。"
+      },
+      {
+        "chunk_index": 137,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_137",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "110"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": true
+        },
+        "preview": "5.1.5～5.1.7  原标准DL/T  [已脱敏] 第7. 1.4条的修改条 文。为体现不同电压等级、变电站10电气接线在设计方面的 区别，便于工程实际应用，将330kV～750kV 变电站中的220kV 或 110kV 配电装置、220kV 变电站中的220kV 配电装置、220kV 变电 站中的10kV～110kV 配电装置的电气接线设计分条叙述。\r\n　　　目前某区域器，某区域母线相关 内"
+      },
+      {
+        "chunk_index": 167,
+        "chunk_id": "source_section_500kV变电站设计方案_167",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "110"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "宁波电网是浙江电网的重要组成部分。某地位于浙江省东部,\n长江三角洲南翼,北临杭州湾,西接绍兴,南靠台州,下辖有海曙\n江北、鄞州、镇海、北仑、奉化等6 个区、慈溪、余姚2 个市、宁海、\n象山2 个县和某地。\n截至2019 年底,某地电某专家容量为19780MW,其中统调\n电厂装机为16278MW,分别为:北仑电厂5180MW、宁海电厂(强蛟电\n厂2490MW、胜龙电厂20MW)、乌沙山电厂2500M"
+      }
+    ],
+    "gold_chunk_indices": [
+      83,
+      112,
+      137
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5429-2009 电力系统设计技术规程_83",
+      "source_section_DLT 5218-2012 220kV-750kV变电站设计_112",
+      "source_section_DLT 5218-2012 220kV-750kV变电站设计_137"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0044",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      83,
+      112
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-113",
+    "expected_answer": "566  kV",
+    "expected_keywords": [
+      "566",
+      "电压控制",
+      "DL/T 5218-2012"
+    ],
+    "source_standard": "DL/T 5218-2012 5.3.4 配电装置的选型原则如下：",
+    "candidates": [
+      {
+        "chunk_index": 112,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_112",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "566"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "1  220kV  变电站中35kV 及以下配电装置宜采用屋内式， 66kV 宜采用屋外敞开式中型布置。\r\n　　2  110 kV 、220kV 电压等级配电装置，宜选用屋外敞开式分 相中型、普通中型、半高型布置形式。\r\n\r\n\r\n\r\n\r\n　　3  330 kV～750kV  电压等级配电装置，宜采用屋外敞开式中 型布置配电装置。\r\n　　4  抗震设防烈度8某地，不宜采用敞开支持式硬母 线配电装置。"
+      }
+    ],
+    "gold_chunk_indices": [
+      112
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5218-2012 220kV-750kV变电站设计_112"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0045",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      112
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-114",
+    "expected_answer": "330kV",
+    "expected_keywords": [
+      "330",
+      "配电装置",
+      "DL/T 5218-2012"
+    ],
+    "source_standard": "DL/T 5218-2012 1220 kV～750kV  变电站，均应采用计算机监控系统。",
+    "candidates": [
+      {
+        "chunk_index": 112,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_112",
+        "score": 0.6666666666666666,
+        "signals": {
+          "keyword_hits": [
+            "330",
+            "配电装置"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "1  220kV  变电站中35kV 及以下配电装置宜采用屋内式， 66kV 宜采用屋外敞开式中型布置。\r\n　　2  110 kV 、220kV 电压等级配电装置，宜选用屋外敞开式分 相中型、普通中型、半高型布置形式。\r\n\r\n\r\n\r\n\r\n　　3  330 kV～750kV  电压等级配电装置，宜采用屋外敞开式中 型布置配电装置。\r\n　　4  抗震设防烈度8某地，不宜采用敞开支持式硬母 线配电装置。"
+      },
+      {
+        "chunk_index": 117,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_117",
+        "score": 0.6666666666666666,
+        "signals": {
+          "keyword_hits": [
+            "330",
+            "配电装置"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "2  当330kV~750kV  变电站按有人值班或少人值班运行管 理模式建设时，可分别设主控制室、计算机室和继电器小室，继电 器小室可在配电装置就近布置或按电气单元设置。\r\n　　3  当 3 3 0kV~750kV  变电站按无人值班运行管理模式建设 时，可分别设计算机室和继电器小室，可不设计算机控制台，继电 器小室可在配电装置就近布置或按电气单元设置。\r\n　　4  220kV 变电站宜按无人值"
+      },
+      {
+        "chunk_index": 131,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_131",
+        "score": 0.6666666666666666,
+        "signals": {
+          "keyword_hits": [
+            "330",
+            "配电装置"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": true
+        },
+        "preview": "本标准用词说明\r\n\r\n\r\n　　　1  为便于在执行木标某地别对待，对要求严格程度不 同的用词说明如下：\r\n1)表示很严格，非这样做不可的：\r\n正面词采用“必须”,反面词采用“严禁”;\r\n2)表示严格，在正常情况下均应这样做的：\r\n正面词采用“应”,反面词采用“不应”或“不得”;\r\n3)表示允许稍有选择，在条件许可时首先应这样做的：\r\n正面词采用“宜”,反面词采用“不宜”;\r\n4)表示有选择，在一定"
+      },
+      {
+        "chunk_index": 137,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_137",
+        "score": 0.6666666666666666,
+        "signals": {
+          "keyword_hits": [
+            "330",
+            "配电装置"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": true
+        },
+        "preview": "5.1.5～5.1.7  原标准DL/T  [已脱敏] 第7. 1.4条的修改条 文。为体现不同电压等级、变电站10电气接线在设计方面的 区别，便于工程实际应用，将330kV～750kV 变电站中的220kV 或 110kV 配电装置、220kV 变电站中的220kV 配电装置、220kV 变电 站中的10kV～110kV 配电装置的电气接线设计分条叙述。\r\n　　　目前某区域器，某区域母线相关 内"
+      },
+      {
+        "chunk_index": 145,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_145",
+        "score": 0.6666666666666666,
+        "signals": {
+          "keyword_hits": [
+            "330",
+            "配电装置"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "在配电装置附近设置若干相对集中的继电器小室，当受场地 的限制有困难时，为了减少征地，一级电压的配电装置也可设置2 个继电器小室。从目前国内主要采用的电气一次接线方式来考 虑，330kV～750kV 变电站的继电某专家量不宜超过4个。"
+      },
+      {
+        "chunk_index": 14,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_14",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "330"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "330kV及以上电变电站B。\n\n注1：某区域供变电站E。\n\n注2：对电网安全运行影响重大的220kV变电站是变电站A，由所属电网企业根据电网结构确定。"
+      },
+      {
+        "chunk_index": 68,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_68",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "330"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "1\\. 无功功率电源预留适当裕度，保证正常/事故后电压满足要求；\n\n2\\. 无功补偿遵某地、就地平衡原则，随负荷/电压变化调整，避免长距离/多级变压传送无功；330kV某区域充电功率基本予以补偿；\n\n3\\. 发电机/调相机应配备自动调节励磁（含强行励磁），保持运行稳定；\n\n4\\. 受端系统应具备足够动态无功备用，某区域/大容量机组故障时电压崩溃；\n\n5\\. 无功补偿和调相调压计算符合SD 325要"
+      },
+      {
+        "chunk_index": 70,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_70",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "330"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "1\\. 直接接入330kV及以上电网的送端发电机，功率因数不宜低于0.9；受端发电机功率因数可在0.85\\~0.95；\n\n2\\. 直流输电系统送端发电机功率因数可选0.85\\~0.95。"
+      }
+    ],
+    "gold_chunk_indices": [
+      112,
+      117,
+      131
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5218-2012 220kV-750kV变电站设计_112",
+      "source_section_DLT 5218-2012 220kV-750kV变电站设计_117",
+      "source_section_DLT 5218-2012 220kV-750kV变电站设计_131"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0048",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      112,
+      117
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-115",
+    "expected_answer": "0.7%",
+    "expected_keywords": [
+      "0.7",
+      "通用要求",
+      "DL/T 5218-2012"
+    ],
+    "source_standard": "DL/T 5218-2012 8.2.5 蓄电池室应根据设备型式和当地的气象条件确定设置机",
+    "candidates": [
+      {
+        "chunk_index": 127,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_127",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "0.7"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "械通风或通风降温系统，应满足下述要求：\r\n　　　1  防酸隔爆蓄电池室的通风应采用机械通风，通风量按空气 中的最大含氢量(按体积计)不超过0.7%计算；换气次数不应少 于每小时6次，室内空气不允许再循环。通风机与电动机应为防 腐防爆型。通风机的吸风口应靠近顶棚以排除氢气，吸风口的上 缘至顶棚平面或屋顶的距离不大于0.1m。\r\n　　　2  免维护蓄电池的通风设计，按换气次数每小时不少于3次 的事故排"
+      }
+    ],
+    "gold_chunk_indices": [
+      127
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5218-2012 220kV-750kV变电站设计_127"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0050",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      127
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-116",
+    "expected_answer": "330kV",
+    "expected_keywords": [
+      "330",
+      "电压控制",
+      "DL/T 5218-2012"
+    ],
+    "source_standard": "DL/T 5218-2012 5.1.4 原标准DL/T5218—2005  第7.1.3条的修改条文。根据 目前实践经验作修改列于本条，电压范围调整到包括750kV。",
+    "candidates": [
+      {
+        "chunk_index": 14,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_14",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "330"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "330kV及以上电变电站B。\n\n注1：某区域供变电站E。\n\n注2：对电网安全运行影响重大的220kV变电站是变电站A，由所属电网企业根据电网结构确定。"
+      },
+      {
+        "chunk_index": 68,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_68",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "330"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "1\\. 无功功率电源预留适当裕度，保证正常/事故后电压满足要求；\n\n2\\. 无功补偿遵某地、就地平衡原则，随负荷/电压变化调整，避免长距离/多级变压传送无功；330kV某区域充电功率基本予以补偿；\n\n3\\. 发电机/调相机应配备自动调节励磁（含强行励磁），保持运行稳定；\n\n4\\. 受端系统应具备足够动态无功备用，某区域/大容量机组故障时电压崩溃；\n\n5\\. 无功补偿和调相调压计算符合SD 325要"
+      },
+      {
+        "chunk_index": 70,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_70",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "330"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "1\\. 直接接入330kV及以上电网的送端发电机，功率因数不宜低于0.9；受端发电机功率因数可在0.85\\~0.95；\n\n2\\. 直流输电系统送端发电机功率因数可选0.85\\~0.95。"
+      },
+      {
+        "chunk_index": 75,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_75",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "330"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "暂态稳定计算故障切除时间：220kV系统近故障点0.1s、远故障点0.12s；330kV及以上系统近故障点0.09s、远故障点0.1s；不满足稳定要求时，可采用0.08s。"
+      },
+      {
+        "chunk_index": 79,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_79",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "330"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "330kV及以某专家频过电压水平：变电站D侧不超过最高相电压的1.3倍，线路侧不超过1.4倍（有效值，kV）。"
+      },
+      {
+        "chunk_index": 81,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_81",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "330"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "330kV某区域高压并联电抗器时，中性点可经小电抗接地，某专家频谐振过电压；装设母线高压并联电抗器时，中性点应直接接地。"
+      },
+      {
+        "chunk_index": 112,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_112",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "330"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "1  220kV  变电站中35kV 及以下配电装置宜采用屋内式， 66kV 宜采用屋外敞开式中型布置。\r\n　　2  110 kV 、220kV 电压等级配电装置，宜选用屋外敞开式分 相中型、普通中型、半高型布置形式。\r\n\r\n\r\n\r\n\r\n　　3  330 kV～750kV  电压等级配电装置，宜采用屋外敞开式中 型布置配电装置。\r\n　　4  抗震设防烈度8某地，不宜采用敞开支持式硬母 线配电装置。"
+      },
+      {
+        "chunk_index": 117,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_117",
+        "score": 0.3333333333333333,
+        "signals": {
+          "keyword_hits": [
+            "330"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 3,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "2  当330kV~750kV  变电站按有人值班或少人值班运行管 理模式建设时，可分别设主控制室、计算机室和继电器小室，继电 器小室可在配电装置就近布置或按电气单元设置。\r\n　　3  当 3 3 0kV~750kV  变电站按无人值班运行管理模式建设 时，可分别设计算机室和继电器小室，可不设计算机控制台，继电 器小室可在配电装置就近布置或按电气单元设置。\r\n　　4  220kV 变电站宜按无人值"
+      }
+    ],
+    "gold_chunk_indices": [
+      14,
+      68,
+      70
+    ],
+    "gold_chunk_ids": [
+      "source_section_GB 38755-电力系统安全稳定导则2019_14",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_68",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_70"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0059",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      14,
+      68
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-117",
+    "expected_answer": "5年",
+    "expected_keywords": [
+      "设计水平年",
+      "5",
+      "设计水平与展望",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 3.0.7",
+    "candidates": [
+      {
+        "chunk_index": 35,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_35",
+        "score": 0.5,
+        "signals": {
+          "keyword_hits": [
+            "设计水平年",
+            "5"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "电力系统设计的设计水平年宜与国民经济和社会发展规划年份一致，一般取今后5年左右的某一年；远景展望取今后10\\~15年的某一年。"
+      },
+      {
+        "chunk_index": 49,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_49",
+        "score": 0.5,
+        "signals": {
+          "keyword_hits": [
+            "设计水平年",
+            "5"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "选择电压等级的基本要求：\n\n1\\. 根据电网现状、今后10\\~15年输电容量、输电距离等论证；方案应满足远期发展，适应近期过渡；技术经济指标相差不大时，优先推荐较高电压等级，必要时可初期降压运行过渡；\n\n2\\. 分析设计水平年内出现更高一级电压的必要性、时间及远期适应性。"
+      },
+      {
+        "chunk_index": 1,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_1",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "5"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "3.1　总体要求　……………………………………………………………………………3\n\n　3.2　电网结构　……………………………………………………………………………4\n\n　3.3　电源结构　……………………………………………………………………………5\n\n　3.4　无功平衡及补偿　……………………………………………………………………5\n\n　3.5　网源协调　……………………………………………………………"
+      },
+      {
+        "chunk_index": 3,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_3",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "5"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "5.1　安全稳定计算分析的任务与要求　…………………………………………………8\n\n　5.2　电力系统静态安全分析　……………………………………………………………9\n\n　5.3　电力系统静态稳定的计算分析　……………………………………………………9\n\n　5.4　电力系统暂态功角稳定的计算分析　……………………………………………10\n\n　5.5　电力系统动态功角稳定的计算分析　………………………………"
+      },
+      {
+        "chunk_index": 4,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_4",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "5"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": true
+        },
+        "preview": "本标准的全部技术内容为强制性。\n\n本标准按照GB/T 1.1—2009给出的规则起草。\n\n本标准代替DL/T 755—2001《电力系统安全稳定导则》。\n\n本标准由国家能源局提出并归口。\n\n\n本标准所代替标准的历次版本发布情况为：\n\n—DL/T 755—2001。"
+      },
+      {
+        "chunk_index": 5,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_5",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "5"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": true
+        },
+        "preview": "1981年，针对当时改革开放后国民经济基础设施某专家建设初期，中国电网稳定破坏事故频发的局面和电网发展“重发电轻供电”的偏向，原电力工业部制定了第一版《电力系统安全稳定导则（81电生字109号）》，首次规范化地提出了正确处理电力系统安全与经济、合理建设和电网运行的指导性原则。《电力系统安全稳定导则》颁布实施后，我国电力系统安全稳定水平上了一个新台阶，稳定破坏次数迅速减少，从1970年\\~1980年"
+      },
+      {
+        "chunk_index": 20,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_20",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "5"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "注：3.5.1\\~3.5.4所述电源指接入35kV及以上电压等级电力系统的火电、水电、核电、燃气轮机发电、光热发电、抽水蓄能、风力发电、光伏发电及储能电站等。"
+      },
+      {
+        "chunk_index": 26,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_26",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "5"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "\\- ICS分类：27.100\n\n\\- 备案号：J927—2009\n\n\\- 替代标准：SDJ161—1985（电力系统设计技术规程（试行））\n\n\\- 发布日期：[已脱敏]\n\n\\- 实施日期：[已脱敏]\n\n\\- 发布单位：中华人民共和国国家能源局\n\n\\- 归口与解释单位：电力行业电力规划设计标准化技术委员会\n\n\\- 起草单位: [已脱敏]\\- 主要起草人：车志国、鄂住、关破埠、侧光、谓水才\n\n\\- "
+      }
+    ],
+    "gold_chunk_indices": [
+      35,
+      49,
+      1
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5429-2009 电力系统设计技术规程_35",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_49",
+      "source_section_GB 38755-电力系统安全稳定导则2019_1"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0072",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      35,
+      49
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-118",
+    "expected_answer": "15%~20%",
+    "expected_keywords": [
+      "系统备用容量比例",
+      "15",
+      "20",
+      "系统备用容量",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 5.2.3",
+    "candidates": [
+      {
+        "chunk_index": 27,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_27",
+        "score": 0.6,
+        "signals": {
+          "keyword_hits": [
+            "15",
+            "20",
+            "系统备用容量"
+          ],
+          "keyword_hit_count": 3,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "本标准根据《国家发展改革委办公厅关于印发2007年行业标准修订、制定计划的通知》（发改办工业〔2007〕1415号）的安排，对SDJ161—1985《电力系统设计技术规程》（试行）进行修订。\n\n\nSDJ161—1985自发布实施以来，对电力系统的规划和设计工作起到了积极的指导作用。随着电力系统技术进步、电网规模扩大、全国联网深某地场化体制改革推进，原规程部分条款已无法适应需求，因此开展本次修订。\n"
+      },
+      {
+        "chunk_index": 44,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_44",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "15",
+            "20"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "某专家备用容量可按系统最大发电负荷的15%\\~20%考虑（低值适用于大系统，高值适用于小系统），并满足：\n\n1\\. 负荷备用为2%～5%；\n\n2\\. 事故备用为8%\\~10%，且不小于系统一台最大单机容量；\n\n3\\. 检修备用按规程要求及系统情况确定，初步计算时不应低于5%。"
+      },
+      {
+        "chunk_index": 101,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_101",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "15",
+            "20"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": true
+        },
+        "preview": "GB50229\r\n规定执行\t\t\t15\t20\t\r\n\r\n\r\n一\t\r\n\r\n\r\n一\r\n\t\t10～50\t\t\t\t\t20\t25\t\t\r\n\t\t\r\n>50"
+      },
+      {
+        "chunk_index": 102,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_102",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "15",
+            "20"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "可燃介质电 容器室(棚)\t10\t--\t\t15\t20\t\t一\r\n总事故油池\t5\t一\t10\t12\t1\t】\r\n生活\r\n建筑\t耐火\r\n等级\t一\r\n、\r\n二级\t10\t12\t10\t15\t10\t6\t7\t无出口时 1.5;有出 口时3.0\t\r\n一\r\n\t\t三级\t12\t14\t12\t20\t12\t7\t8\t\t\r\n围墙\t\t7\t--\t1\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n注：1  建、构筑物防火间距应按相邻两建、构筑物外墙的最近距离计"
+      },
+      {
+        "chunk_index": 124,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_124",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "15",
+            "20"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "表7.4.4  屋外构支架的最大挠度允许值\r\n\r\n名  称\t构件类别\t挠度限值\r\n梁\t构架横梁220kV及以下\tL/200(跨中),L/100(悬臂)\r\n\t构架横梁330kV及以上\tI./300(跨中).L/150(悬臂)\r\n单柱\t无拉线\tH/100\r\n\r\n人字柱\t平面内\tH:200\r\n\t平面外(带端撑)\tH/200\r\n\t平面外(无端撑)\tH/100\r\n格构柱\t\tH/300\r\n\r\n设备支架\t隔离开"
+      },
+      {
+        "chunk_index": 131,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_131",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "15",
+            "20"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": true
+        },
+        "preview": "本标准用词说明\r\n\r\n\r\n　　　1  为便于在执行木标某地别对待，对要求严格程度不 同的用词说明如下：\r\n1)表示很严格，非这样做不可的：\r\n正面词采用“必须”,反面词采用“严禁”;\r\n2)表示严格，在正常情况下均应这样做的：\r\n正面词采用“应”,反面词采用“不应”或“不得”;\r\n3)表示允许稍有选择，在条件许可时首先应这样做的：\r\n正面词采用“宜”,反面词采用“不宜”;\r\n4)表示有选择，在一定"
+      },
+      {
+        "chunk_index": 159,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_159",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "15",
+            "20"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": true
+        },
+        "preview": "220kV～750kV  变电站设计技术规程\r\nDL/T  5218—2012\r\n代 替DL/T  5218—2005\r\n☆\r\n中国计划出版社出版\r\n网址：www. jhpress .com\r\n地址：某地区木樨地北里甲11号国宏大厦C 座 4 层\r\n邮政编码：100038  电 话 ：(010)[已脱敏](发行部)\r\n新华书店北京发行所发行\r\n北京世知印务有限公司印刷\r\n850mm×1168mm "
+      },
+      {
+        "chunk_index": 161,
+        "chunk_id": "source_section_500kV变电站设计方案_161",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "15",
+            "20"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "地;远景预留隔直装置场地。\n500kV 杭湾变本期新建主变容量2×10MVA,采用国网通用设计\nA3-1 和A1-3 综合方案,500kV 和220kV 配电装置采用户内GIS 设备,\n主变户外布置。杭湾变500kV 本期出线4 回,采用3/2 接线;杭湾变\n干受尸外布百。机湾受500kV不期出线4回,米用3/2孩线:机湾受\n220kV 本期出线8 回,采用双母线双分段接线。35kV 侧装设低压并"
+      }
+    ],
+    "gold_chunk_indices": [
+      27,
+      44,
+      101
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5429-2009 电力系统设计技术规程_27",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_44",
+      "source_section_DLT 5218-2012 220kV-750kV变电站设计_101"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0073",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      27,
+      44
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-119",
+    "expected_answer": "3%",
+    "expected_keywords": [
+      "水电站事故备用连续运行天数",
+      "3",
+      "水电站事故备用",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 5.2.4",
+    "candidates": [
+      {
+        "chunk_index": 1,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_1",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "3"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "3.1　总体要求　……………………………………………………………………………3\n\n　3.2　电网结构　……………………………………………………………………………4\n\n　3.3　电源结构　……………………………………………………………………………5\n\n　3.4　无功平衡及补偿　……………………………………………………………………5\n\n　3.5　网源协调　……………………………………………………………"
+      },
+      {
+        "chunk_index": 2,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_2",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "3"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "4.1　电力系统的静态稳定储备标准　……………………………………………………7\n\n　4.2　电力系统承受大扰动能力的安全稳定标准　………………………………………7\n\n　4.3　特殊情况要求　………………………………………………………………………8"
+      },
+      {
+        "chunk_index": 3,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_3",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "3"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "5.1　安全稳定计算分析的任务与要求　…………………………………………………8\n\n　5.2　电力系统静态安全分析　……………………………………………………………9\n\n　5.3　电力系统静态稳定的计算分析　……………………………………………………9\n\n　5.4　电力系统暂态功角稳定的计算分析　……………………………………………10\n\n　5.5　电力系统动态功角稳定的计算分析　………………………………"
+      },
+      {
+        "chunk_index": 8,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_8",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "3"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电力系统受到扰动后保持稳定运行的能力。\n\n注：电力系统稳定可分为功角稳定、电压稳定和频率稳定3大类，具体分类见附录A。"
+      },
+      {
+        "chunk_index": 9,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_9",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "3"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "同步互联电力系统中的同步发电机受到扰动后保持同步运行的能力。\n\n注：功角失稳由同步转矩或阻尼转矩不足引起，同步转矩不足导致非周期性失稳，而阻尼转矩不足导致振荡失稳。功角稳定又可分为静态功角稳定、暂态功角稳定和动态功角稳定。\n\n\n\\##### 2.2.1.1 静态功角稳定\n\n电力系统受到小扰动后，不发生功角非周期性失步，自动恢复到起始运行状态的能力。\n\n\n\\##### 2.2.1.2 暂态功角稳定\n"
+      },
+      {
+        "chunk_index": 14,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_14",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "3"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "330kV及以上电变电站B。\n\n注1：某区域供变电站E。\n\n注2：对电网安全运行影响重大的220kV变电站是变电站A，由所属电网企业根据电网结构确定。"
+      },
+      {
+        "chunk_index": 20,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_20",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "3"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "注：3.5.1\\~3.5.4所述电源指接入35kV及以上电压等级电力系统的火电、水电、核电、燃气轮机发电、光热发电、抽水蓄能、风力发电、光伏发电及储能电站等。"
+      },
+      {
+        "chunk_index": 29,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_29",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "3"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "下列文件中的条款通过本标准的引用成为本标准的条款。注日期的引用文件，其随后的修改单（不包括勘误）或修订版不适用于本标准；不注日期的引用文件，其最新版本适用于本标准。\n\n\\- DL 755 电力系统安全稳定导则\n\n\\- SD 325 电力系统电压和无功电力技术导则（试行）\n\n\\- 原水电部(82)电计字第44号文 电力工程经济分析暂行条例"
+      }
+    ],
+    "gold_chunk_indices": [
+      1,
+      2,
+      3
+    ],
+    "gold_chunk_ids": [
+      "source_section_GB 38755-电力系统安全稳定导则2019_1",
+      "source_section_GB 38755-电力系统安全稳定导则2019_2",
+      "source_section_GB 38755-电力系统安全稳定导则2019_3"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0074",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      1,
+      2
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-120",
+    "expected_answer": "15年",
+    "expected_keywords": [
+      "输电容量论证期限",
+      "15",
+      "电网方案设计",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 6.2.2",
+    "candidates": [
+      {
+        "chunk_index": 27,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_27",
+        "score": 0.5,
+        "signals": {
+          "keyword_hits": [
+            "15",
+            "电网方案设计"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "本标准根据《国家发展改革委办公厅关于印发2007年行业标准修订、制定计划的通知》（发改办工业〔2007〕1415号）的安排，对SDJ161—1985《电力系统设计技术规程》（试行）进行修订。\n\n\nSDJ161—1985自发布实施以来，对电力系统的规划和设计工作起到了积极的指导作用。随着电力系统技术进步、电网规模扩大、全国联网深某地场化体制改革推进，原规程部分条款已无法适应需求，因此开展本次修订。\n"
+      },
+      {
+        "chunk_index": 28,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_28",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "电网方案设计"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "本标准规定了电力系统设计的基本要求，包括电力需求预测、电源方案设计、电网方案设计、潮流及调相调压计算、某区域电流计算、工频过电压及潜供电流计算、方案经济比较等。\n\n\n本标准适用于220kV及以上电压等级电力系统设计（一次部分）、电力系统专题研究，以及电厂、变电站、换流站接入系统设计。"
+      },
+      {
+        "chunk_index": 35,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_35",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "15"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "电力系统设计的设计水平年宜与国民经济和社会发展规划年份一致，一般取今后5年左右的某一年；远景展望取今后10\\~15年的某一年。"
+      },
+      {
+        "chunk_index": 44,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_44",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "15"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "某专家备用容量可按系统最大发电负荷的15%\\~20%考虑（低值适用于大系统，高值适用于小系统），并满足：\n\n1\\. 负荷备用为2%～5%；\n\n2\\. 事故备用为8%\\~10%，且不小于系统一台最大单机容量；\n\n3\\. 检修备用按规程要求及系统情况确定，初步计算时不应低于5%。"
+      },
+      {
+        "chunk_index": 49,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_49",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "15"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "选择电压等级的基本要求：\n\n1\\. 根据电网现状、今后10\\~15年输电容量、输电距离等论证；方案应满足远期发展，适应近期过渡；技术经济指标相差不大时，优先推荐较高电压等级，必要时可初期降压运行过渡；\n\n2\\. 分析设计水平年内出现更高一级电压的必要性、时间及远期适应性。"
+      },
+      {
+        "chunk_index": 83,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_83",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "15"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "潜供电流允许值取决于潜供电弧自灭时间；自灭时间=单相自动重合闸无电流间隙时间-弧道去游离时间（取0.1s\\~0.15s，留裕度）。无电流间隙时间$t$（s）与潜供电流$I$（A）经验公式：\n\n$$ t = 0.63 \\times (U/110 + I) $$"
+      },
+      {
+        "chunk_index": 101,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_101",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "15"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": true
+        },
+        "preview": "GB50229\r\n规定执行\t\t\t15\t20\t\r\n\r\n\r\n一\t\r\n\r\n\r\n一\r\n\t\t10～50\t\t\t\t\t20\t25\t\t\r\n\t\t\r\n>50"
+      },
+      {
+        "chunk_index": 102,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_102",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "15"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "可燃介质电 容器室(棚)\t10\t--\t\t15\t20\t\t一\r\n总事故油池\t5\t一\t10\t12\t1\t】\r\n生活\r\n建筑\t耐火\r\n等级\t一\r\n、\r\n二级\t10\t12\t10\t15\t10\t6\t7\t无出口时 1.5;有出 口时3.0\t\r\n一\r\n\t\t三级\t12\t14\t12\t20\t12\t7\t8\t\t\r\n围墙\t\t7\t--\t1\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n注：1  建、构筑物防火间距应按相邻两建、构筑物外墙的最近距离计"
+      }
+    ],
+    "gold_chunk_indices": [
+      27,
+      28,
+      35
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5429-2009 电力系统设计技术规程_27",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_28",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_35"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0075",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      27,
+      28
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-121",
+    "expected_answer": "220kV",
+    "expected_keywords": [
+      "变电站I二次侧母线运行电压倍数",
+      "220",
+      "电压质量标准",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 6.2.3",
+    "candidates": [
+      {
+        "chunk_index": 6,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_6",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "220"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "本标准规定了保证电力系统安全稳定运行的基本要求、电力系统安全稳定标准、电力系统安全稳定计算分析，以及电力系统安全稳定工作管理。\n\n本标准适用于电压等级为220kV及以上的电力系统。220kV以下的电力系统（含分布式电源）可参照执行。"
+      },
+      {
+        "chunk_index": 14,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_14",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "220"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "330kV及以上电变电站B。\n\n注1：某区域供变电站E。\n\n注2：对电网安全运行影响重大的220kV变电站是变电站A，由所属电网企业根据电网结构确定。"
+      },
+      {
+        "chunk_index": 28,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_28",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "220"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "本标准规定了电力系统设计的基本要求，包括电力需求预测、电源方案设计、电网方案设计、潮流及调相调压计算、某区域电流计算、工频过电压及潜供电流计算、方案经济比较等。\n\n\n本标准适用于220kV及以上电压等级电力系统设计（一次部分）、电力系统专题研究，以及电厂、变电站、换流站接入系统设计。"
+      },
+      {
+        "chunk_index": 62,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_62",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "220"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "1\\. 变压器容量、台数、相数及调压方式，应根据负荷发展、潮流变化，结合系统输电、稳定、调相调压、设备制造运输等条件论证；\n\n2\\. 350kV及以上发电站条件允许时优先采用自耦变压器，不采用时需专项论证；\n\n3\\. 500kV及变电站C变压器相数（含备用），需考虑单台故障/检修对供电某专家频过电压的影响；\n\n4\\. 优先选用大容量变压器，节约用地、提高资源利用率；\n\n5\\. 220kV及变电站C"
+      },
+      {
+        "chunk_index": 63,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_63",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "220"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "1\\. 按绝缘水平要求接地的变压器，中性点必须接地；\n\n2\\. 中压侧变电站B变电站G每条母线应有1台变压器中性点接地；某区域电流且继电保护允许时，可不接地，但电网任一点综合零序电抗不应大于综合正序电抗的3倍；\n\n3\\. 发电厂多台220kV及以下升压变压器，应有1\\~2台中性点接地；\n\n4\\. 500kV及以上变压器中性点宜全部接地。"
+      },
+      {
+        "chunk_index": 75,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_75",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "220"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "暂态稳定计算故障切除时间：220kV系统近故障点0.1s、远故障点0.12s；330kV及以上系统近故障点0.09s、远故障点0.1s；不满足稳定要求时，可采用0.08s。"
+      },
+      {
+        "chunk_index": 87,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_87",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "220"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": true
+        },
+        "preview": "[已脱敏]\t　220kV~750kV变 电站设计技术规程\tDL/T\r\n[已脱敏]\t\t\r\n[已脱敏]\t\r\n[已脱敏]\r\n\t\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n前  "
+      },
+      {
+        "chunk_index": 108,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_108",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "220"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "一般性质的220kV  变电站的220kV  配电装置，某区域数 在4回及以下时，可采用其他简单的主接线。\r\n　　　220kV 变电站42的配电装置，在满足运行要求的前提下， 某区域某区域器的接线，某区域变压器组或桥  形接线等。当电力系统继电保护能够满足要求时，某区域  分支接线。"
+      }
+    ],
+    "gold_chunk_indices": [
+      6,
+      14,
+      28
+    ],
+    "gold_chunk_ids": [
+      "source_section_GB 38755-电力系统安全稳定导则2019_6",
+      "source_section_GB 38755-电力系统安全稳定导则2019_14",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_28"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0076",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      6,
+      14
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-122",
+    "expected_answer": "10年",
+    "expected_keywords": [
+      "输电容量预留裕度发展年限",
+      "10",
+      "电网输电容量",
+      "DL/T 5429-2009"
+    ],
+    "source_standard": "DL/T 5429-2009 6.2.7",
+    "candidates": [
+      {
+        "chunk_index": 54,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_54",
+        "score": 0.5,
+        "signals": {
+          "keyword_hits": [
+            "10",
+            "电网输电容量"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 4,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "1\\. 电网输电容量应满足正常及事故运行方式下的输电需求，考虑单一元件故障；\n\n2\\. 输电容量应预留裕度，适应今后5\\~10年发展；线路某地可考虑更远期发展，必要时提前建设双回线同塔或按高一级电压建设、初期降压运行；\n\n3\\. 某区域容量应满足丰水期满发需要，长某区域需专项论证。"
+      },
+      {
+        "chunk_index": 3,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_3",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "5.1　安全稳定计算分析的任务与要求　…………………………………………………8\n\n　5.2　电力系统静态安全分析　……………………………………………………………9\n\n　5.3　电力系统静态稳定的计算分析　……………………………………………………9\n\n　5.4　电力系统暂态功角稳定的计算分析　……………………………………………10\n\n　5.5　电力系统动态功角稳定的计算分析　………………………………"
+      },
+      {
+        "chunk_index": 5,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_5",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": true
+        },
+        "preview": "1981年，针对当时改革开放后国民经济基础设施某专家建设初期，中国电网稳定破坏事故频发的局面和电网发展“重发电轻供电”的偏向，原电力工业部制定了第一版《电力系统安全稳定导则（81电生字109号）》，首次规范化地提出了正确处理电力系统安全与经济、合理建设和电网运行的指导性原则。《电力系统安全稳定导则》颁布实施后，我国电力系统安全稳定水平上了一个新台阶，稳定破坏次数迅速减少，从1970年\\~1980年"
+      },
+      {
+        "chunk_index": 24,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_24",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "正常运行方式下的电力系统受到下述较严重的故障扰动后，保护、开关及重合闸正确动作，应能保持稳定运行，必要时允许采取切机和切负荷、直流紧急功率控制、抽水蓄能电站切泵等稳定控制措施：\n\na) 单回线或单台变压器（辐射型结构）故障或无故障三相断开；\n\nb) 任一段母线故障；\n\nc) 同杆并架双回线的异名两相同时发生单相接地故障重合不成功，双回线三相同时跳闸，或同杆并架双回线同时无故障断开；\n\nd) 直流系"
+      },
+      {
+        "chunk_index": 26,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_26",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "\\- ICS分类：27.100\n\n\\- 备案号：J927—2009\n\n\\- 替代标准：SDJ161—1985（电力系统设计技术规程（试行））\n\n\\- 发布日期：[已脱敏]\n\n\\- 实施日期：[已脱敏]\n\n\\- 发布单位：中华人民共和国国家能源局\n\n\\- 归口与解释单位：电力行业电力规划设计标准化技术委员会\n\n\\- 起草单位: [已脱敏]\\- 主要起草人：车志国、鄂住、关破埠、侧光、谓水才\n\n\\- "
+      },
+      {
+        "chunk_index": 35,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_35",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电力系统设计的设计水平年宜与国民经济和社会发展规划年份一致，一般取今后5年左右的某一年；远景展望取今后10\\~15年的某一年。"
+      },
+      {
+        "chunk_index": 44,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_44",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "某专家备用容量可按系统最大发电负荷的15%\\~20%考虑（低值适用于大系统，高值适用于小系统），并满足：\n\n1\\. 负荷备用为2%～5%；\n\n2\\. 事故备用为8%\\~10%，且不小于系统一台最大单机容量；\n\n3\\. 检修备用按规程要求及系统情况确定，初步计算时不应低于5%。"
+      },
+      {
+        "chunk_index": 45,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_45",
+        "score": 0.25,
+        "signals": {
+          "keyword_hits": [
+            "10"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 4,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "系统事故备用容量在电站间可按各类电站担负的系统工作容量比例分配，且需考虑：\n\n1\\. 承担事故备用的电源应具备相应能量或燃料储备；水电站需预留事故备用容量在基荷连续运行3d\\~10d的备用容积（水量），若该容积小于水库兴利库容的3%，可不再专设；火电机组应能长期在经济出力范围内运行；\n\n2\\. 调节性能好、靠近负荷中心的水电站，可承担较大的事故备用容量。"
+      }
+    ],
+    "gold_chunk_indices": [
+      54,
+      3,
+      5
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5429-2009 电力系统设计技术规程_54",
+      "source_section_GB 38755-电力系统安全稳定导则2019_3",
+      "source_section_GB 38755-电力系统安全稳定导则2019_5"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=CL-0077",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      54,
+      3
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-123",
+    "expected_answer": "220kV",
+    "expected_keywords": [
+      "电压等级",
+      "220kV",
+      "及以上",
+      "范围",
+      "GB 38755"
+    ],
+    "source_standard": "GB 38755-2019 第1章 范围",
+    "candidates": [
+      {
+        "chunk_index": 6,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_6",
+        "score": 0.6,
+        "signals": {
+          "keyword_hits": [
+            "电压等级",
+            "220kV",
+            "及以上"
+          ],
+          "keyword_hit_count": 3,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "本标准规定了保证电力系统安全稳定运行的基本要求、电力系统安全稳定标准、电力系统安全稳定计算分析，以及电力系统安全稳定工作管理。\n\n本标准适用于电压等级为220kV及以上的电力系统。220kV以下的电力系统（含分布式电源）可参照执行。"
+      },
+      {
+        "chunk_index": 28,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_28",
+        "score": 0.6,
+        "signals": {
+          "keyword_hits": [
+            "电压等级",
+            "220kV",
+            "及以上"
+          ],
+          "keyword_hit_count": 3,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "本标准规定了电力系统设计的基本要求，包括电力需求预测、电源方案设计、电网方案设计、潮流及调相调压计算、某区域电流计算、工频过电压及潜供电流计算、方案经济比较等。\n\n\n本标准适用于220kV及以上电压等级电力系统设计（一次部分）、电力系统专题研究，以及电厂、变电站、换流站接入系统设计。"
+      },
+      {
+        "chunk_index": 14,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_14",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "220kV",
+            "及以上"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "330kV及以上电变电站B。\n\n注1：某区域供变电站E。\n\n注2：对电网安全运行影响重大的220kV变电站是变电站A，由所属电网企业根据电网结构确定。"
+      },
+      {
+        "chunk_index": 20,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_20",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "电压等级",
+            "及以上"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "注：3.5.1\\~3.5.4所述电源指接入35kV及以上电压等级电力系统的火电、水电、核电、燃气轮机发电、光热发电、抽水蓄能、风力发电、光伏发电及储能电站等。"
+      },
+      {
+        "chunk_index": 62,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_62",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "220kV",
+            "及以上"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "1\\. 变压器容量、台数、相数及调压方式，应根据负荷发展、潮流变化，结合系统输电、稳定、调相调压、设备制造运输等条件论证；\n\n2\\. 350kV及以上发电站条件允许时优先采用自耦变压器，不采用时需专项论证；\n\n3\\. 500kV及变电站C变压器相数（含备用），需考虑单台故障/检修对供电某专家频过电压的影响；\n\n4\\. 优先选用大容量变压器，节约用地、提高资源利用率；\n\n5\\. 220kV及变电站C"
+      },
+      {
+        "chunk_index": 63,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_63",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "220kV",
+            "及以上"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "1\\. 按绝缘水平要求接地的变压器，中性点必须接地；\n\n2\\. 中压侧变电站B变电站G每条母线应有1台变压器中性点接地；某区域电流且继电保护允许时，可不接地，但电网任一点综合零序电抗不应大于综合正序电抗的3倍；\n\n3\\. 发电厂多台220kV及以下升压变压器，应有1\\~2台中性点接地；\n\n4\\. 500kV及以上变压器中性点宜全部接地。"
+      },
+      {
+        "chunk_index": 75,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_75",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "220kV",
+            "及以上"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "暂态稳定计算故障切除时间：220kV系统近故障点0.1s、远故障点0.12s；330kV及以上系统近故障点0.09s、远故障点0.1s；不满足稳定要求时，可采用0.08s。"
+      },
+      {
+        "chunk_index": 87,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_87",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "220kV",
+            "范围"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": true
+        },
+        "preview": "[已脱敏]\t　220kV~750kV变 电站设计技术规程\tDL/T\r\n[已脱敏]\t\t\r\n[已脱敏]\t\r\n[已脱敏]\r\n\t\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n前  "
+      }
+    ],
+    "gold_chunk_indices": [
+      6,
+      28,
+      14
+    ],
+    "gold_chunk_ids": [
+      "source_section_GB 38755-电力系统安全稳定导则2019_6",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_28",
+      "source_section_GB 38755-电力系统安全稳定导则2019_14"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      6,
+      28
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-124",
+    "expected_answer": "15%～20%",
+    "expected_keywords": [
+      "系统备用容量",
+      "最大发电负荷",
+      "15%",
+      "20%",
+      "比例"
+    ],
+    "source_standard": "DL/T 5429-2009 第5.2.3条",
+    "candidates": [
+      {
+        "chunk_index": 44,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_44",
+        "score": 0.6,
+        "signals": {
+          "keyword_hits": [
+            "最大发电负荷",
+            "15%",
+            "20%"
+          ],
+          "keyword_hit_count": 3,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "某专家备用容量可按系统最大发电负荷的15%\\~20%考虑（低值适用于大系统，高值适用于小系统），并满足：\n\n1\\. 负荷备用为2%～5%；\n\n2\\. 事故备用为8%\\~10%，且不小于系统一台最大单机容量；\n\n3\\. 检修备用按规程要求及系统情况确定，初步计算时不应低于5%。"
+      },
+      {
+        "chunk_index": 27,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_27",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "系统备用容量"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "本标准根据《国家发展改革委办公厅关于印发2007年行业标准修订、制定计划的通知》（发改办工业〔2007〕1415号）的安排，对SDJ161—1985《电力系统设计技术规程》（试行）进行修订。\n\n\nSDJ161—1985自发布实施以来，对电力系统的规划和设计工作起到了积极的指导作用。随着电力系统技术进步、电网规模扩大、全国联网深某地场化体制改革推进，原规程部分条款已无法适应需求，因此开展本次修订。\n"
+      },
+      {
+        "chunk_index": 45,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_45",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "比例"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "系统事故备用容量在电站间可按各类电站担负的系统工作容量比例分配，且需考虑：\n\n1\\. 承担事故备用的电源应具备相应能量或燃料储备；水电站需预留事故备用容量在基荷连续运行3d\\~10d的备用容积（水量），若该容积小于水库兴利库容的3%，可不再专设；火电机组应能长期在经济出力范围内运行；\n\n2\\. 调节性能好、靠近负荷中心的水电站，可承担较大的事故备用容量。"
+      },
+      {
+        "chunk_index": 58,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_58",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "比例"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "大型水、火电能源基地远距离输电时，宜通过某区域接入受端系统，避免电源点过度集中；某区域最大输送功率占受某专家负荷比例不宜过大，具体需技术经济论证。"
+      },
+      {
+        "chunk_index": 154,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_154",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "20%"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "故贮油池的设置原则。\r\n　　　变电站屋内含油电气设备油量超过100kg 和屋外露天的含 油电气设备油量超过1000kg, 均设置贮油坑，当贮油坑的容量为 20%时，并应将某专家事故油池。\r\n　　　对于屋内含油电气设备，如果未设置水喷雾灭火系统，也未设 某专家事故油池，则贮油坑应能容纳设备的全部油量；如果设置水喷 雾灭火系统，消防时的事故油和消防水一起排出，贮油坑的容量不 能满足要求，要将事故油和消"
+      },
+      {
+        "chunk_index": 189,
+        "chunk_id": "source_section_500kV变电站设计方案_189",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "15%"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "年均增长分比为26.2%、16.7%、35.2%,成为全省乃至长三角经济发\n展速某地域之一。2017 年,某地负荷和电量同比分别\n增长25.33%、22.33%,2018 年负荷再创历史新高达593.4MW,增幅\n某地各区域第1 位,2018 年前三季度,新区完成业扩受理容\n\n量363MVA,同比增加69.63%,其中高压业扩受理容量332MVA,同比\n增加65.16%;完成业扩报装新增通电容量2"
+      }
+    ],
+    "gold_chunk_indices": [
+      44,
+      27,
+      45
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5429-2009 电力系统设计技术规程_44",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_27",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_45"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      44,
+      27
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-125",
+    "expected_answer": "2%～5%",
+    "expected_keywords": [
+      "负荷备用",
+      "2%",
+      "5%",
+      "备用容量",
+      "系统"
+    ],
+    "source_standard": "DL/T 5429-2009 第5.2.3条",
+    "candidates": [
+      {
+        "chunk_index": 44,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_44",
+        "score": 1.0,
+        "signals": {
+          "keyword_hits": [
+            "负荷备用",
+            "2%",
+            "5%",
+            "备用容量",
+            "系统"
+          ],
+          "keyword_hit_count": 5,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "某专家备用容量可按系统最大发电负荷的15%\\~20%考虑（低值适用于大系统，高值适用于小系统），并满足：\n\n1\\. 负荷备用为2%～5%；\n\n2\\. 事故备用为8%\\~10%，且不小于系统一台最大单机容量；\n\n3\\. 检修备用按规程要求及系统情况确定，初步计算时不应低于5%。"
+      },
+      {
+        "chunk_index": 27,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_27",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "备用容量",
+            "系统"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "本标准根据《国家发展改革委办公厅关于印发2007年行业标准修订、制定计划的通知》（发改办工业〔2007〕1415号）的安排，对SDJ161—1985《电力系统设计技术规程》（试行）进行修订。\n\n\nSDJ161—1985自发布实施以来，对电力系统的规划和设计工作起到了积极的指导作用。随着电力系统技术进步、电网规模扩大、全国联网深某地场化体制改革推进，原规程部分条款已无法适应需求，因此开展本次修订。\n"
+      },
+      {
+        "chunk_index": 45,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_45",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "备用容量",
+            "系统"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "系统事故备用容量在电站间可按各类电站担负的系统工作容量比例分配，且需考虑：\n\n1\\. 承担事故备用的电源应具备相应能量或燃料储备；水电站需预留事故备用容量在基荷连续运行3d\\~10d的备用容积（水量），若该容积小于水库兴利库容的3%，可不再专设；火电机组应能长期在经济出力范围内运行；\n\n2\\. 调节性能好、靠近负荷中心的水电站，可承担较大的事故备用容量。"
+      },
+      {
+        "chunk_index": 59,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_59",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "备用容量",
+            "系统"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "系统互联应开展可行性研究，明确联络线作用和技术经济效益，分析维度包括：\n\n1\\. 调峰互济效益；\n\n2\\. 减某专家备用容量；\n\n3\\. 送电电量效益（含减少水电弃水、送电替代等）；\n\n4\\. 电源布局、电厂规模及单机容量优化效益；\n\n5\\. 提升系统经济运行效益（含跨流域水电站补偿调节）；\n\n6\\. 互联及电网改造的工程投资和运行费用。"
+      },
+      {
+        "chunk_index": 189,
+        "chunk_id": "source_section_500kV变电站设计方案_189",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "2%",
+            "5%"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "年均增长分比为26.2%、16.7%、35.2%,成为全省乃至长三角经济发\n展速某地域之一。2017 年,某地负荷和电量同比分别\n增长25.33%、22.33%,2018 年负荷再创历史新高达593.4MW,增幅\n某地各区域第1 位,2018 年前三季度,新区完成业扩受理容\n\n量363MVA,同比增加69.63%,其中高压业扩受理容量332MVA,同比\n增加65.16%;完成业扩报装新增通电容量2"
+      },
+      {
+        "chunk_index": 1,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_1",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "系统"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "3.1　总体要求　……………………………………………………………………………3\n\n　3.2　电网结构　……………………………………………………………………………4\n\n　3.3　电源结构　……………………………………………………………………………5\n\n　3.4　无功平衡及补偿　……………………………………………………………………5\n\n　3.5　网源协调　……………………………………………………………"
+      },
+      {
+        "chunk_index": 2,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_2",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "系统"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "4.1　电力系统的静态稳定储备标准　……………………………………………………7\n\n　4.2　电力系统承受大扰动能力的安全稳定标准　………………………………………7\n\n　4.3　特殊情况要求　………………………………………………………………………8"
+      },
+      {
+        "chunk_index": 3,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_3",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "系统"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "5.1　安全稳定计算分析的任务与要求　…………………………………………………8\n\n　5.2　电力系统静态安全分析　……………………………………………………………9\n\n　5.3　电力系统静态稳定的计算分析　……………………………………………………9\n\n　5.4　电力系统暂态功角稳定的计算分析　……………………………………………10\n\n　5.5　电力系统动态功角稳定的计算分析　………………………………"
+      }
+    ],
+    "gold_chunk_indices": [
+      44,
+      27,
+      45
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5429-2009 电力系统设计技术规程_44",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_27",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_45"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      44,
+      27
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-126",
+    "expected_answer": "8%～10%",
+    "expected_keywords": [
+      "事故备用",
+      "8%",
+      "10%",
+      "备用容量",
+      "系统"
+    ],
+    "source_standard": "DL/T 5429-2009 第5.2.3条",
+    "candidates": [
+      {
+        "chunk_index": 44,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_44",
+        "score": 1.0,
+        "signals": {
+          "keyword_hits": [
+            "事故备用",
+            "8%",
+            "10%",
+            "备用容量",
+            "系统"
+          ],
+          "keyword_hit_count": 5,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "某专家备用容量可按系统最大发电负荷的15%\\~20%考虑（低值适用于大系统，高值适用于小系统），并满足：\n\n1\\. 负荷备用为2%～5%；\n\n2\\. 事故备用为8%\\~10%，且不小于系统一台最大单机容量；\n\n3\\. 检修备用按规程要求及系统情况确定，初步计算时不应低于5%。"
+      },
+      {
+        "chunk_index": 45,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_45",
+        "score": 0.6,
+        "signals": {
+          "keyword_hits": [
+            "事故备用",
+            "备用容量",
+            "系统"
+          ],
+          "keyword_hit_count": 3,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "系统事故备用容量在电站间可按各类电站担负的系统工作容量比例分配，且需考虑：\n\n1\\. 承担事故备用的电源应具备相应能量或燃料储备；水电站需预留事故备用容量在基荷连续运行3d\\~10d的备用容积（水量），若该容积小于水库兴利库容的3%，可不再专设；火电机组应能长期在经济出力范围内运行；\n\n2\\. 调节性能好、靠近负荷中心的水电站，可承担较大的事故备用容量。"
+      },
+      {
+        "chunk_index": 24,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_24",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "10%",
+            "系统"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "正常运行方式下的电力系统受到下述较严重的故障扰动后，保护、开关及重合闸正确动作，应能保持稳定运行，必要时允许采取切机和切负荷、直流紧急功率控制、抽水蓄能电站切泵等稳定控制措施：\n\na) 单回线或单台变压器（辐射型结构）故障或无故障三相断开；\n\nb) 任一段母线故障；\n\nc) 同杆并架双回线的异名两相同时发生单相接地故障重合不成功，双回线三相同时跳闸，或同杆并架双回线同时无故障断开；\n\nd) 直流系"
+      },
+      {
+        "chunk_index": 27,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_27",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "备用容量",
+            "系统"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "本标准根据《国家发展改革委办公厅关于印发2007年行业标准修订、制定计划的通知》（发改办工业〔2007〕1415号）的安排，对SDJ161—1985《电力系统设计技术规程》（试行）进行修订。\n\n\nSDJ161—1985自发布实施以来，对电力系统的规划和设计工作起到了积极的指导作用。随着电力系统技术进步、电网规模扩大、全国联网深某地场化体制改革推进，原规程部分条款已无法适应需求，因此开展本次修订。\n"
+      },
+      {
+        "chunk_index": 50,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_50",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "10%",
+            "系统"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "1\\. 变电站H二次侧母线运行电压控变电站A位置及电网电压降确定，可为额定电压的1.0\\~1.05倍；日最大/最小负荷下运行电压波动不应超过10%，事故后不应低于额定电压的0.95倍；\n\n2\\. 电网任一点运行电压不应超过最高运行电压；变电站一次侧母线正常运行电压不应低于额定电压的0.95\\~1.0倍（受电终端取低值），最低运行电压不应影响系统同步稳定、电压稳定及厂用电正常运行。"
+      },
+      {
+        "chunk_index": 59,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_59",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "备用容量",
+            "系统"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "系统互联应开展可行性研究，明确联络线作用和技术经济效益，分析维度包括：\n\n1\\. 调峰互济效益；\n\n2\\. 减某专家备用容量；\n\n3\\. 送电电量效益（含减少水电弃水、送电替代等）；\n\n4\\. 电源布局、电厂规模及单机容量优化效益；\n\n5\\. 提升系统经济运行效益（含跨流域水电站补偿调节）；\n\n6\\. 互联及电网改造的工程投资和运行费用。"
+      },
+      {
+        "chunk_index": 1,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_1",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "系统"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "3.1　总体要求　……………………………………………………………………………3\n\n　3.2　电网结构　……………………………………………………………………………4\n\n　3.3　电源结构　……………………………………………………………………………5\n\n　3.4　无功平衡及补偿　……………………………………………………………………5\n\n　3.5　网源协调　……………………………………………………………"
+      },
+      {
+        "chunk_index": 2,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_2",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "系统"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "4.1　电力系统的静态稳定储备标准　……………………………………………………7\n\n　4.2　电力系统承受大扰动能力的安全稳定标准　………………………………………7\n\n　4.3　特殊情况要求　………………………………………………………………………8"
+      }
+    ],
+    "gold_chunk_indices": [
+      44,
+      45,
+      24
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5429-2009 电力系统设计技术规程_44",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_45",
+      "source_section_GB 38755-电力系统安全稳定导则2019_24"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      44,
+      45
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-127",
+    "expected_answer": "5%",
+    "expected_keywords": [
+      "检修备用",
+      "5%",
+      "不低于",
+      "备用容量",
+      "设计"
+    ],
+    "source_standard": "DL/T 5429-2009 第5.2.3条",
+    "candidates": [
+      {
+        "chunk_index": 44,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_44",
+        "score": 0.6,
+        "signals": {
+          "keyword_hits": [
+            "检修备用",
+            "5%",
+            "备用容量"
+          ],
+          "keyword_hit_count": 3,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "某专家备用容量可按系统最大发电负荷的15%\\~20%考虑（低值适用于大系统，高值适用于小系统），并满足：\n\n1\\. 负荷备用为2%～5%；\n\n2\\. 事故备用为8%\\~10%，且不小于系统一台最大单机容量；\n\n3\\. 检修备用按规程要求及系统情况确定，初步计算时不应低于5%。"
+      },
+      {
+        "chunk_index": 27,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_27",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "备用容量",
+            "设计"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "本标准根据《国家发展改革委办公厅关于印发2007年行业标准修订、制定计划的通知》（发改办工业〔2007〕1415号）的安排，对SDJ161—1985《电力系统设计技术规程》（试行）进行修订。\n\n\nSDJ161—1985自发布实施以来，对电力系统的规划和设计工作起到了积极的指导作用。随着电力系统技术进步、电网规模扩大、全国联网深某地场化体制改革推进，原规程部分条款已无法适应需求，因此开展本次修订。\n"
+      },
+      {
+        "chunk_index": 5,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_5",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "设计"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": true
+        },
+        "preview": "1981年，针对当时改革开放后国民经济基础设施某专家建设初期，中国电网稳定破坏事故频发的局面和电网发展“重发电轻供电”的偏向，原电力工业部制定了第一版《电力系统安全稳定导则（81电生字109号）》，首次规范化地提出了正确处理电力系统安全与经济、合理建设和电网运行的指导性原则。《电力系统安全稳定导则》颁布实施后，我国电力系统安全稳定水平上了一个新台阶，稳定破坏次数迅速减少，从1970年\\~1980年"
+      },
+      {
+        "chunk_index": 26,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_26",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "设计"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "\\- ICS分类：27.100\n\n\\- 备案号：J927—2009\n\n\\- 替代标准：SDJ161—1985（电力系统设计技术规程（试行））\n\n\\- 发布日期：[已脱敏]\n\n\\- 实施日期：[已脱敏]\n\n\\- 发布单位：中华人民共和国国家能源局\n\n\\- 归口与解释单位：电力行业电力规划设计标准化技术委员会\n\n\\- 起草单位: [已脱敏]\\- 主要起草人：车志国、鄂住、关破埠、侧光、谓水才\n\n\\- "
+      },
+      {
+        "chunk_index": 28,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_28",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "设计"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "本标准规定了电力系统设计的基本要求，包括电力需求预测、电源方案设计、电网方案设计、潮流及调相调压计算、某区域电流计算、工频过电压及潜供电流计算、方案经济比较等。\n\n\n本标准适用于220kV及以上电压等级电力系统设计（一次部分）、电力系统专题研究，以及电厂、变电站、换流站接入系统设计。"
+      },
+      {
+        "chunk_index": 30,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_30",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "设计"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电力系统设计应遵循电力工业产业政策、发展方针和各项技术经济政策，符合能源资源优化配置基本原则，以市场为导向、安全稳定为基础，做到科学论证、技术先进、经济合理。"
+      },
+      {
+        "chunk_index": 31,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_31",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "设计"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电力系统设计应以电力工业规划、电网规划、电厂输电规划为基础，从系统整体出发，研究并提出具体发展方案。"
+      },
+      {
+        "chunk_index": 32,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_32",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "设计"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电力系统设计应合理布局电源和电网，使发电、输电、变电及无功设施配套协调，并为系统继电保护、安全自动装置、通信、调度自动化及下一级电压系统设计创造条件。"
+      }
+    ],
+    "gold_chunk_indices": [
+      44,
+      27,
+      5
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5429-2009 电力系统设计技术规程_44",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_27",
+      "source_section_GB 38755-电力系统安全稳定导则2019_5"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      44,
+      27
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-129",
+    "expected_answer": "3%",
+    "expected_keywords": [
+      "水电站",
+      "备用容积",
+      "兴利库容",
+      "3%",
+      "不再专设"
+    ],
+    "source_standard": "DL/T 5429-2009 第5.2.4条",
+    "candidates": [
+      {
+        "chunk_index": 45,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_45",
+        "score": 1.0,
+        "signals": {
+          "keyword_hits": [
+            "水电站",
+            "备用容积",
+            "兴利库容",
+            "3%",
+            "不再专设"
+          ],
+          "keyword_hit_count": 5,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "系统事故备用容量在电站间可按各类电站担负的系统工作容量比例分配，且需考虑：\n\n1\\. 承担事故备用的电源应具备相应能量或燃料储备；水电站需预留事故备用容量在基荷连续运行3d\\~10d的备用容积（水量），若该容积小于水库兴利库容的3%，可不再专设；火电机组应能长期在经济出力范围内运行；\n\n2\\. 调节性能好、靠近负荷中心的水电站，可承担较大的事故备用容量。"
+      },
+      {
+        "chunk_index": 41,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_41",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "水电站"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电源方案设计基本要求：\n\n1\\. 优先推荐建设条件优越、经济指标好的水电站；\n\n2\\. 火电电源方案应调研燃料采购和运输条件，送电方向宜与燃料运输方向一致；技术经济指标相差不大时，优先推荐系统安全稳定水平高的方案；\n\n3\\. 符合国家核某专家体规划的前提下，有核电站建某地可研究核电建设方案；\n\n4\\. 中小型机组改造、用户自备电厂、地方电厂及热电厂建设，可依据已核准的可行性研究报告安排；\n\n5\\."
+      },
+      {
+        "chunk_index": 46,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_46",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "水电站"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "研究系统调峰方案，确保调峰容量满足设计年不同季节调峰需求，提出典型日调峰方式，并对比新建水电站、扩大现有水电站装机、新增火电调峰机组、与调峰能力富余系统联网、建设抽水蓄能电站等调峰方案，明确调峰电厂及调峰能力。"
+      },
+      {
+        "chunk_index": 47,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_47",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "水电站"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "优先安排调节性能好的水电站承担系统调峰，研究其增装容量及预留扩建的可行性；远距离水电站需论证调峰容量的经济性；火电厂优先安排经济性好、有调节能力的机组调峰。"
+      },
+      {
+        "chunk_index": 48,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_48",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "水电站"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "各水电站调峰容量应综合以下因素合理分配：\n\n1\\. 充分利用水电装机容量；\n\n2\\. 系统经济运行、节约能源、降低网损。"
+      },
+      {
+        "chunk_index": 57,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_57",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "水电站"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "1\\. 某区域两回及以上时，某区域事故停运后，若事故后静稳定能力小于正常输电容量，按事故后静稳定能力输电；否则按正常输电容量输电；\n\n2\\. 某区域三相故障、某区域单极故障，必要时可采取切机或快速降出力措施；\n\n3\\. 利用小时数较低的水电站、风电场等电厂送出，某区域数，某区域数时可不考虑“N-1”方式；\n\n4\\. 某区域某区域不重合时保持稳定运行和电厂正常送出。"
+      },
+      {
+        "chunk_index": 59,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_59",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "水电站"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "系统互联应开展可行性研究，明确联络线作用和技术经济效益，分析维度包括：\n\n1\\. 调峰互济效益；\n\n2\\. 减某专家备用容量；\n\n3\\. 送电电量效益（含减少水电弃水、送电替代等）；\n\n4\\. 电源布局、电厂规模及单机容量优化效益；\n\n5\\. 提升系统经济运行效益（含跨流域水电站补偿调节）；\n\n6\\. 互联及电网改造的工程投资和运行费用。"
+      },
+      {
+        "chunk_index": 168,
+        "chunk_id": "source_section_500kV变电站设计方案_168",
+        "score": 0.2,
+        "signals": {
+          "keyword_hits": [
+            "3%"
+          ],
+          "keyword_hit_count": 1,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "根据统计,“十二五”期间,浙江省最高用电负荷从4560 万千\n瓦增长到6290 万千瓦,年均增长6.6%;全省用电量从2010 年的2824\n亿千瓦时增长到2015 年的3554 亿千瓦时,年均增长4.7%。\n近些年,浙江省电力需求呈现持续较高增长,全省用电增长名列\n全国前茅。据统计,[已脱敏] 年,全省用电量年均增长10.3%。"
+      }
+    ],
+    "gold_chunk_indices": [
+      45,
+      41,
+      46
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5429-2009 电力系统设计技术规程_45",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_41",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_46"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      45,
+      41
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-130",
+    "expected_answer": "5年",
+    "expected_keywords": [
+      "设计水平年",
+      "5年",
+      "今后",
+      "规划",
+      "设计"
+    ],
+    "source_standard": "DL/T 5429-2009 第3.0.7条",
+    "candidates": [
+      {
+        "chunk_index": 35,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_35",
+        "score": 1.0,
+        "signals": {
+          "keyword_hits": [
+            "设计水平年",
+            "5年",
+            "今后",
+            "规划",
+            "设计"
+          ],
+          "keyword_hit_count": 5,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "电力系统设计的设计水平年宜与国民经济和社会发展规划年份一致，一般取今后5年左右的某一年；远景展望取今后10\\~15年的某一年。"
+      },
+      {
+        "chunk_index": 49,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_49",
+        "score": 0.8,
+        "signals": {
+          "keyword_hits": [
+            "设计水平年",
+            "5年",
+            "今后",
+            "设计"
+          ],
+          "keyword_hit_count": 4,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "选择电压等级的基本要求：\n\n1\\. 根据电网现状、今后10\\~15年输电容量、输电距离等论证；方案应满足远期发展，适应近期过渡；技术经济指标相差不大时，优先推荐较高电压等级，必要时可初期降压运行过渡；\n\n2\\. 分析设计水平年内出现更高一级电压的必要性、时间及远期适应性。"
+      },
+      {
+        "chunk_index": 26,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_26",
+        "score": 0.6,
+        "signals": {
+          "keyword_hits": [
+            "5年",
+            "规划",
+            "设计"
+          ],
+          "keyword_hit_count": 3,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "\\- ICS分类：27.100\n\n\\- 备案号：J927—2009\n\n\\- 替代标准：SDJ161—1985（电力系统设计技术规程（试行））\n\n\\- 发布日期：[已脱敏]\n\n\\- 实施日期：[已脱敏]\n\n\\- 发布单位：中华人民共和国国家能源局\n\n\\- 归口与解释单位：电力行业电力规划设计标准化技术委员会\n\n\\- 起草单位: [已脱敏]\\- 主要起草人：车志国、鄂住、关破埠、侧光、谓水才\n\n\\- "
+      },
+      {
+        "chunk_index": 5,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_5",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "规划",
+            "设计"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": true
+        },
+        "preview": "1981年，针对当时改革开放后国民经济基础设施某专家建设初期，中国电网稳定破坏事故频发的局面和电网发展“重发电轻供电”的偏向，原电力工业部制定了第一版《电力系统安全稳定导则（81电生字109号）》，首次规范化地提出了正确处理电力系统安全与经济、合理建设和电网运行的指导性原则。《电力系统安全稳定导则》颁布实施后，我国电力系统安全稳定水平上了一个新台阶，稳定破坏次数迅速减少，从1970年\\~1980年"
+      },
+      {
+        "chunk_index": 27,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_27",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "规划",
+            "设计"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "本标准根据《国家发展改革委办公厅关于印发2007年行业标准修订、制定计划的通知》（发改办工业〔2007〕1415号）的安排，对SDJ161—1985《电力系统设计技术规程》（试行）进行修订。\n\n\nSDJ161—1985自发布实施以来，对电力系统的规划和设计工作起到了积极的指导作用。随着电力系统技术进步、电网规模扩大、全国联网深某地场化体制改革推进，原规程部分条款已无法适应需求，因此开展本次修订。\n"
+      },
+      {
+        "chunk_index": 31,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_31",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "规划",
+            "设计"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电力系统设计应以电力工业规划、电网规划、电厂输电规划为基础，从系统整体出发，研究并提出具体发展方案。"
+      },
+      {
+        "chunk_index": 39,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_39",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "规划",
+            "设计"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电源方案设计应遵循能源资源优化配置基本原则，在宏观能源规划、能源及电力流向和联网规划指导下，某地内电力系统特点研究电源建设方案，应对水电、火电、核电、燃气、抽水蓄能等各类电源组合进行分析。"
+      },
+      {
+        "chunk_index": 41,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_41",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "规划",
+            "设计"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电源方案设计基本要求：\n\n1\\. 优先推荐建设条件优越、经济指标好的水电站；\n\n2\\. 火电电源方案应调研燃料采购和运输条件，送电方向宜与燃料运输方向一致；技术经济指标相差不大时，优先推荐系统安全稳定水平高的方案；\n\n3\\. 符合国家核某专家体规划的前提下，有核电站建某地可研究核电建设方案；\n\n4\\. 中小型机组改造、用户自备电厂、地方电厂及热电厂建设，可依据已核准的可行性研究报告安排；\n\n5\\."
+      }
+    ],
+    "gold_chunk_indices": [
+      35,
+      49,
+      26
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5429-2009 电力系统设计技术规程_35",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_49",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_26"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      35,
+      49
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-131",
+    "expected_answer": "10～15年",
+    "expected_keywords": [
+      "远景展望",
+      "10年",
+      "15年",
+      "规划",
+      "设计"
+    ],
+    "source_standard": "DL/T 5429-2009 第3.0.7条",
+    "candidates": [
+      {
+        "chunk_index": 35,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_35",
+        "score": 0.8,
+        "signals": {
+          "keyword_hits": [
+            "远景展望",
+            "15年",
+            "规划",
+            "设计"
+          ],
+          "keyword_hit_count": 4,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电力系统设计的设计水平年宜与国民经济和社会发展规划年份一致，一般取今后5年左右的某一年；远景展望取今后10\\~15年的某一年。"
+      },
+      {
+        "chunk_index": 5,
+        "chunk_id": "source_section_GB 38755-电力系统安全稳定导则2019_5",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "规划",
+            "设计"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": true
+        },
+        "preview": "1981年，针对当时改革开放后国民经济基础设施某专家建设初期，中国电网稳定破坏事故频发的局面和电网发展“重发电轻供电”的偏向，原电力工业部制定了第一版《电力系统安全稳定导则（81电生字109号）》，首次规范化地提出了正确处理电力系统安全与经济、合理建设和电网运行的指导性原则。《电力系统安全稳定导则》颁布实施后，我国电力系统安全稳定水平上了一个新台阶，稳定破坏次数迅速减少，从1970年\\~1980年"
+      },
+      {
+        "chunk_index": 26,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_26",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "规划",
+            "设计"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "\\- ICS分类：27.100\n\n\\- 备案号：J927—2009\n\n\\- 替代标准：SDJ161—1985（电力系统设计技术规程（试行））\n\n\\- 发布日期：[已脱敏]\n\n\\- 实施日期：[已脱敏]\n\n\\- 发布单位：中华人民共和国国家能源局\n\n\\- 归口与解释单位：电力行业电力规划设计标准化技术委员会\n\n\\- 起草单位: [已脱敏]\\- 主要起草人：车志国、鄂住、关破埠、侧光、谓水才\n\n\\- "
+      },
+      {
+        "chunk_index": 27,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_27",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "规划",
+            "设计"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "本标准根据《国家发展改革委办公厅关于印发2007年行业标准修订、制定计划的通知》（发改办工业〔2007〕1415号）的安排，对SDJ161—1985《电力系统设计技术规程》（试行）进行修订。\n\n\nSDJ161—1985自发布实施以来，对电力系统的规划和设计工作起到了积极的指导作用。随着电力系统技术进步、电网规模扩大、全国联网深某地场化体制改革推进，原规程部分条款已无法适应需求，因此开展本次修订。\n"
+      },
+      {
+        "chunk_index": 31,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_31",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "规划",
+            "设计"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电力系统设计应以电力工业规划、电网规划、电厂输电规划为基础，从系统整体出发，研究并提出具体发展方案。"
+      },
+      {
+        "chunk_index": 39,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_39",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "规划",
+            "设计"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电源方案设计应遵循能源资源优化配置基本原则，在宏观能源规划、能源及电力流向和联网规划指导下，某地内电力系统特点研究电源建设方案，应对水电、火电、核电、燃气、抽水蓄能等各类电源组合进行分析。"
+      },
+      {
+        "chunk_index": 41,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_41",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "规划",
+            "设计"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "电源方案设计基本要求：\n\n1\\. 优先推荐建设条件优越、经济指标好的水电站；\n\n2\\. 火电电源方案应调研燃料采购和运输条件，送电方向宜与燃料运输方向一致；技术经济指标相差不大时，优先推荐系统安全稳定水平高的方案；\n\n3\\. 符合国家核某专家体规划的前提下，有核电站建某地可研究核电建设方案；\n\n4\\. 中小型机组改造、用户自备电厂、地方电厂及热电厂建设，可依据已核准的可行性研究报告安排；\n\n5\\."
+      },
+      {
+        "chunk_index": 49,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_49",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "15年",
+            "设计"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "选择电压等级的基本要求：\n\n1\\. 根据电网现状、今后10\\~15年输电容量、输电距离等论证；方案应满足远期发展，适应近期过渡；技术经济指标相差不大时，优先推荐较高电压等级，必要时可初期降压运行过渡；\n\n2\\. 分析设计水平年内出现更高一级电压的必要性、时间及远期适应性。"
+      }
+    ],
+    "gold_chunk_indices": [
+      35,
+      5,
+      26
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5429-2009 电力系统设计技术规程_35",
+      "source_section_GB 38755-电力系统安全稳定导则2019_5",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_26"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      35,
+      5
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  },
+  {
+    "question_id": "L1-135",
+    "expected_answer": "750kV",
+    "expected_keywords": [
+      "变电站",
+      "最高电压",
+      "750kV",
+      "适用",
+      "DL/T 5218"
+    ],
+    "source_standard": "DL/T 5218-2012 标题及前言（适用范围）",
+    "candidates": [
+      {
+        "chunk_index": 131,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_131",
+        "score": 0.6,
+        "signals": {
+          "keyword_hits": [
+            "变电站",
+            "750kV",
+            "适用"
+          ],
+          "keyword_hit_count": 3,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": true
+        },
+        "preview": "本标准用词说明\r\n\r\n\r\n　　　1  为便于在执行木标某地别对待，对要求严格程度不 同的用词说明如下：\r\n1)表示很严格，非这样做不可的：\r\n正面词采用“必须”,反面词采用“严禁”;\r\n2)表示严格，在正常情况下均应这样做的：\r\n正面词采用“应”,反面词采用“不应”或“不得”;\r\n3)表示允许稍有选择，在条件许可时首先应这样做的：\r\n正面词采用“宜”,反面词采用“不宜”;\r\n4)表示有选择，在一定"
+      },
+      {
+        "chunk_index": 28,
+        "chunk_id": "source_section_DLT 5429-2009 电力系统设计技术规程_28",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "变电站",
+            "适用"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "none",
+          "source_match": false
+        },
+        "preview": "本标准规定了电力系统设计的基本要求，包括电力需求预测、电源方案设计、电网方案设计、潮流及调相调压计算、某区域电流计算、工频过电压及潜供电流计算、方案经济比较等。\n\n\n本标准适用于220kV及以上电压等级电力系统设计（一次部分）、电力系统专题研究，以及电厂、变电站、换流站接入系统设计。"
+      },
+      {
+        "chunk_index": 87,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_87",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "变电站",
+            "750kV"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": true
+        },
+        "preview": "[已脱敏]\t　220kV~750kV变 电站设计技术规程\tDL/T\r\n[已脱敏]\t\t\r\n[已脱敏]\t\r\n[已脱敏]\r\n\t\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n前  "
+      },
+      {
+        "chunk_index": 112,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_112",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "变电站",
+            "750kV"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "1  220kV  变电站中35kV 及以下配电装置宜采用屋内式， 66kV 宜采用屋外敞开式中型布置。\r\n　　2  110 kV 、220kV 电压等级配电装置，宜选用屋外敞开式分 相中型、普通中型、半高型布置形式。\r\n\r\n\r\n\r\n\r\n　　3  330 kV～750kV  电压等级配电装置，宜采用屋外敞开式中 型布置配电装置。\r\n　　4  抗震设防烈度8某地，不宜采用敞开支持式硬母 线配电装置。"
+      },
+      {
+        "chunk_index": 117,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_117",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "变电站",
+            "750kV"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "2  当330kV~750kV  变电站按有人值班或少人值班运行管 理模式建设时，可分别设主控制室、计算机室和继电器小室，继电 器小室可在配电装置就近布置或按电气单元设置。\r\n　　3  当 3 3 0kV~750kV  变电站按无人值班运行管理模式建设 时，可分别设计算机室和继电器小室，可不设计算机控制台，继电 器小室可在配电装置就近布置或按电气单元设置。\r\n　　4  220kV 变电站宜按无人值"
+      },
+      {
+        "chunk_index": 137,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_137",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "变电站",
+            "750kV"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": true
+        },
+        "preview": "5.1.5～5.1.7  原标准DL/T  [已脱敏] 第7. 1.4条的修改条 文。为体现不同电压等级、变电站10电气接线在设计方面的 区别，便于工程实际应用，将330kV～750kV 变电站中的220kV 或 110kV 配电装置、220kV 变电站中的220kV 配电装置、220kV 变电 站中的10kV～110kV 配电装置的电气接线设计分条叙述。\r\n　　　目前某区域器，某区域母线相关 内"
+      },
+      {
+        "chunk_index": 143,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_143",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "变电站",
+            "750kV"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": true
+        },
+        "preview": "6.4.1、6.4.2  原标准 DL /T  5218—2005 第7.8. 1条修改条文。 明确220kV～750kV  变电站均应采用计算机监控，变电站33计  算机监控系统原则性要求。\r\n　6.4.4  新增条文。 DL/T  860 为某专家委员会 TC57  制定的 《变电站通信网络和系统》系列标准 ·该标准为基丁通用网络通信 变电站19自动化系统唯一国际标准。该系列标准具有以下特 点"
+      },
+      {
+        "chunk_index": 145,
+        "chunk_id": "source_section_DLT 5218-2012 220kV-750kV变电站设计_145",
+        "score": 0.4,
+        "signals": {
+          "keyword_hits": [
+            "变电站",
+            "750kV"
+          ],
+          "keyword_hit_count": 2,
+          "keyword_total": 5,
+          "answer_match": "exact",
+          "source_match": false
+        },
+        "preview": "在配电装置附近设置若干相对集中的继电器小室，当受场地 的限制有困难时，为了减少征地，一级电压的配电装置也可设置2 个继电器小室。从目前国内主要采用的电气一次接线方式来考 虑，330kV～750kV 变电站的继电某专家量不宜超过4个。"
+      }
+    ],
+    "gold_chunk_indices": [
+      131,
+      28,
+      87
+    ],
+    "gold_chunk_ids": [
+      "source_section_DLT 5218-2012 220kV-750kV变电站设计_131",
+      "source_section_DLT 5429-2009 电力系统设计技术规程_28",
+      "source_section_DLT 5218-2012 220kV-750kV变电站设计_87"
+    ],
+    "annotator_notes": "[auto-generated via Agentic Self-Instruct] clause_source=",
+    "status": "auto_generated",
+    "gold_chunk_indices_minimal": [
+      131,
+      28
+    ],
+    "rubric_clauses": [],
+    "rubric_judgments": [],
+    "rubric_refusal_expected": false,
+    "scoring_version": "v3-rubric"
+  }
+]

@@ -1,7 +1,7 @@
 {
-  "total": 151,
-  "numerical": 80,
-  "prescriptive": 71,
+  "total": 98,
+  "numerical": 29,
+  "prescriptive": 69,
   "description": "Electrical compliance L1 clauses for v5 dataset",
   "clauses": [
     {
@@ -921,12 +921,12 @@
       "section": "4.1.1",
       "clause_text": "在正常运行方式下，电力系统按功角判据计算的静态稳定储备系数（Kp）应满足15%~20%，按无功电压判据计算的静态稳定储备系数（Kv）应满足10%~15%。",
       "difficulty": "L1",
-      "topic": "静态稳定储备系数",
+      "topic": "静态稳定储备",
       "has_numerical_threshold": true,
       "has_conditional_logic": false,
       "references_other_standards": false,
       "key_terms": [
-        "静态稳定储备系数"
+        "静态稳定储备"
       ],
       "source_file": "GB 38755-2019",
       "source_type": "standard",
@@ -939,12 +939,12 @@
       "section": "4.1.2",
       "clause_text": "在故障后运行方式和特殊运行方式下，Kp不得低于10%，Kv不得低于8%。",
       "difficulty": "L1",
-      "topic": "静态稳定储备系数",
+      "topic": "静态稳定储备",
       "has_numerical_threshold": true,
       "has_conditional_logic": false,
       "references_other_standards": false,
       "key_terms": [
-        "静态稳定储备系数"
+        "静态稳定储备"
       ],
       "source_file": "GB 38755-2019",
       "source_type": "standard",
@@ -953,994 +953,76 @@
       "clause_id": "CL5-0057"
     },
     {
-      "standard": "DLT 5429-2009",
-      "section": "3.1.2",
-      "clause_text": "设计水平年的负荷预测，宜采用两种及以上方法，并应对预测结果进行合理性分析，其误差应控制在±10%以内。",
+      "standard": "GB 38755-2019",
+      "section": "2.7",
+      "clause_text": "枢纽变电站（pivotal substation）330kV及以上电压等级的变电站。",
       "difficulty": "L1",
-      "topic": "负荷预测误差",
+      "topic": "电压等级",
       "has_numerical_threshold": true,
       "has_conditional_logic": false,
       "references_other_standards": false,
       "key_terms": [
-        "负荷预测误差"
+        "电压等级"
       ],
-      "source_file": "DLT 5429-2009",
+      "source_file": "GB 38755-2019",
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "numerical",
       "clause_id": "CL5-0058"
     },
     {
-      "standard": "DLT 5429-2009",
-      "section": "3.2.1",
-      "clause_text": "电力系统设计应进行电力电量平衡，电力平衡应分年度、分水平年进行，并考虑备用容量，备用容量宜为最大发电负荷的15%~20%。",
+      "standard": "GB 38755-2019",
+      "section": "3.4.2",
+      "clause_text": "330kV及以上等级架空线路、220kV及以上等级电缆线路的充电功率应基本予以补偿。",
       "difficulty": "L1",
-      "topic": "备用容量",
+      "topic": "无功补偿",
       "has_numerical_threshold": true,
       "has_conditional_logic": false,
       "references_other_standards": false,
       "key_terms": [
-        "备用容量"
+        "无功补偿"
       ],
-      "source_file": "DLT 5429-2009",
+      "source_file": "GB 38755-2019",
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "numerical",
       "clause_id": "CL5-0059"
     },
     {
-      "standard": "DLT 5429-2009",
-      "section": "3.3.1",
-      "clause_text": "电力系统设计应进行无功平衡，无功补偿容量应按分层分区原则配置，220kV及以上电压等级电网的容性无功补偿容量宜按变压器容量的10%~30%配置。",
+      "standard": "GB 38755-2019",
+      "section": "3.5.1",
+      "clause_text": "电源及动态无功功率调节设备的参数选择必须与电力系统相协调，保证其性能满足电力系统稳定运行的要求。注：3.5.1~3.5.4所述电源指接入35kV及以上电压等级电力系统的火电、水电、核电、燃气轮机发电、光热发电、抽水蓄能、风力发电、光伏发电及储能电站等。",
       "difficulty": "L1",
-      "topic": "无功补偿容量",
+      "topic": "电压等级",
       "has_numerical_threshold": true,
       "has_conditional_logic": false,
       "references_other_standards": false,
       "key_terms": [
-        "无功补偿容量"
+        "电压等级"
       ],
-      "source_file": "DLT 5429-2009",
+      "source_file": "GB 38755-2019",
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "numerical",
       "clause_id": "CL5-0060"
     },
     {
-      "standard": "DLT 5429-2009",
-      "section": "3.4.1",
-      "clause_text": "电力系统设计应进行短路电流计算，计算水平年宜取工程投产后5~10年，短路电流水平应不超过设备允许的额定短路电流值。",
+      "standard": "GB 38755-2019",
+      "section": "3.7.2",
+      "clause_text": "制定黑启动方案应根据电网结构的特点合理划分区域，各区域须至少安排1~2台具备黑启动能力的机组，确保机组容量和分布合理。",
       "difficulty": "L1",
-      "topic": "短路电流计算时间",
+      "topic": "黑启动",
       "has_numerical_threshold": true,
       "has_conditional_logic": false,
       "references_other_standards": false,
       "key_terms": [
-        "短路电流计算时间"
+        "黑启动"
       ],
-      "source_file": "DLT 5429-2009",
+      "source_file": "GB 38755-2019",
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "numerical",
       "clause_id": "CL5-0061"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "3.4.2",
-      "clause_text": "220kV及以上电压等级电网的短路电流水平，宜控制在40kA、50kA或63kA以内。",
-      "difficulty": "L1",
-      "topic": "短路电流水平",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "短路电流水平"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0062"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "3.5.1",
-      "clause_text": "电力系统设计应进行潮流计算，计算方式应包括正常运行方式、检修运行方式和故障运行方式，电压水平应控制在额定电压的95%~105%范围内。",
-      "difficulty": "L1",
-      "topic": "电压水平",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "电压水平"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0063"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "3.5.2",
-      "clause_text": "在正常运行方式下，系统各中枢点的电压偏差应控制在额定电压的±5%以内；在故障后运行方式下，电压偏差可放宽至额定电压的±10%。",
-      "difficulty": "L1",
-      "topic": "电压偏差",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "电压偏差"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0064"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "3.6.2",
-      "clause_text": "暂态稳定计算应校验系统在发生单一故障（如单相瞬时接地故障重合成功）后，系统能保持稳定，且母线电压不低于额定电压的80%。",
-      "difficulty": "L1",
-      "topic": "暂态稳定电压",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "暂态稳定电压"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0065"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "3.7.1",
-      "clause_text": "电力系统设计应进行频率稳定计算，系统频率应控制在50±0.2Hz范围内，在故障后运行方式下，频率偏差可放宽至50±0.5Hz。",
-      "difficulty": "L1",
-      "topic": "频率偏差",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "频率偏差"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0066"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "3.7.2",
-      "clause_text": "低频减载装置的整定值应使系统频率不低于49.5Hz，并应防止系统频率低于49.0Hz。",
-      "difficulty": "L1",
-      "topic": "低频减载频率",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "低频减载频率"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0067"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "4.1.1",
-      "clause_text": "发电厂接入系统设计，应根据发电厂的容量和重要性，确定接入电压等级，一般200MW及以上的发电机组宜接入220kV及以上电压等级电网。",
-      "difficulty": "L1",
-      "topic": "发电机容量与电压等级",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "发电机容量与电压等级"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0068"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "4.1.2",
-      "clause_text": "发电厂接入系统的输电线路回数，应根据系统稳定和供电可靠性要求确定，一般不少于2回，当发电厂容量超过1000MW时，宜采用3回及以上线路。",
-      "difficulty": "L1",
-      "topic": "输电线路回数",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "输电线路回数"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0069"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "4.2.2",
-      "clause_text": "变电站主变压器容量和台数，应根据供电负荷和可靠性要求确定，一般装设2台及以上变压器，单台变压器容量宜按总负荷的60%~70%选择。",
-      "difficulty": "L1",
-      "topic": "变压器容量比例",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "变压器容量比例"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0070"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "4.3.2",
-      "clause_text": "换流站的无功补偿容量，应按直流额定容量的40%~60%配置，并应满足换流母线电压偏差不超过额定电压的±5%。",
-      "difficulty": "L1",
-      "topic": "无功补偿容量比例",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "无功补偿容量比例"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0071"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "5.1.1",
-      "clause_text": "电力系统设计应进行方案技术经济比较，比较期宜取工程投产后20年，并应考虑资金的时间价值，折现率宜取8%~10%。",
-      "difficulty": "L1",
-      "topic": "经济比较参数",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "经济比较参数"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0072"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "5.1.2",
-      "clause_text": "输变电工程的经济评价，内部收益率应不低于8%，投资回收期不宜超过15年。",
-      "difficulty": "L1",
-      "topic": "经济评价指标",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "经济评价指标"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0073"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "6.1.1",
-      "clause_text": "电力系统设计应提出对继电保护和安全自动装置的要求，220kV及以上电压等级线路的主保护动作时间应不大于30ms。",
-      "difficulty": "L1",
-      "topic": "保护动作时间",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "保护动作时间"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0074"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "6.2.1",
-      "clause_text": "电力系统设计应提出对通信系统的要求，通信通道的误码率应不大于10^-6。",
-      "difficulty": "L1",
-      "topic": "通信误码率",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "通信误码率"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0075"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "6.2.2",
-      "clause_text": "调度自动化系统的主要信息传输时间应不大于5s。",
-      "difficulty": "L1",
-      "topic": "信息传输时间",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "信息传输时间"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0076"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "7.1.1",
-      "clause_text": "电力系统设计应进行新能源接入的适应性分析，新能源场站的短路比应不小于1.5。",
-      "difficulty": "L1",
-      "topic": "短路比",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "短路比"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0077"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "7.1.2",
-      "clause_text": "新能源场站接入系统的电压波动应不大于额定电压的±3%。",
-      "difficulty": "L1",
-      "topic": "电压波动",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "电压波动"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0078"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "7.2.1",
-      "clause_text": "电力系统设计应进行储能接入的可行性研究，储能电站的容量宜按系统最大负荷的5%~10%配置。",
-      "difficulty": "L1",
-      "topic": "储能容量比例",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "储能容量比例"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0079"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "7.2.2",
-      "clause_text": "储能电站的充放电效率应不低于85%。",
-      "difficulty": "L1",
-      "topic": "储能效率",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "储能效率"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0080"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "8.1.2",
-      "clause_text": "静止无功补偿器（SVC）的调节范围应达到额定容量的±100%。",
-      "difficulty": "L1",
-      "topic": "SVC调节范围",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "SVC调节范围"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0081"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "8.2.1",
-      "clause_text": "电力系统设计应提出对调相机的要求，调相机的容量宜按系统无功缺额的20%~30%配置。",
-      "difficulty": "L1",
-      "topic": "调相机容量比例",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "调相机容量比例"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0082"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "8.2.2",
-      "clause_text": "调相机的强励倍数应不小于1.5倍。",
-      "difficulty": "L1",
-      "topic": "调相机强励倍数",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "调相机强励倍数"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0083"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "9.1.2",
-      "clause_text": "工频过电压水平应不大于额定电压的1.3倍。",
-      "difficulty": "L1",
-      "topic": "工频过电压水平",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "工频过电压水平"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0084"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "9.2.1",
-      "clause_text": "电力系统设计应进行绝缘配合，220kV设备的雷电冲击耐压水平应不小于950kV。",
-      "difficulty": "L1",
-      "topic": "绝缘配合电压",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "绝缘配合电压"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0085"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "10.1.1",
-      "clause_text": "电力系统设计应提出对电能质量的要求，谐波电压总畸变率应不大于5%。",
-      "difficulty": "L1",
-      "topic": "谐波电压畸变率",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "谐波电压畸变率"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0086"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "10.1.2",
-      "clause_text": "奇次谐波电压含有率应不大于4%，偶次谐波电压含有率应不大于2%。",
-      "difficulty": "L1",
-      "topic": "谐波电压含有率",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "谐波电压含有率"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0087"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "10.2.1",
-      "clause_text": "电力系统设计应进行闪变计算，长时间闪变值（Plt）应不大于1.0。",
-      "difficulty": "L1",
-      "topic": "闪变值",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "闪变值"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0088"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "11.1.1",
-      "clause_text": "电力系统设计应进行电磁环网分析，不同电压等级电磁环网中，高一级电压线路的输送容量应不大于低一级电压线路输送容量的2倍。",
-      "difficulty": "L1",
-      "topic": "电磁环网容量比",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "电磁环网容量比"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0089"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "11.1.2",
-      "clause_text": "电磁环网解环后，低一级电压线路的输送容量应不超过其额定容量的80%。",
-      "difficulty": "L1",
-      "topic": "线路输送容量限制",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "线路输送容量限制"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0090"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "11.2.1",
-      "clause_text": "电力系统设计应进行直流落点选择，多馈入直流短路比应不小于2.0。",
-      "difficulty": "L1",
-      "topic": "多馈入直流短路比",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "多馈入直流短路比"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0091"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "11.2.2",
-      "clause_text": "直流落点近区的交流系统短路容量应不小于直流额定容量的3倍。",
-      "difficulty": "L1",
-      "topic": "短路容量比",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "短路容量比"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0092"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "12.1.1",
-      "clause_text": "电力系统设计应进行黑启动方案研究，黑启动电源的容量应不小于系统总容量的5%。",
-      "difficulty": "L1",
-      "topic": "黑启动电源容量",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "黑启动电源容量"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0093"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "12.1.2",
-      "clause_text": "黑启动机组的启动时间应不大于30min。",
-      "difficulty": "L1",
-      "topic": "黑启动时间",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "黑启动时间"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0094"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "12.2.1",
-      "clause_text": "电力系统设计应进行低频减载方案设计，低频减载的总容量应不小于系统最大负荷的30%。",
-      "difficulty": "L1",
-      "topic": "低频减载容量",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "低频减载容量"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0095"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "12.2.2",
-      "clause_text": "低频减载的基本级动作频率宜整定为49.5Hz，最后一级动作频率宜整定为48.5Hz。",
-      "difficulty": "L1",
-      "topic": "低频减载频率整定",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "低频减载频率整定"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0096"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "12.3.1",
-      "clause_text": "电力系统设计应进行低压减载方案设计，低压减载的启动电压宜整定为额定电压的85%~90%。",
-      "difficulty": "L1",
-      "topic": "低压减载电压",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "低压减载电压"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0097"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "13.1.1",
-      "clause_text": "电力系统设计应进行次同步振荡分析，次同步振荡的频率范围宜为10~50Hz。",
-      "difficulty": "L1",
-      "topic": "次同步振荡频率",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "次同步振荡频率"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0098"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "13.1.2",
-      "clause_text": "次同步振荡的阻尼比应不小于0.05。",
-      "difficulty": "L1",
-      "topic": "次同步振荡阻尼比",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "次同步振荡阻尼比"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0099"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "14.1.1",
-      "clause_text": "电力系统设计应进行接地方式选择，220kV及以上电压等级电网应采用中性点直接接地方式，接地电阻应不大于0.5Ω。",
-      "difficulty": "L1",
-      "topic": "接地电阻",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "接地电阻"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0100"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "15.1.1",
-      "clause_text": "电力系统设计应进行设备选型，220kV断路器的额定短路开断电流应不小于40kA。",
-      "difficulty": "L1",
-      "topic": "断路器短路开断电流",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "断路器短路开断电流"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0101"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "15.2.2",
-      "clause_text": "500kV线路的导线截面宜不小于400mm²。",
-      "difficulty": "L1",
-      "topic": "导线截面",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "导线截面"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0102"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "16.1.1",
-      "clause_text": "电力系统设计应进行负荷预测，年负荷增长率宜按历史数据的3%~8%取值。",
-      "difficulty": "L1",
-      "topic": "负荷增长率",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "负荷增长率"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0103"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "16.1.2",
-      "clause_text": "设计水平年的最大负荷利用小时数，宜按5000~7000h取值。",
-      "difficulty": "L1",
-      "topic": "负荷利用小时数",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "负荷利用小时数"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0104"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "16.2.1",
-      "clause_text": "电力系统设计应进行电源规划，火电机组的年利用小时数宜按4500~5500h设计。",
-      "difficulty": "L1",
-      "topic": "火电机组利用小时数",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "火电机组利用小时数"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0105"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "16.3.2",
-      "clause_text": "110kV电网的线损率宜控制在5%~8%。",
-      "difficulty": "L1",
-      "topic": "线损率",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "线损率"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0106"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "17.1.1",
-      "clause_text": "电力系统设计应进行电压等级选择，当输送容量在1000MW以上且距离在500km以上时，宜采用500kV及以上电压等级。",
-      "difficulty": "L1",
-      "topic": "电压等级选择",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "电压等级选择"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0107"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "19.1.1",
-      "clause_text": "电力系统设计应进行系统稳定性分析，暂态稳定计算中，故障切除时间应不大于0.1s。",
-      "difficulty": "L1",
-      "topic": "故障切除时间",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "故障切除时间"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0108"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "19.2.2",
-      "clause_text": "在故障后运行方式下，电压稳定裕度应不小于8%。",
-      "difficulty": "L1",
-      "topic": "电压稳定裕度",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "电压稳定裕度"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0109"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "20.1.1",
-      "clause_text": "电力系统设计应进行系统频率特性分析，频率变化率应不大于0.5Hz/s。",
-      "difficulty": "L1",
-      "topic": "频率变化率",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "频率变化率"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0110"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "20.1.2",
-      "clause_text": "在故障后运行方式下，频率变化率应不大于1.0Hz/s。",
-      "difficulty": "L1",
-      "topic": "频率变化率",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "频率变化率"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0111"
-    },
-    {
-      "standard": "DLT 5429-2009",
-      "section": "20.2.2",
-      "clause_text": "新能源占比超过30%的系统，惯量常数应不小于3s。",
-      "difficulty": "L1",
-      "topic": "系统惯量常数",
-      "has_numerical_threshold": true,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "系统惯量常数"
-      ],
-      "source_file": "DLT 5429-2009",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "numerical",
-      "clause_id": "CL5-0112"
     },
     {
       "standard": "GB 38755-2019",
@@ -1958,7 +1040,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0113"
+      "clause_id": "CL5-0062"
     },
     {
       "standard": "GB 38755-2019",
@@ -1976,7 +1058,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0114"
+      "clause_id": "CL5-0063"
     },
     {
       "standard": "GB 38755-2019",
@@ -1994,7 +1076,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0115"
+      "clause_id": "CL5-0064"
     },
     {
       "standard": "GB 38755-2019",
@@ -2012,7 +1094,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0116"
+      "clause_id": "CL5-0065"
     },
     {
       "standard": "GB 38755-2019",
@@ -2030,7 +1112,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0117"
+      "clause_id": "CL5-0066"
     },
     {
       "standard": "GB 38755-2019",
@@ -2048,7 +1130,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0118"
+      "clause_id": "CL5-0067"
     },
     {
       "standard": "GB 38755-2019",
@@ -2066,7 +1148,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0119"
+      "clause_id": "CL5-0068"
     },
     {
       "standard": "GB 38755-2019",
@@ -2084,7 +1166,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0120"
+      "clause_id": "CL5-0069"
     },
     {
       "standard": "GB 38755-2019",
@@ -2102,7 +1184,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0121"
+      "clause_id": "CL5-0070"
     },
     {
       "standard": "GB 38755-2019",
@@ -2120,7 +1202,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0122"
+      "clause_id": "CL5-0071"
     },
     {
       "standard": "GB 38755-2019",
@@ -2138,7 +1220,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0123"
+      "clause_id": "CL5-0072"
     },
     {
       "standard": "GB 38755-2019",
@@ -2156,7 +1238,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0124"
+      "clause_id": "CL5-0073"
     },
     {
       "standard": "GB 38755-2019",
@@ -2174,7 +1256,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0125"
+      "clause_id": "CL5-0074"
     },
     {
       "standard": "GB 38755-2019",
@@ -2192,7 +1274,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0126"
+      "clause_id": "CL5-0075"
     },
     {
       "standard": "GB 38755-2019",
@@ -2210,7 +1292,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0127"
+      "clause_id": "CL5-0076"
     },
     {
       "standard": "GB 38755-2019",
@@ -2228,7 +1310,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0128"
+      "clause_id": "CL5-0077"
     },
     {
       "standard": "GB 38755-2019",
@@ -2246,7 +1328,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0129"
+      "clause_id": "CL5-0078"
     },
     {
       "standard": "GB 38755-2019",
@@ -2264,7 +1346,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0130"
+      "clause_id": "CL5-0079"
     },
     {
       "standard": "GB 38755-2019",
@@ -2282,7 +1364,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0131"
+      "clause_id": "CL5-0080"
     },
     {
       "standard": "GB 38755-2019",
@@ -2300,7 +1382,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0132"
+      "clause_id": "CL5-0081"
     },
     {
       "standard": "GB 38755-2019",
@@ -2318,7 +1400,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0133"
+      "clause_id": "CL5-0082"
     },
     {
       "standard": "GB 38755-2019",
@@ -2336,7 +1418,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0134"
+      "clause_id": "CL5-0083"
     },
     {
       "standard": "GB 38755-2019",
@@ -2354,7 +1436,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0135"
+      "clause_id": "CL5-0084"
     },
     {
       "standard": "GB 38755-2019",
@@ -2372,7 +1454,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0136"
+      "clause_id": "CL5-0085"
     },
     {
       "standard": "GB 38755-2019",
@@ -2390,7 +1472,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0137"
+      "clause_id": "CL5-0086"
     },
     {
       "standard": "GB 38755-2019",
@@ -2408,7 +1490,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0138"
+      "clause_id": "CL5-0087"
     },
     {
       "standard": "GB 38755-2019",
@@ -2426,7 +1508,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0139"
+      "clause_id": "CL5-0088"
     },
     {
       "standard": "GB 38755-2019",
@@ -2444,25 +1526,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0140"
-    },
-    {
-      "standard": "GB 38755-2019",
-      "section": "3.5.1",
-      "clause_text": "电源及动态无功功率调节设备的参数选择必须与电力系统相协调，保证其性能满足电力系统稳定运行的要求。",
-      "difficulty": "L1",
-      "topic": "网源协调",
-      "has_numerical_threshold": false,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "网源协调"
-      ],
-      "source_file": "GB 38755-2019",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "prescriptive",
-      "clause_id": "CL5-0141"
+      "clause_id": "CL5-0089"
     },
     {
       "standard": "GB 38755-2019",
@@ -2480,7 +1544,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0142"
+      "clause_id": "CL5-0090"
     },
     {
       "standard": "GB 38755-2019",
@@ -2498,7 +1562,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0143"
+      "clause_id": "CL5-0091"
     },
     {
       "standard": "GB 38755-2019",
@@ -2516,7 +1580,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0144"
+      "clause_id": "CL5-0092"
     },
     {
       "standard": "GB 38755-2019",
@@ -2534,7 +1598,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0145"
+      "clause_id": "CL5-0093"
     },
     {
       "standard": "GB 38755-2019",
@@ -2552,7 +1616,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0146"
+      "clause_id": "CL5-0094"
     },
     {
       "standard": "GB 38755-2019",
@@ -2570,7 +1634,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0147"
+      "clause_id": "CL5-0095"
     },
     {
       "standard": "GB 38755-2019",
@@ -2588,25 +1652,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0148"
-    },
-    {
-      "standard": "GB 38755-2019",
-      "section": "3.7.2",
-      "clause_text": "制定黑启动方案应根据电网结构的特点合理划分区域，各区域须至少安排1~2台具备黑启动能力的机组，确保机组容量和分布合理。",
-      "difficulty": "L1",
-      "topic": "系统恢复",
-      "has_numerical_threshold": false,
-      "has_conditional_logic": false,
-      "references_other_standards": false,
-      "key_terms": [
-        "系统恢复"
-      ],
-      "source_file": "GB 38755-2019",
-      "source_type": "standard",
-      "extraction_method": "deepseek",
-      "clause_type": "prescriptive",
-      "clause_id": "CL5-0149"
+      "clause_id": "CL5-0096"
     },
     {
       "standard": "GB 38755-2019",
@@ -2624,7 +1670,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0150"
+      "clause_id": "CL5-0097"
     },
     {
       "standard": "GB 38755-2019",
@@ -2642,7 +1688,7 @@
       "source_type": "standard",
       "extraction_method": "deepseek",
       "clause_type": "prescriptive",
-      "clause_id": "CL5-0151"
+      "clause_id": "CL5-0098"
     }
   ]
 }
